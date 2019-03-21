@@ -1,0 +1,112 @@
+/* 5.0 Footer Stylings -------------------------------------------*/
+.site-footer{
+	width: 100%;
+  padding: 40px 0 20px 0;
+  background-image: url("/wp-content/uploads/2019/03/WatercolorFooterLarge.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  align-items: center;
+}
+#copyrightWrap{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	@include breakpoint(smallScreen){
+		flex-direction: column;
+	}
+}
+#copyright{
+	color: $white;
+	font-size: 12px;
+	width: 100%;
+		p{
+			margin-block-start: 1em;
+			margin-block-end: 1em;
+		}
+		@include breakpoint(smallScreen){
+			font-size: 14px;
+		}
+		@include breakpoint(largeMobileScreen){
+			font-size: 14px;
+		}
+    @include breakpoint(largeScreen){
+      flex-direction: row;
+			font-size: 16px;
+    }
+      a{
+        text-decoration: none;
+      	color: $white;
+				&:hover{
+					color: $primaryColor;
+				}
+      }
+}
+#footerIcon{
+	font-size: 12px;
+}
+.copyrightContentWrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+    @include breakpoint(smallScreen){
+      justify-content: center;
+      flex-direction: column;
+    }
+		@include breakpoint(largeMobileScreen){
+			justify-content: center;
+      flex-direction: column;
+		}
+		@include breakpoint(laptopScreen){
+			flex-direction: row;
+			justify-content: space-between;
+			-moz-justify-content: space-between;
+			-webkit-justify-content: space-between;
+			-ms-justify-content: space-between;
+			-o-justify-content: space-between;
+		}
+}
+#copyrightContent{
+	display: flex;
+	align-items: center;
+		@include breakpoint(smallScreen){
+			font-size: 14px;
+		}
+}
+#closingLinks{
+	margin: 0;
+	position: relative;
+	a{
+		padding: 10px;
+	}
+	@include breakpoint(smallScreen){
+		margin: 15px 0 25px 0;
+	}
+}
+#privacyWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.borderRight{
+	padding: 0 10px 0 10px;
+}
+#footerContactLink{
+	padding: 0 10px 0 10px;
+}
+.siteAuthor{
+	text-align: center;
+	margin: 0;
+    a{
+      color: $white;
+    	text-decoration: none;
+    }
+      &:hover{
+        color: $lightGrey
+      }
+		@include breakpoint(smallScreen){
+			margin-bottom: 25px;
+		}
+}

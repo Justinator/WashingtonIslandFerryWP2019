@@ -38,6 +38,9 @@
 		@include breakpoint(laptopScreen){
 			font-size: 2em;
 		}
+		@include breakpoint(extraLargeScreen){
+			font-size: 3em;
+		}
 	}
 }
 .heroHeading{
@@ -127,6 +130,74 @@
 		width: 100%;
 	}
 }
+.paperback{
+	background-image: url("/wp-content/uploads/2019/03/watercolor-paper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.buttonContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+.buttonWrapper{
+	@include breakpoint(smallScreen){
+		width: 100%;
+		margin: 15px 0;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 100%;
+		margin: 15px 0;
+	}
+	@include breakpoint(largeScreen){
+		width: 50%;
+		margin: 15px 0;
+	}
+}
+.faqWrapper{
+	@include breakpoint(smallScreen){
+		width: 90%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 70%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	@include breakpoint(laptopScreen){
+		width: 30%;
+		padding: 20px;
+		margin: 0 auto;
+	}
+}
+#schoolHouse{
+	background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachPrewatercolorLarge.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	transition: .3s ease all;
+	padding: 100px 0;
+	&:hover{
+		transition: .3s ease all;
+		background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachWatercolorLarge.png");
+	}
+}
+#stavkirke{
+	background-image: url("/wp-content/uploads/2019/03/StavkirkeCropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	transition: .3s ease all;
+	padding: 100px 0;
+	&:hover{
+		transition: .3s ease all;
+		background-image: url("/wp-content/uploads/2019/03/StavkirkeWatercolorCropped.png");
+	}
+}
+// Old Styles that might not be used for anything Here
 #pageContent{
 	margin-top: 0;
 }

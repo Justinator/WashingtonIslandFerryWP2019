@@ -28,7 +28,8 @@ p{
 	margin-block-end: 1em !important;
 }
 h1{
-	font-size: 2.2em;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
 	@include breakpoint(tinyScreen){
 		font-size: .9em;
 	}
@@ -40,7 +41,8 @@ h1{
 	}
 }
 h2{
-	font-size: 2em;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
 	@include breakpoint(smallScreen){
 		font-size: 1.4em;
 	}
@@ -49,12 +51,11 @@ h2{
 	}
 	@include breakpoint(tabletScreen){
     font-size: 2.3em;
-    font-weight: 700 !important;
-    letter-spacing: 1px;
 	}
 }
 h3{
-	font-size: 1.8em;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
 	@include breakpoint(smallScreen){
 		font-size: 1.3em;
 	}
@@ -66,7 +67,8 @@ h3{
 	}
 }
 h4{
-	font-size: 1.6em;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
 	@include breakpoint(smallScreen){
 		font-size: 1.2em;
 	}
@@ -91,17 +93,6 @@ h6{
 }
 .centerText{
 	text-align: center;
-}
-.centerTextMobile{
-	@include breakpoint(smallScreen){
-		text-align: center;
-	}
-	@include breakpoint(largeMobileScreen){
-		text-align: center;
-	}
-	@include breakpoint(laptopScreen){
-		text-align: left;
-	}
 }
 .caps{
   text-transform: uppercase;
@@ -129,18 +120,16 @@ h6{
 	}
 }
 .largeHeading{
-	margin-bottom: 0;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
 	@include breakpoint(smallScreen){
-		font-size: 2.5em;
-	}
-	@include breakpoint(tinyScreen){
-		font-size: 2em;
+		font-size: 1.4em;
 	}
 	@include breakpoint(largeMobileScreen){
-		font-size: 2.5em;
+		font-size: 1.4em;
 	}
-	@include breakpoint(largeScreen){
-		font-size: 4em;
+	@include breakpoint(tabletScreen){
+    font-size: 2.3em;
 	}
 }
 .mediumHeading{

@@ -1390,7 +1390,8 @@ p {
   margin-block-end: 1em !important; }
 
 h1 {
-  font-size: 2.2em; }
+  font-weight: 700 !important;
+  letter-spacing: 1px; }
   @media (max-width: 320px) {
     h1 {
       font-size: .9em; } }
@@ -1402,7 +1403,8 @@ h1 {
       font-size: 2em; } }
 
 h2 {
-  font-size: 2em; }
+  font-weight: 700 !important;
+  letter-spacing: 1px; }
   @media (max-width: 600px) {
     h2 {
       font-size: 1.4em; } }
@@ -1411,12 +1413,11 @@ h2 {
       font-size: 1.4em; } }
   @media (min-width: 768px) {
     h2 {
-      font-size: 2.3em;
-      font-weight: 700 !important;
-      letter-spacing: 1px; } }
+      font-size: 2.3em; } }
 
 h3 {
-  font-size: 1.8em; }
+  font-weight: 700 !important;
+  letter-spacing: 1px; }
   @media (max-width: 600px) {
     h3 {
       font-size: 1.3em; } }
@@ -1428,7 +1429,8 @@ h3 {
       font-size: 1.8em; } }
 
 h4 {
-  font-size: 1.6em; }
+  font-weight: 700 !important;
+  letter-spacing: 1px; }
   @media (max-width: 600px) {
     h4 {
       font-size: 1.2em; } }
@@ -1453,16 +1455,6 @@ h6 {
 
 .centerText {
   text-align: center; }
-
-@media (max-width: 600px) {
-  .centerTextMobile {
-    text-align: center; } }
-@media (min-width: 600px) {
-  .centerTextMobile {
-    text-align: center; } }
-@media (min-width: 992px) {
-  .centerTextMobile {
-    text-align: left; } }
 
 .caps {
   text-transform: uppercase; }
@@ -1489,19 +1481,17 @@ h6 {
     transition: .3s ease all; }
 
 .largeHeading {
-  margin-bottom: 0; }
+  font-weight: 700 !important;
+  letter-spacing: 1px; }
   @media (max-width: 600px) {
     .largeHeading {
-      font-size: 2.5em; } }
-  @media (max-width: 320px) {
-    .largeHeading {
-      font-size: 2em; } }
+      font-size: 1.4em; } }
   @media (min-width: 600px) {
     .largeHeading {
-      font-size: 2.5em; } }
-  @media (min-width: 1250px) {
+      font-size: 1.4em; } }
+  @media (min-width: 768px) {
     .largeHeading {
-      font-size: 4em; } }
+      font-size: 2.3em; } }
 
 .mediumHeading {
   font-size: 2em;
@@ -1686,9 +1676,6 @@ h6 {
   .flexListLink:hover {
     transition: .3s ease all;
     color: #404041 !important; }
-
-.buttonWrapper {
-  padding: 50px 0; }
 
 button {
   background-color: none;
@@ -1878,6 +1865,9 @@ body {
   @media (min-width: 992px) {
     .waterColorBackground h1 {
       font-size: 2em; } }
+  @media (min-width: 1600px) {
+    .waterColorBackground h1 {
+      font-size: 3em; } }
 
 .heroHeading {
   margin-block-end: 0;
@@ -1956,6 +1946,69 @@ body {
 @media (min-width: 992px) {
   #watercolorIsland {
     width: 100%; } }
+
+.paperback {
+  background-image: url("/wp-content/uploads/2019/03/watercolor-paper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap; }
+
+@media (max-width: 600px) {
+  .buttonWrapper {
+    width: 100%;
+    margin: 15px 0; } }
+@media (min-width: 600px) {
+  .buttonWrapper {
+    width: 100%;
+    margin: 15px 0; } }
+@media (min-width: 1250px) {
+  .buttonWrapper {
+    width: 50%;
+    margin: 15px 0; } }
+
+@media (max-width: 600px) {
+  .faqWrapper {
+    width: 90%;
+    padding: 0;
+    margin: 0 auto; } }
+@media (min-width: 600px) {
+  .faqWrapper {
+    width: 70%;
+    padding: 0;
+    margin: 0 auto; } }
+@media (min-width: 992px) {
+  .faqWrapper {
+    width: 30%;
+    padding: 20px;
+    margin: 0 auto; } }
+
+#schoolHouse {
+  background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachPrewatercolorLarge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  transition: .3s ease all;
+  padding: 100px 0; }
+  #schoolHouse:hover {
+    transition: .3s ease all;
+    background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachWatercolorLarge.png"); }
+
+#stavkirke {
+  background-image: url("/wp-content/uploads/2019/03/StavkirkeCropped.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  transition: .3s ease all;
+  padding: 100px 0; }
+  #stavkirke:hover {
+    transition: .3s ease all;
+    background-image: url("/wp-content/uploads/2019/03/StavkirkeWatercolorCropped.png"); }
 
 #pageContent {
   margin-top: 0; }

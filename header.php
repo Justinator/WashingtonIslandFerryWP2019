@@ -21,6 +21,8 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
+	<!--<link href="/wp-content/themes/washingtonislandresponsive/css/hamburgers.min.css" rel="stylesheet">-->
+
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
 
 	<?php wp_head(); ?>
@@ -88,15 +90,15 @@
 
 								<span class = "menuText">MENU</span>
 
-								<span class = "menuBars">
+								<button class="hamburger hamburger--slider" type="button">
 
-									<span></span>
+							  <span class="hamburger-box">
 
-									<span></span>
+							    <span class="hamburger-inner"></span>
 
-									<span></span>
+							  </span>
 
-								</span>
+							</button>
 
 							</div>
 

@@ -44,7 +44,7 @@
 	}
 }
 .heroHeading{
-	margin-block-end: 0;
+	margin-bottom: 0;
 	margin-left: 20px;
 }
 .blockWrapper{
@@ -176,9 +176,10 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 600px;
+	height: 400px;
 	transition: .3s ease all;
 	padding: 100px 0;
+	position: relative;
 	&:hover{
 		transition: .3s ease all;
 		background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachWatercolorLarge.png");
@@ -189,13 +190,19 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 600px;
+	height: 400px;
 	transition: .3s ease all;
 	padding: 100px 0;
+	position: relative;
 	&:hover{
 		transition: .3s ease all;
 		background-image: url("/wp-content/uploads/2019/03/StavkirkeWatercolorCropped.png");
 	}
+}
+.destInfo{
+	position: absolute;
+  width: 100%;
+  top: 40%;
 }
 // Old Styles that might not be used for anything Here
 #pageContent{
@@ -463,11 +470,11 @@
 	}
 }
 .processHeader{
-	margin-block-start: 25px !important;
-	margin-block-end: 0 !important;
+	margin-top: 25px !important;
+	margin-bottom: 0 !important;
 }
 .recommendationAuthor{
-	margin-block-end: 0 !important;
+	margin-bottom: 0 !important;
 }
 .greenBorder{
 	border: 5px solid $primaryGrey;

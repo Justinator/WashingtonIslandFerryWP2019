@@ -20,12 +20,12 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 500 !important;
 }
 h1,h2,h3,h4,h5,h6{
-	margin-block-start: 0;
-	margin-block-end: 40px;
+	margin-top: 0;
+	margin-bottom: 40px;
 }
 p{
-	margin-block-start: 0;
-	margin-block-end: 1em !important;
+	margin-top: 0;
+	margin-bottom: 1em !important;
 }
 h1{
   font-weight: 700 !important;
@@ -83,7 +83,7 @@ h5{
 	font-size: 1.4em;
 }
 h6{
-	font-size: .9em;
+	font-size: 1.4em;
 }
 .whiteText{
 	color: $white;
@@ -147,15 +147,15 @@ h6{
 	margin: 0 !important;
 }
 .smallMarginHeader{
-	margin-block-end: 10px;
+	margin-bottom: 10px;
 }
 .underline{
 	content: "";
 	background-color: $primaryYellow;
 	height: 3px;
 	width: 4em;
-	margin-block-start: 5px;
-  margin-block-end: 20px;
+	margin-top: 5px;
+  margin-bottom: 20px;
 }
 .centerUnderline{
 	content: "";
@@ -163,8 +163,11 @@ h6{
 	height: 3px;
 	width: 4em;
 	margin: 0 auto;
-	margin-block-start: 5px;
-  margin-block-end: 20px;
+	margin-top: 5px;
+  margin-bottom: 20px;
 	border-bottom: 3px solid $primaryYellow;
 	transition: .2s ease all;
+}
+.shadow{
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }

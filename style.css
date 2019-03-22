@@ -750,8 +750,8 @@ template {
   font-weight: 700;
   list-style-type: none;
   padding-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0; }
+  margin-top: 0;
+  margin-bottom: 0; }
   @media (max-width: 600px) {
     .flexList {
       flex-direction: column;
@@ -932,7 +932,8 @@ template {
   height: auto; }
   @media (max-width: 600px) {
     .siteLogo {
-      width: 120px; } }
+      width: 120px;
+      margin-top: 30px; } }
   @media (min-width: 600px) {
     .siteLogo {
       width: 175px; } }
@@ -1006,6 +1007,12 @@ nav {
       color: #002F6C;
       font-weight: 700;
       text-decoration: none; }
+  @media (max-width: 600px) {
+    #mobile-menu {
+      padding: 120px 0 20px 0; } }
+  @media (min-width: 600px) {
+    #mobile-menu {
+      padding: 150px 0 20px 0; } }
 
 .menuLink {
   font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
@@ -1357,8 +1364,8 @@ nav {
   font-size: 12px;
   width: 100%; }
   #copyright p {
-    margin-block-start: 1em;
-    margin-block-end: 1em; }
+    margin-top: 1em;
+    margin-bottom: 1em; }
   @media (max-width: 600px) {
     #copyright {
       font-size: 14px; } }
@@ -1460,12 +1467,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500 !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-block-start: 0;
-  margin-block-end: 40px; }
+  margin-top: 0;
+  margin-bottom: 40px; }
 
 p {
-  margin-block-start: 0;
-  margin-block-end: 1em !important; }
+  margin-top: 0;
+  margin-bottom: 1em !important; }
 
 h1 {
   font-weight: 700 !important;
@@ -1523,7 +1530,7 @@ h5 {
   font-size: 1.4em; }
 
 h6 {
-  font-size: .9em; }
+  font-size: 1.4em; }
 
 .whiteText {
   color: #FFFFFF; }
@@ -1586,15 +1593,15 @@ h6 {
   margin: 0 !important; }
 
 .smallMarginHeader {
-  margin-block-end: 10px; }
+  margin-bottom: 10px; }
 
 .underline {
   content: "";
   background-color: #f4a81d;
   height: 3px;
   width: 4em;
-  margin-block-start: 5px;
-  margin-block-end: 20px; }
+  margin-top: 5px;
+  margin-bottom: 20px; }
 
 .centerUnderline {
   content: "";
@@ -1602,10 +1609,13 @@ h6 {
   height: 3px;
   width: 4em;
   margin: 0 auto;
-  margin-block-start: 5px;
-  margin-block-end: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   border-bottom: 3px solid #f4a81d;
   transition: .2s ease all; }
+
+.shadow {
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5); }
 
 /* 7.0 Button Stylings ---------------------------------------*/
 .primaryLink {
@@ -1948,7 +1958,7 @@ body {
       font-size: 3em; } }
 
 .heroHeading {
-  margin-block-end: 0;
+  margin-bottom: 0;
   margin-left: 20px; }
 
 .blockWrapper {
@@ -2069,9 +2079,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 400px;
   transition: .3s ease all;
-  padding: 100px 0; }
+  padding: 100px 0;
+  position: relative; }
   #schoolHouse:hover {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachWatercolorLarge.png"); }
@@ -2081,12 +2092,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 400px;
   transition: .3s ease all;
-  padding: 100px 0; }
+  padding: 100px 0;
+  position: relative; }
   #stavkirke:hover {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/03/StavkirkeWatercolorCropped.png"); }
+
+.destInfo {
+  position: absolute;
+  width: 100%;
+  top: 40%; }
 
 #pageContent {
   margin-top: 0; }
@@ -2326,11 +2343,11 @@ body {
     display: block; } }
 
 .processHeader {
-  margin-block-start: 25px !important;
-  margin-block-end: 0 !important; }
+  margin-top: 25px !important;
+  margin-bottom: 0 !important; }
 
 .recommendationAuthor {
-  margin-block-end: 0 !important; }
+  margin-bottom: 0 !important; }
 
 .greenBorder {
   border: 5px solid #404041;
@@ -2452,9 +2469,9 @@ body {
   color: #000000 !important; }
 
 .field_required {
-  color: #f4a81d !important; }
+  color: #c8102e !important; }
 
-.CF5c3c73e0407dd input[type=text], .CF5c3c73e0407dd input[type=email], #fld_7683514_1 {
+.CF5c3c73e0407dd input[type=text], .CF5c3c73e0407dd input[type=email], #fld_8768091_1, #fld_6009157_1, #fld_7683514_1 {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 45px;
@@ -2477,16 +2494,18 @@ body {
   z-index: 1;
   text-decoration: none;
   width: fit-content;
-  color: #404041;
+  color: #FFFFFF;
   transition: .2s ease all;
   padding: 10px 20px 10px 20px;
   cursor: pointer;
-  border: none;
-  background: #f4a81d; }
+  border: 2px solid #c8102e;
+  border-radius: 10px;
+  background: #c8102e;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5); }
   #fld_7908577_1:hover {
     transition: .2s ease all;
     background: #404041;
-    color: #FFFFFF; }
+    color: #c8102e; }
 
 /* 12.0 About Pages stylings -------------------------------------------*/
 .aboutHero {

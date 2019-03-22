@@ -24,9 +24,9 @@
   color: $black !important;
 }
 .field_required{
-  color: $primaryYellow !important;
+  color: $accentColor !important;
 }
-.CF5c3c73e0407dd input[type=text], .CF5c3c73e0407dd input[type=email], #fld_7683514_1{
+.CF5c3c73e0407dd input[type=text], .CF5c3c73e0407dd input[type=email], #fld_8768091_1, #fld_6009157_1, #fld_7683514_1{
   margin-top: 10px;
   margin-bottom: 10px;
   height: 45px;
@@ -49,15 +49,17 @@
 	z-index:1;
 	text-decoration: none;
   width: fit-content;
-	color: $primaryGrey;
+	color: $white;
 	transition: .2s ease all;
   padding: 10px 20px 10px 20px;
 	cursor: pointer;
-  border: none;
-  background: $primaryYellow;
+  border: 2px solid $accentColor;
+  border-radius: 10px;
+  background: $accentColor;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
 		&:hover{
 			transition: .2s ease all;
       background: $primaryGrey;
-      color: $white;
+      color: $accentColor;
 		}
 }

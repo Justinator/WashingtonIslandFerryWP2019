@@ -18,6 +18,12 @@ $(function() {
     	}
     });
 });
+// Hamburger menu animation
+$(function() {
+    $(".menuButtonWrap").click(function(e){
+        $(".hamburger").toggleClass("is-active");
+    });
+});
 
 $(function() {
   $(".menuTextWrap").click(function(e){

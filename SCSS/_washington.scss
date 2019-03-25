@@ -1,1 +1,156 @@
 /* 14.0 Washington Island Page -------------------------------------------*/
+.washingtonHero{
+  background-image: url("/wp-content/uploads/2019/03/WashingtonIslandHeroLarge50.jpg");
+}
+.smallWaterColor{
+  background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmallest.png");
+	padding: 25px 100px;
+  text-align: center;
+  h1{
+		@include breakpoint(smallScreen){
+			font-size: 1em;
+		}
+		@include breakpoint(largeMobileScreen){
+			font-size: 2em;
+		}
+		@include breakpoint(tabletScreen){
+			font-size: 2.5em;
+		}
+	}
+}
+#nightTrips{
+	margin-top: 25px;
+}
+#fridayNightTrips{
+	margin-top: 25px;
+}
+.ferryRates{
+	background-image: url("/wp-content/uploads/2019/03/watercolorPaperMedium.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.borderedTable{
+	border: 2px solid $secondaryColor;
+	position: relative;
+	background-color: $white;
+}
+.coloredHeader{
+	background-color: $secondaryColor;
+	width: 100%;
+}
+.ratesWrap{
+	display: flex;
+	padding: 0 20px;
+}
+.borderRight{
+	border-right: 2px solid $secondaryColor;
+}
+.paymentWrapper{
+	display: flex;
+}
+.tableWrap{
+	display: flex;
+	align-items: center;
+}
+#oversized{
+	@include breakpoint(smallScreen){
+		margin-top: 25px;
+		margin-left: 0;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 25px;
+		margin-left: 0;
+	}
+	@include breakpoint(laptopScreen){
+		margin-top: 0;
+		margin-left: 25px;
+	}
+}
+#ferryTerms{
+	p{
+		font-size: 20px;
+    padding: 5px 20px;
+    line-height: 1.4em;
+		margin-block-end: 0 !important;
+	}
+}
+#creditCards{
+	max-width: 50%;
+	height: 100%;
+}
+#summer{
+	@include breakpoint(smallScreen){
+		margin-top: 25px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 0;
+	}
+	@include breakpoint(laptopScreen){
+		margin-top: 0;
+	}
+}
+#fall{
+	@include breakpoint(smallScreen){
+		margin-top: 25px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 25px;
+	}
+	@include breakpoint(laptopScreen){
+		margin-top: 0;
+	}
+}
+#winter{
+	@include breakpoint(smallScreen){
+		margin-top: 25px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 25px;
+	}
+	@include breakpoint(laptopScreen){
+		margin-top: 0;
+	}
+}
+#rockIsland{
+  background-image: url("/wp-content/uploads/2019/03/1.2-RockIslandBgd50.jpg");
+  height: 600px;
+}
+#rockIslandWrap{
+  display: flex;
+  align-items: center;
+}
+.rockIslandLead{
+  width: 40%;
+}
+#mountainPark{
+	background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumFull50.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	transition: .3s ease all;
+	padding: 100px 0;
+	position: relative;
+	&:hover{
+		transition: .3s ease all;
+		background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumWatercolorFull.png");
+	}
+}
+#farm{
+	background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumFull50.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	transition: .3s ease all;
+	padding: 100px 0;
+	position: relative;
+	&:hover{
+		transition: .3s ease all;
+		background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumWatercolorFull.png");
+	}
+}

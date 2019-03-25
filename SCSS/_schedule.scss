@@ -1,0 +1,91 @@
+/* 19.0 All Schedule Styles -------------------------------------------*/
+.scheduleOuterWrapper{
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+.scheduleWrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.scheduleTableWrapper{
+	background-color: $secondaryColorLight;
+	max-width: 280px;
+	margin: 0 25px;
+	height: auto;
+	@include breakpoint(smallScreen){
+			width: 280px;
+	}
+	@include breakpoint(largeMobileScreen){
+			width: 280px;
+	}
+	@include breakpoint(laptopScreen){
+			max-width: 280px;
+			width: 200px;
+	}
+	@include breakpoint(largeScreen){
+			max-width: 480px;
+			width: 480px;
+	}
+}
+.banner{
+	width: 110%;
+  display: flex;
+  position: relative;
+  left: -5%;
+	background: $secondaryColor;
+	&:before{
+		position: absolute;
+		content: "";
+		z-index: -1;
+    bottom: -56%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+		border-bottom: 0.5em solid $bannerTriangle;
+    border-right: .7em solid transparent;
+    transform: rotate(180deg);
+	}
+	&:after{
+		position: absolute;
+		content: "";
+		z-index: -1;
+		bottom: -56%;
+    right: 1px;
+		width: 0;
+		height: 0;
+		border-top: 10px solid transparent;
+		border-bottom: 0.5em solid $bannerTriangle;
+    border-left: .7em solid transparent;
+	  transform: rotate(180deg);
+	}
+}
+.bannerTitle{
+	font-size: 18px;
+}
+.seasonTitle{
+	font-size: 1.2em;
+	font-weight: 400;
+}
+.scheduleTable{
+	padding: 10px;
+}
+.dates{
+	font-size: 1em;
+  font-weight: 400;
+	@include breakpoint(laptopScreen){
+		font-size: .6em;
+	}
+	@include breakpoint(largeScreen){
+		font-size: .8em;
+	}
+}
+.timesWrap{
+	width: 100%;
+  display: flex;
+}
+.times{
+	font-size: 20px;
+}

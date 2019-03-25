@@ -24,6 +24,18 @@
     }
 }
 .col30{
+	width: 30%;
+    @include breakpoint(smallScreen){
+      width: 100%;
+    }
+    @include breakpoint(largeMobileScreen){
+      width: 100%;
+    }
+    @include breakpoint(laptopScreen){
+      width: 30%;
+    }
+}
+.col33{
 	width: 33.3333%;
     @include breakpoint(smallScreen){
       width: 100%;
@@ -345,9 +357,7 @@
 	}
 }
 .marginTop{
-	@include breakpoint(laptopScreen){
-		margin-top: 35px;
-	}
+	margin-top: 15px;
 }
 .textWrap{
 	padding: 20px;
@@ -433,37 +443,6 @@
 	display: flex;
 	justify-content: center;
 }
-.flexList{
-	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
-	display: flex;
-	color: $white;
-	font-weight: 700;
-	list-style-type: none;
-	padding-inline-start: 0;
-	margin-top: 0;
-  margin-bottom: 0;
-	@include breakpoint(smallScreen){
-		flex-direction: column;
-		font-size: 1.3em;
-	}
-	@include breakpoint(largeMobileScreen){
-		flex-direction: row;
-		font-size: .8em;
-	}
-	@include breakpoint(laptopScreen){
-		flex-direction: row;
-		font-size: 1em;
-	}
-		li{
-			padding: 20px;
-			&:active{
-				background-color: $primaryGrey;
-			}
-			&:hover{
-				background-color: $primaryGrey;
-			}
-		}
-}
 .limitWidth{
   max-width: 1050px;
   margin: 0 auto;
@@ -495,4 +474,9 @@
 }
 .removeBottomPadding{
 	padding-bottom: 0;
+}
+.backgroundImage{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }

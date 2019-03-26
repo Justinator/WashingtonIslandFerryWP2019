@@ -2872,4 +2872,15 @@ body {
   overflow: scroll;
   overflow-x: hidden !important; }
 
+.owl-stage {
+  width: 10000px !important; }
+  .owl-stage .active {
+    margin: 0 5px !important; }
+
+.mec-bg-color {
+  background-color: #002F6C !important; }
+
+.mec-event-image {
+  display: none !important; }
+
 /*# sourceMappingURL=style.css.map */

@@ -179,6 +179,18 @@ get_header();
 
 			</section>
 
+			<section id="shortcodeTest">
+
+				<div class="pageWidth paddedSection">
+
+					<h2 class="centerText caps primaryText">Upcoming Trips</h2>
+
+					<?php echo do_shortcode('[MEC id="117"]'); ?>
+
+				</div>
+
+			</section>
+
 			<section id="faq" class="paddedSection">
 
 				<div class="navWidth flex-container">

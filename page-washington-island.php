@@ -40,6 +40,8 @@ get_header();
 
 						<h2 class="primaryText caps">Ferry Schedule</h2>
 
+						<?php echo do_shortcode('[MEC id="97"]'); ?>
+
 					</div>
 
 					<div class="col50">

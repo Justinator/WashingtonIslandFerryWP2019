@@ -18,7 +18,7 @@ get_header();
 
 			</div>
 
-			<div class="navWidth heroHeadingWrap flex-container">
+			<div class="navWidth heroHeadingWrap">
 
 				<div id="homeWaterColor" class="waterColorBackground">
 

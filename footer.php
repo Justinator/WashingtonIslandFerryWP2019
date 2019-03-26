@@ -40,19 +40,19 @@
 
 						<p>&nbsp;<script>document.write(new Date().getFullYear());</script> Washington Island Ferry Line</p>
 
-					<div id="closingLinks">
+				</div>
 
-						<nav role="navigation" aria-label="Sub Footer Links">
+				<div id="closingLinks">
 
-							<a href="/privacy-policy/" class="borderRight" role="link">Privacy Policy</a> |
+					<nav role="navigation" aria-label="Sub Footer Links">
 
-							<a href="/sitemap/" class="borderRight" role="link">Sitemap</a> |
+						<a href="/privacy-policy/" role="link">Privacy Policy</a> |
 
-							<a href="/contact/" class="borderRight" role="link">Contact Us</a>
+						<a href="/sitemap/" role="link">Sitemap</a> |
 
-						</nav>
+						<a href="/contact/" role="link">Contact Us</a>
 
-					</div>
+					</nav>
 
 				</div>
 

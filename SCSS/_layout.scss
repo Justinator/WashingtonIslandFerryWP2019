@@ -218,21 +218,18 @@
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
     @include breakpoint(smallScreen){
       height: 60vh;
-			background-position: center;
     }
     @include breakpoint(largeMobileScreen){
       height: 60vh;
-			background-position: center;
     }
 		@include breakpoint(tabletScreen){
       height: 90vh;
-			background-position: left;
     }
     @include breakpoint(laptopScreen){
       height: 90vh;
-			background-position: left;
     }
 	}
 .marginedHero{

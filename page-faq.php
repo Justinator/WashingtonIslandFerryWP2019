@@ -20,9 +20,9 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div id="washingtonWaterColor" class="smallWaterColor">
+				<div class="smallWaterColor">
 
-					<h1 class="whiteText heroHeading">Washington Island Ferry</h1>
+					<h1 class="whiteText heroHeading">Frequently Asked Questions</h1>
 
 				</div>
 
@@ -41,12 +41,6 @@ get_header();
 						<h2 class="primaryText caps">Ferry Schedule</h2>
 
 						<?php echo do_shortcode('[MEC id="97"]'); ?>
-
-						<div class="centerText">
-
-							<p><em>Ferry schedule is subject to change due to weather and traffic.</em></p>
-
-						</div>	
 
 					</div>
 

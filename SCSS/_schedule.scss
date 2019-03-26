@@ -65,6 +65,9 @@
 .bannerTitle{
 	font-size: 18px;
 }
+.contentWrap{
+	padding: 10px;
+}
 .seasonTitle{
 	font-size: 1.2em;
 	font-weight: 400;
@@ -90,9 +93,20 @@
 	font-size: 20px;
 }
 .mec-month-side{
-	height: 450px;
 	overflow: scroll;
 	overflow-x: hidden !important;
+	@include breakpoint(smallScreen){
+		height: 400px;
+	}
+	@include breakpoint(largeMobileScreen){
+		height: 400px;
+	}
+	@include breakpoint(tabletScreen){
+		height: 500px;
+	}
+	@include breakpoint(largeScreen){
+		height: 600px;
+	}
 }
 .owl-stage{
 	width: 10000px !important;
@@ -100,9 +114,112 @@
 			margin: 0 5px !important;
 	}
 }
+// Styles for the calendar and event output
 .mec-bg-color{
 	background-color: $primaryColor !important;
 }
 .mec-event-image{
 	display: none !important;
+}
+.mec-calendar-header{
+	h2{
+		color: $primaryColor !important;
+		font-size: 36px !important;
+		font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+	}
+}
+.mec-next-month, .mec-previous-month{
+	border: none !important;
+	color: $primaryColor !important;
+	box-shadow: none !important;
+  font-size: 16px !important;
+}
+.mec-sl-angle-right, .mec-sl-angle-left{
+  font-size: 14px !important;
+	color: $accentColor !important;
+}
+.mec-calendar{
+	.mec-has-event{
+		&:after{
+			background-color: $transparent !important;
+			background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
+		}
+	}
+}
+.mec-calendar .mec-calendar-row dt.mec-has-event:hover{
+	background-color: $secondaryColor !important;
+}
+.mec-calendar .mec-selected-day{
+	background-color: $secondaryColor !important;
+	&:hover{
+		background-color: $secondaryColor !important;
+	}
+}
+.mec-box-calendar.mec-calendar dt{
+	border-bottom: 2px solid $primaryColor !important;
+}
+.mec-box-calendar.mec-calendar dl dt:last-child,
+.mec-box-calendar.mec-calendar .mec-calendar-table-head dt,
+.mec-box-calendar.mec-calendar dt{
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+.mec-box-calendar.mec-calendar .mec-calendar-events-side{
+	background-color: $secondaryColorLight !important;
+}
+.mec-table-side-title{
+	color: $primaryColor !important;
+	font-size: 18px !important;
+}
+.mec-table-side-day{
+	border: 1px solid $primaryColor !important;
+}
+.mec-color, .mec-color-before :before,
+.mec-color-hover:hover, .mec-wrap .mec-color,
+.mec-wrap .mec-color-before :before,
+.mec-wrap .mec-color-hover:hover{
+	color: $primaryColor !important;
+}
+.mec-calendar .mec-event-article{
+	border-top: 1px solid $white !important;
+	&:hover{
+		background-color: $secondaryColorLight !important;
+	}
+}
+.mec-calendar .mec-event-article .mec-event-title a{
+	color: $accentColor !important;
+	&:hover{
+		color: $white !important;
+	}
+}
+.event-color{
+	background-color: $transparent !important;
+}
+.mec-slider-t2 .mec-slider-t2-content.mec-event-grid-modern *{
+	&:hover{
+		color: $secondaryColorLight !important;
+	}
+}
+.mec-slider-t2-content{
+	.mec-color{
+		color: $white !important;}
+}
+.mec-slider-t2-content.mec-event-grid-modern .mec-event-footer .mec-booking-button{
+	text-decoration: none !important;
+}
+.mec-calendar .mec-event-article .mec-event-time{
+	font-size: 14px;
+	font-weight: 700;
+}
+.mec-sl-clock-o{
+	font-weight: 700;
+}
+#rockSchedule2{
+	.mec-search-form .mec-dropdown-wrap{
+		display: none !important;
+	}
+}
+.mec-box-calendar.mec-calendar .mec-calendar-header{
+	margin-top: 30px !important;
 }

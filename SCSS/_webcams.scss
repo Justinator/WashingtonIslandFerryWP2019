@@ -1,1 +1,25 @@
 /* 17.0 Webcams Page -------------------------------------------*/
+.webcamHero{
+  background-image: url("/wp-content/uploads/2019/03/washingtonFerryHeroLarge50.jpg");
+}
+#webcamWaterColor{
+	@include breakpoint(smallScreen){
+		width: 90%;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 90%;
+    padding: 50px;
+	}
+	@include breakpoint(laptopScreen){
+		width: 80%;
+    padding: 80px;
+	}
+	@include breakpoint(largeScreen){
+		width: 60%;
+		padding: 80px;
+	}
+}
+#webcamMap{
+  width: 75%;
+  margin-bottom: 15px;
+}

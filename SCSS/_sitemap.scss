@@ -1,38 +1,15 @@
 /* 13.0 Sitemap stylings -------------------------------------------*/
 #sitemapEntry{
-  @include breakpoint(smallScreen){
-    margin-top: 75px;
-  }
-  @include breakpoint(largeMobileScreen){
-    margin-top: 75px;
-  }
-  @include breakpoint(laptopScreen){
-    margin-top: 150px;
-  }
-}
-#text{
-  display: none;
+  margin-top: 150px;
 }
 .page_item{
   a{
     text-decoration: none;
   	transition: .2s ease all;
   	position: relative;
-    color: $primaryGrey;
+    color: $primaryColor;
     &:hover{
-      color: $primaryYellow;
-      transition: .2s ease all;
-    }
-  }
-}
-.newsPosts{
-  a{
-    text-decoration: none;
-  	transition: .2s ease all;
-  	position: relative;
-    color: $primaryGrey;
-    &:hover{
-      color: $primaryYellow;
+      color: $secondaryColor;
       transition: .2s ease all;
     }
   }

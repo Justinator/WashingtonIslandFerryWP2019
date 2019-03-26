@@ -4,10 +4,20 @@
 }
 .heroHeadingWrap{
 	position: relative;
-  top: -75px;
   z-index: 9;
 	display: flex;
-	justify-content: flex-end;
+	@include breakpoint(smallScreen){
+		top: -50px;
+		justify-content: center;
+	}
+	@include breakpoint(largeMobileScreen){
+		top: -50px;
+		justify-content: center;
+	}
+	@include breakpoint(laptopScreen){
+		top: -75px;
+		justify-content: flex-end;
+	}
 }
 .waterColorBackground{
 	background-size: cover;
@@ -15,8 +25,31 @@
 	background-repeat: no-repeat;
 	background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png");
 	padding: 25px;
+	h1{
+		@include breakpoint(smallScreen){
+			font-size: .8em;
+			margin-left: 0;
+		}
+		@include breakpoint(largeMobileScreen){
+			font-size: 1.5em;
+			margin-left: 0;
+		}
+		@include breakpoint(laptopScreen){
+			font-size: 2em;
+			margin-left: 20px;
+		}
+		@include breakpoint(extraLargeScreen){
+			font-size: 2.5em;
+		}
+		@media (min-width: 2400px) {
+			font-size: 3em;
+		}
+	}
+}
+#homeWaterColor{
 	@include breakpoint(smallScreen){
 		width: 90%;
+		padding: 13px;
 	}
 	@include breakpoint(largeMobileScreen){
 		width: 90%;
@@ -25,23 +58,8 @@
 		width: 80%;
 	}
 	@include breakpoint(largeScreen){
-		width: 60%;
+		width: 70%;
 		padding: 60px;
-	}
-	h1{
-		margin-left: 20px;
-		@include breakpoint(smallScreen){
-			font-size: .9em;
-		}
-		@include breakpoint(largeMobileScreen){
-			font-size: 1.5em;
-		}
-		@include breakpoint(laptopScreen){
-			font-size: 2em;
-		}
-		@include breakpoint(extraLargeScreen){
-			font-size: 2.5em;
-		}
 	}
 }
 .heroHeading{
@@ -178,7 +196,7 @@
 	background-position: center;
 	height: 400px;
 	transition: .3s ease all;
-	padding: 100px 0;
+	padding: 150px 0;
 	position: relative;
 	&:hover{
 		transition: .3s ease all;
@@ -192,7 +210,7 @@
 	background-position: center;
 	height: 400px;
 	transition: .3s ease all;
-	padding: 100px 0;
+	padding: 150px 0;
 	position: relative;
 	&:hover{
 		transition: .3s ease all;

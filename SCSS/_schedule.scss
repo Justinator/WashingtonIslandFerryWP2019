@@ -89,3 +89,20 @@
 .times{
 	font-size: 20px;
 }
+.mec-month-side{
+	height: 450px;
+	overflow: scroll;
+	overflow-x: hidden !important;
+}
+.owl-stage{
+	width: 10000px !important;
+	.active{
+			margin: 0 5px !important;
+	}
+}
+.mec-bg-color{
+	background-color: $primaryColor !important;
+}
+.mec-event-image{
+	display: none !important;
+}

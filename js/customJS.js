@@ -46,10 +46,10 @@ function initMap() {
   var map = new google.maps.Map(
         document.getElementById('map'), {zoom: 16, center: wisFerry});
     // The marker, positioned at wisFerry
-    var marker = new google.maps.Marker({position: wisFerry, map: map});
+    var marker = new google.maps.Marker({position: wisFerry, map: map, icon: "/wp-content/uploads/2019/03/washingtonIslandStar-2.png"});
 
   var map2 = new google.maps.Map(
         document.getElementById('map2'), {zoom: 17, center: northport});
     // The marker, positioned at northport
-    var marker = new google.maps.Marker({position: northport, map: map2});
+    var marker = new google.maps.Marker({position: northport, map: map2, icon: "/wp-content/uploads/2019/03/washingtonIslandStar-2.png"});
 }

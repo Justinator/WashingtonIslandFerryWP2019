@@ -1191,7 +1191,7 @@ optgroup::-moz-focus-inner {
         font-size: 12px; } }
     @media (min-width: 1250px) {
       #primary-menu li a {
-        font-size: 16px; } }
+        font-size: 14px; } }
     @media (min-width: 1600px) {
       #primary-menu li a {
         font-size: 18px; } }
@@ -2779,6 +2779,14 @@ ul {
     background: #404041;
     color: #c8102e; }
 
+#map, #map2 {
+  height: 100%; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
 /* 12.0 About Pages stylings -------------------------------------------*/
 .aboutHero {
   background-image: url("/wp-content/uploads/2019/03/OaksGolfCourseDroneShot.jpg"); }
@@ -2895,8 +2903,35 @@ ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmallest.png");
-  text-align: center; }
+  background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png");
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media (max-width: 599px) {
+    .smallWaterColor {
+      height: 80px;
+      width: 90%; } }
+  @media (min-width: 600px) {
+    .smallWaterColor {
+      height: 110px;
+      width: 90%; } }
+  @media (min-width: 768px) {
+    .smallWaterColor {
+      height: 125px;
+      width: 90%; } }
+  @media (min-width: 992px) {
+    .smallWaterColor {
+      height: 125px;
+      width: 70%; } }
+  @media (min-width: 1250px) {
+    .smallWaterColor {
+      height: 140px;
+      width: 70%; } }
+  @media (min-width: 1600px) {
+    .smallWaterColor {
+      height: 140px;
+      width: 50%; } }
   @media (max-width: 599px) {
     .smallWaterColor h1 {
       font-size: 1em; } }
@@ -2909,9 +2944,6 @@ ul {
   @media (min-width: 1250px) {
     .smallWaterColor h1 {
       font-size: 3em; } }
-
-#washingtonWaterColor {
-  padding: 25px 100px; }
 
 .starredList li {
   list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg"); }
@@ -2950,7 +2982,8 @@ ul {
     width: 40%; } }
 
 .mapWrapper {
-  height: 400px; }
+  height: 400px;
+  margin-bottom: 15px; }
   @media (max-width: 599px) {
     .mapWrapper {
       height: 300px; } }
@@ -3124,11 +3157,8 @@ ul {
 .rockHero {
   background-image: url("/wp-content/uploads/2019/03/RockIslandHeroLarge50.jpg"); }
 
-#rockWaterColor {
-  padding: 20px 75px; }
-
 #rockCredit {
-  width: 30%; }
+  width: 20%; }
 
 .smallNotice {
   font-size: 10px;
@@ -3142,30 +3172,11 @@ ul {
 .webcamHero {
   background-image: url("/wp-content/uploads/2019/03/washingtonFerryHeroLarge50.jpg"); }
 
-@media (max-width: 599px) {
-  #webcamWaterColor {
-    width: 90%; } }
-@media (min-width: 600px) {
-  #webcamWaterColor {
-    width: 90%;
-    padding: 50px; } }
-@media (min-width: 992px) {
-  #webcamWaterColor {
-    width: 80%;
-    padding: 80px; } }
-@media (min-width: 1250px) {
-  #webcamWaterColor {
-    width: 60%;
-    padding: 80px; } }
-
 #webcamMap {
   width: 75%;
   margin-bottom: 15px; }
 
 /* 18.0 Plan a trip Page -------------------------------------------*/
-#tripWaterColor {
-  padding: 25px 150px; }
-
 #gettingAround {
   padding-bottom: 150px;
   margin-bottom: -100px; }

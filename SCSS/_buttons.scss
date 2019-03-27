@@ -9,6 +9,16 @@
 		  text-decoration-color: $primaryColor;
     }
 }
+.faqLink{
+  color: $primaryColor !important;
+	transition: .3s ease all;
+  text-decoration-color: $primaryColor;
+    &:hover{
+			color: $white !important;
+			transition: .3s ease all;
+		  text-decoration-color: $white;
+    }
+}
 .plainBlackLink{
   a{
     color: $black;

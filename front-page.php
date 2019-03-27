@@ -20,9 +20,15 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div id="homeWaterColor" class="waterColorBackground">
+				<div id="homeWaterColor" class="waterColorWrapper">
 
-					<h1 class="whiteText heroHeading">At the tip of the Door County peninsula, you’ll find Washington Island and the Washington Island Ferry!</h1>
+					<img src="/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png" class="image waterColor">
+
+					<div class="headerWrap">
+
+						<h1 class="whiteText heroHeading">At the tip of the Door County peninsula, you’ll find Washington Island and the Washington Island Ferry!</h1>
+
+					</div>
 
 				</div>
 
@@ -62,7 +68,7 @@ get_header();
 
 					<div class="blockWrapper">
 
-						<a href="/washington-island/">
+						<a href="/rock-island/">
 
 							<div class="blockOverlay"></div>
 
@@ -80,7 +86,7 @@ get_header();
 
 					<div class="blockWrapper">
 
-						<a href="/washington-island/">
+						<a href="/cherry-train-tours/">
 
 							<div class="blockOverlay"></div>
 
@@ -171,7 +177,11 @@ get_header();
 
 					<div class="col50">
 
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.88753139945!2d-86.97963308444835!3d45.29049437909929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d18e4d182ea0d%3A0xe3e1ba339daffd24!2sNorthport+Pier!5e0!3m2!1sen!2sus!4v1553188765935" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="mapWrapper">
+
+							<div id="map"></div>
+
+						</div>
 
 					</div>
 
@@ -233,7 +243,7 @@ get_header();
 						<p>
 							From hiking trails, campsites, beaches and wildlife to the rich history, local
 							shops and eateries, there’s something here for everyone! You can find a full list
-							of Washington Island activities and attractions <a href="#" class="primaryLink">here</a>.
+							of Washington Island activities and attractions <a href="/plan-a-trip/" class="primaryLink">here</a>.
 						</p>
 
 					</div>
@@ -242,7 +252,7 @@ get_header();
 
 				<div class="navWidth centerButton">
 
-					<a href="#" class="primaryButton caps">View all faqs</a>
+					<a href="/faq/" class="primaryButton caps">View all faqs</a>
 
 				</div>
 

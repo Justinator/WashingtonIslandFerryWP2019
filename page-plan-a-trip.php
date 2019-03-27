@@ -20,9 +20,15 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div id="tripWaterColor" class="smallWaterColor">
+				<div class="waterColorWrapper">
 
-					<h1 class="whiteText heroHeading">Plan a Trip</h1>
+					<img src="/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png" class="image waterColor">
+
+					<div class="headerWrap">
+
+						<h1 class="whiteText heroHeading">Plan a Trip</h1>
+
+					</div>
 
 				</div>
 

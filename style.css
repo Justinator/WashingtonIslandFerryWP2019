@@ -1111,6 +1111,9 @@ optgroup::-moz-focus-inner {
   background-position: center;
   background-repeat: no-repeat; }
 
+.smallPaddedWrapper {
+  padding: 20px; }
+
 /*4.0 Header Styling -------------------------------------------*/
 .screenReaderSkipToContent {
   position: absolute;
@@ -1717,7 +1720,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 p {
   margin-top: 0;
@@ -1725,9 +1728,6 @@ p {
 
 h1 {
   letter-spacing: 1px; }
-  @media (max-width: 320px) {
-    h1 {
-      font-size: .9em; } }
   @media (max-width: 599px) {
     h1 {
       font-size: 1.2em; } }
@@ -1874,6 +1874,15 @@ h6 {
     color: #002F6C !important;
     transition: .3s ease all;
     text-decoration-color: #002F6C; }
+
+.faqLink {
+  color: #002F6C !important;
+  transition: .3s ease all;
+  text-decoration-color: #002F6C; }
+  .faqLink:hover {
+    color: #FFFFFF !important;
+    transition: .3s ease all;
+    text-decoration-color: #FFFFFF; }
 
 .plainBlackLink a {
   color: #000000;
@@ -2187,45 +2196,72 @@ ul {
       top: -75px;
       justify-content: flex-end; } }
 
-.waterColorBackground {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png");
-  padding: 25px; }
+.waterColorWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media (max-width: 599px) {
-    .waterColorBackground h1 {
-      font-size: .8em;
-      margin-left: 0; } }
+    .waterColorWrapper {
+      width: 100%; } }
   @media (min-width: 600px) {
-    .waterColorBackground h1 {
-      font-size: 1.5em;
-      margin-left: 0; } }
+    .waterColorWrapper {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .waterColorWrapper {
+      width: 90%; } }
   @media (min-width: 992px) {
-    .waterColorBackground h1 {
-      font-size: 2em;
-      margin-left: 20px; } }
-  @media (min-width: 1600px) {
-    .waterColorBackground h1 {
-      font-size: 2.5em; } }
-  @media (min-width: 2400px) {
-    .waterColorBackground h1 {
-      font-size: 3em; } }
-
-@media (max-width: 599px) {
-  #homeWaterColor {
+    .waterColorWrapper {
+      width: 85%; } }
+  @media (min-width: 1250px) {
+    .waterColorWrapper {
+      width: 65%; } }
+  @media (min-width: 1800px) {
+    .waterColorWrapper {
+      width: 60%; } }
+  .waterColorWrapper h1 {
     width: 90%;
-    padding: 13px; } }
-@media (min-width: 600px) {
-  #homeWaterColor {
-    width: 90%; } }
-@media (min-width: 992px) {
-  #homeWaterColor {
-    width: 80%; } }
-@media (min-width: 1250px) {
-  #homeWaterColor {
-    width: 70%;
-    padding: 60px; } }
+    margin: 0 auto; }
+    @media (max-width: 599px) {
+      .waterColorWrapper h1 {
+        font-size: 1.6em; } }
+    @media (min-width: 600px) {
+      .waterColorWrapper h1 {
+        font-size: 1.6em; } }
+    @media (min-width: 992px) {
+      .waterColorWrapper h1 {
+        font-size: 2.5em; } }
+
+#homeWaterColor h1 {
+  width: 90%;
+  margin: 0 auto; }
+  @media (max-width: 599px) {
+    #homeWaterColor h1 {
+      font-size: 1em; } }
+  @media (min-width: 600px) {
+    #homeWaterColor h1 {
+      font-size: 1.5em; } }
+  @media (min-width: 992px) {
+    #homeWaterColor h1 {
+      font-size: 2em; } }
+  @media (min-width: 1600px) {
+    #homeWaterColor h1 {
+      font-size: 2.5em; } }
+
+.waterColor {
+  position: absolute;
+  z-index: 1; }
+  @media (max-width: 599px) {
+    .waterColor {
+      height: 130px; } }
+  @media (min-width: 600px) {
+    .waterColor {
+      height: auto; } }
+
+.headerWrap {
+  position: relative;
+  z-index: 2;
+  width: 100%; }
 
 .heroHeading {
   margin-bottom: 0; }
@@ -2584,9 +2620,6 @@ ul {
   position: relative;
   z-index: 2; }
 
-.smallPaddedWrapper {
-  padding: 20px; }
-
 .industryWrapper {
   display: flex;
   flex-direction: row; }
@@ -2776,10 +2809,10 @@ ul {
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5); }
   #fld_7908577_1:hover {
     transition: .2s ease all;
-    background: #404041;
+    background: rgba(0, 0, 0, 0);
     color: #c8102e; }
 
-#map, #map2 {
+#map, #map2, #map3 {
   height: 100%; }
 
 html, body {
@@ -2932,6 +2965,10 @@ html, body {
     .smallWaterColor {
       height: 140px;
       width: 50%; } }
+  @media (min-width: 1800px) {
+    .smallWaterColor {
+      height: 170px;
+      width: 50%; } }
   @media (max-width: 599px) {
     .smallWaterColor h1 {
       font-size: 1em; } }
@@ -2961,6 +2998,19 @@ html, body {
     .flex-container-schedule {
       flex-direction: row; } }
 
+.flex-container-schedule-reverse {
+  display: flex;
+  justify-content: space-around; }
+  @media (max-width: 599px) {
+    .flex-container-schedule-reverse {
+      flex-direction: column; } }
+  @media (min-width: 600px) {
+    .flex-container-schedule-reverse {
+      flex-direction: column; } }
+  @media (min-width: 1250px) {
+    .flex-container-schedule-reverse {
+      flex-direction: row; } }
+
 @media (max-width: 599px) {
   .ferryScheduleWrapper {
     width: 100%; } }
@@ -2979,7 +3029,8 @@ html, body {
     width: 100%; } }
 @media (min-width: 1250px) {
   .ferryDesc {
-    width: 40%; } }
+    width: 40%;
+    margin-top: 60px; } }
 
 .mapWrapper {
   height: 400px;
@@ -3088,13 +3139,42 @@ html, body {
   #winter {
     margin-top: 0; } }
 
-#rockIsland {
+@media (max-width: 599px) {
+  .waterColorOuter {
+    width: 100%; } }
+@media (min-width: 600px) {
+  .waterColorOuter {
+    width: 100%; } }
+@media (min-width: 1250px) {
+  .waterColorOuter {
+    width: 60%; } }
+
+.waterColorWrapper2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media (max-width: 599px) {
+  #washWaterColor {
+    height: 350px; } }
+@media (min-width: 600px) {
+  #washWaterColor {
+    height: auto; } }
+
+#rockIslandCTA {
   background-image: url("/wp-content/uploads/2019/03/1.2-RockIslandBgd50.jpg");
   height: 600px; }
 
 #rockIslandWrap {
   display: flex;
   align-items: center; }
+  #rockIslandWrap h4 {
+    width: 90%;
+    margin: 0 auto !important; }
+  #rockIslandWrap p {
+    width: 90%;
+    margin: 0 auto !important; }
 
 #rockIslandLead {
   background-image: url("/wp-content/uploads/2019/03/WatercolorRectangle2tealMedium.png");
@@ -3161,7 +3241,7 @@ html, body {
   width: 20%; }
 
 .smallNotice {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5em; }
 
 /* 16.0 Cherry Train Page -------------------------------------------*/
@@ -3175,6 +3255,16 @@ html, body {
 #webcamMap {
   width: 75%;
   margin-bottom: 15px; }
+
+@media (max-width: 599px) {
+  #cameraWrapper iframe {
+    height: 400px !important; } }
+@media (min-width: 600px) {
+  #cameraWrapper iframe {
+    height: 600px !important; } }
+@media (min-width: 768px) {
+  #cameraWrapper iframe {
+    height: 620px !important; } }
 
 /* 18.0 Plan a trip Page -------------------------------------------*/
 #gettingAround {
@@ -3390,12 +3480,12 @@ html, body {
 
 /* 20.0 FAQ page Styles -------------------------------------------*/
 .accordion {
-  background-color: #fefffa;
-  max-width: 600px;
+  background-color: #cbe2e6;
   margin: 50px auto;
-  border-top: 6px solid #44BBA4;
+  border-top: 6px solid #008ea8;
   line-height: 1.6;
-  box-shadow: 5px 5px 10px 0px #a4bac1; }
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: .2s ease all; }
   .accordion__item {
     border-bottom: 1px solid #dce7eb; }
   .accordion__title {
@@ -3410,23 +3500,47 @@ html, body {
       position: absolute;
       left: 15px;
       top: 12px;
-      color: #44BBA4; }
+      color: #c8102e; }
     .accordion__title h5 {
-      border-bottom: 1px solid #fefffa;
-      display: inline-block; }
+      display: inline-block;
+      color: #002F6C;
+      transition: .2s ease all;
+      margin-bottom: 0; }
     .accordion__title:hover, .accordion__title:focus {
       cursor: pointer;
-      outline: none; }
+      outline: none;
+      background-color: #008ea8;
+      transition: .2s ease all; }
       .accordion__title:hover h5, .accordion__title:focus h5 {
-        border-bottom-color: #a8bdc4;
-        display: inline-block; }
+        display: inline-block;
+        color: #FFFFFF;
+        transition: .2s ease all; }
     .is-expanded .accordion__title:before {
       content: "\f056"; }
   .accordion__content-inner {
-    padding: 0 40px 10px 40px; }
+    padding: 10px 40px;
+    background-color: #008ea8;
+    color: #FFFFFF; }
+    .accordion__content-inner p {
+      margin-bottom: 10px !important; }
   .accordion__content {
     transition: height 0.3s ease-out;
     height: 0;
     overflow: hidden; }
+
+#faqMap {
+  margin: 15px 0; }
+  @media (max-width: 599px) {
+    #faqMap {
+      width: 100%; } }
+  @media (min-width: 600px) {
+    #faqMap {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    #faqMap {
+      width: 60%; } }
+
+#faqWrapper {
+  padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */

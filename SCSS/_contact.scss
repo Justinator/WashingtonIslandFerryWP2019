@@ -62,12 +62,12 @@
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
 		&:hover{
 			transition: .2s ease all;
-      background: $primaryGrey;
+      background: $transparent;
       color: $accentColor;
 		}
 }
 //Styles for our custom maps
-#map, #map2 {
+#map, #map2, #map3 {
   height: 100%;
 }
 html, body {

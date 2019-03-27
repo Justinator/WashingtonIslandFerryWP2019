@@ -6,3 +6,16 @@
   width: 75%;
   margin-bottom: 15px;
 }
+#cameraWrapper{
+  iframe{
+    @include breakpoint(smallScreen){
+      height: 400px !important;
+    }
+    @include breakpoint(largeMobileScreen){
+      height: 600px !important;
+    }
+    @include breakpoint(tabletScreen){
+      height: 620px !important;
+    }
+  }
+}

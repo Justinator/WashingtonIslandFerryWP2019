@@ -20,9 +20,15 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div id="washingtonWaterColor" class="smallWaterColor">
+				<div id="washingtonWaterColor" class="waterColorWrapper">
 
-					<h1 class="whiteText heroHeading">Washington Island Ferry</h1>
+					<img src="/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png" class="image waterColor">
+
+					<div class="headerWrap">
+
+						<h1 class="whiteText heroHeading">Washington Island Ferry</h1>
+
+					</div>
 
 				</div>
 
@@ -46,7 +52,7 @@ get_header();
 
 							<p><em>Ferry schedule is subject to change due to weather and traffic.</em></p>
 
-						</div>	
+						</div>
 
 					</div>
 
@@ -111,7 +117,7 @@ get_header();
 
 							<div class="mapWrapper">
 
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.88753139945!2d-86.97963308444835!3d45.29049437909929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d18e4d182ea0d%3A0xe3e1ba339daffd24!2sNorthport+Pier!5e0!3m2!1sen!2sus!4v1553188765935" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<div id="map3"></div>
 
 							</div>
 
@@ -148,23 +154,33 @@ get_header();
 
 			</section>
 
-			<section id="rockIsland" class="backgroundImage">
+			<section id="rockIslandCTA" class="backgroundImage">
 
 				<div id="rockIslandWrap" class="navWidth">
 
-					<div id="rockIslandLead" class="background">
+					<div class="waterColorOuter">
 
-						<h4 class="caps whiteText noMargin">INTERESTED IN VISITING ROCK ISLAND STATE PARK?</h4>
+						<div class="waterColorWrapper2">
 
-						<p class="whiteText noMargin">
+							<img src="/wp-content/uploads/2019/03/WatercolorRectangle2tealMedium.png" id="washWaterColor" class="image waterColor">
 
-							You will need to take a second, passenger-only ferry, the Karfi Ferry, from Washington Island to Rock Island.
+							<div class="headerWrap">
 
-						</p>
+								<h4 class="caps whiteText noMargin">INTERESTED IN VISITING ROCK ISLAND STATE PARK?</h4>
+
+								<p class="whiteText noMargin">
+
+									You will need to take a second, passenger-only ferry, the Karfi Ferry, from Washington Island to Rock Island.
+
+								</p>
+
+							</div>
+
+						</div>
 
 						<div id="rockIslandCTABtn" class="centerButton">
 
-							<a href="/#/" class="primaryButton caps">Learn more</a>
+							<a href="/rock-island/" class="primaryButton caps">Learn more</a>
 
 						</div>
 

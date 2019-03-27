@@ -1,0 +1,87 @@
+/* 20.0 FAQ page Styles -------------------------------------------*/
+.accordion {
+  background-color: $secondaryColorLight;
+  margin: 50px auto;
+  border-top: 6px solid $secondaryColor;
+  line-height: 1.6;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
+  transition: .2s ease all;
+
+  &__item {
+    border-bottom: 1px solid #dce7eb;
+  }
+
+  &__title {
+    padding: 15px 15px 15px 40px;
+    display: block;
+    position: relative;
+    font-weight: 400;
+
+    &:before {
+      font-family: FontAwesome;
+      content: "\f055";
+      font-size: 20px;
+      position: absolute;
+      left: 15px;
+      top: 12px;
+      color: $accentColor;
+    }
+
+    h5 {
+      display:inline-block;
+      color: $primaryColor;
+      transition: .2s ease all;
+      margin-bottom: 0;
+    }
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      outline: none;
+      background-color: $secondaryColor;
+      transition: .2s ease all;
+      h5 {
+        display:inline-block;
+        color: $white;
+        transition: .2s ease all;
+      }
+    }
+
+    .is-expanded & {
+      &:before {
+        content: "\f056";
+      }
+
+    }
+  }
+
+    &__content-inner {
+        padding: 10px 40px;
+        background-color: $secondaryColor;
+        color: $white;
+        p{
+          margin-bottom: 10px !important;
+        }
+    }
+
+  &__content {
+    transition: height 0.3s ease-out;
+    height: 0;
+    overflow: hidden;
+  }
+}
+#faqMap{
+  margin: 15px 0;
+  @include breakpoint(smallScreen){
+    width: 100%;
+  }
+  @include breakpoint(largeMobileScreen){
+    width: 100%;
+  }
+  @include breakpoint(tabletScreen){
+    width: 60%;
+  }
+}
+#faqWrapper{
+  padding: 20px;
+}

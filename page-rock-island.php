@@ -20,9 +20,15 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div id="rockWaterColor" class="smallWaterColor">
+				<div class="waterColorWrapper">
 
-					<h1 class="whiteText heroHeading">Rock Island Ferry</h1>
+					<img src="/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png" class="image waterColor">
+
+					<div class="headerWrap">
+
+						<h1 class="whiteText heroHeading">Rock Island Ferry</h1>
+
+					</div>
 
 				</div>
 
@@ -31,38 +37,6 @@ get_header();
 		</section>
 
 		<section id="pageContent">
-
-			<section id ="rockSchedule" class="paddedSection">
-
-				<div class="navWidth flex-container-reverse">
-
-					<div class="col50">
-
-						<div class="blockText">
-
-							<h2 class="primaryText caps">Visit Rock Island State Park via the Karfi</h2>
-
-							<p>
-
-								Take a trip out of the ordinary when you visit beautiful Rock Island State Park, a 912-acre island
-								situated northeast of Washington Island in Lake Michigan. Vehicles are not allowed on the island,
-								making it a unique Wisconsin State Park experience.
-
-							</p>
-
-						</div>
-
-					</div>
-
-					<div class="col50">
-
-						<?php get_template_part("/inc/rockIslandSchedule"); ?>
-
-					</div>
-
-				</div>
-
-			</section>
 
 			<section id ="rockSchedule2" class="paddedSection">
 
@@ -173,11 +147,11 @@ get_header();
 
 			<section id="rockReminders">
 
-			<div class="limitWidth">
+			<div class="navWidth limitWidth">
 
-				<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
+				<div class="smallPaddedWrapper">
 
-				<div class="blockText">
+					<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
 
 					<ul class="starredList">
 

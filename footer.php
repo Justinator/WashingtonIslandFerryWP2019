@@ -69,9 +69,8 @@
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPJZV49"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			 End Google Tag Manager (noscript) -->
-
-		 	<!-- Replace the value of the key parameter with your own API key. -->
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7xovV5oOM3eShhM6h5mAj5sDjFslAK6I&callback=initMap" async defer></script>
+			 
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7xovV5oOM3eShhM6h5mAj5sDjFslAK6I&callback=initMap" async defer></script>
 
 	</footer><!-- #colophon -->
 

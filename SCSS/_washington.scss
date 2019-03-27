@@ -35,6 +35,10 @@
     height: 140px;
     width: 50%;
   }
+  @media (min-width:1800px){
+    height: 170px;
+    width: 50%;
+  }
   h1{
 		@include breakpoint(smallScreen){
 			font-size: 1em;
@@ -68,6 +72,19 @@
       flex-direction: row;
     }
 }
+.flex-container-schedule-reverse{
+	display: flex;
+	justify-content: space-around;
+    @include breakpoint(smallScreen){
+      flex-direction: column;
+    }
+    @include breakpoint(largeMobileScreen){
+      flex-direction: column;
+    }
+    @include breakpoint(largeScreen){
+      flex-direction: row;
+    }
+}
 .ferryScheduleWrapper{
     @include breakpoint(smallScreen){
       width: 100%;
@@ -88,6 +105,7 @@
   }
   @include breakpoint(largeScreen){
     width: 40%;
+    margin-top: 60px;
   }
 }
 .mapWrapper{
@@ -203,13 +221,46 @@
 		margin-top: 0;
 	}
 }
-#rockIsland{
+.waterColorOuter{
+  @include breakpoint(smallScreen){
+    width: 100%;
+  }
+  @include breakpoint(largeMobileScreen){
+    width: 100%;
+  }
+  @include breakpoint(largeScreen){
+    width: 60%;
+  }
+}
+.waterColorWrapper2{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#washWaterColor{
+  @include breakpoint(smallScreen){
+    height: 350px;
+  }
+  @include breakpoint(largeMobileScreen){
+    height: auto;
+  }
+}
+#rockIslandCTA{
   background-image: url("/wp-content/uploads/2019/03/1.2-RockIslandBgd50.jpg");
   height: 600px;
 }
 #rockIslandWrap{
   display: flex;
   align-items: center;
+  h4{
+    width: 90%;
+    margin: 0 auto !important;
+  }
+  p{
+    width: 90%;
+    margin: 0 auto !important;
+  }
 }
 #rockIslandLead{
   background-image: url("/wp-content/uploads/2019/03/WatercolorRectangle2tealMedium.png");

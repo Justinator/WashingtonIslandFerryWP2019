@@ -20,9 +20,15 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div class="smallWaterColor">
+				<div class="waterColorWrapper">
 
-					<h1 class="whiteText heroHeading">Contact the Washington Island Ferry</h1>
+					<img src="/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png" class="image waterColor">
+
+					<div class="headerWrap">
+
+						<h1 class="whiteText heroHeading">Contact the Washington Island Ferry</h1>
+
+					</div>
 
 				</div>
 
@@ -102,13 +108,17 @@ get_header();
 
 				<div class="limitWidth">
 
-					<p>
+					<div class="smallPaddedWrapper">
 
-						The ferry is located on the tip of the Door Peninsula, which is the northeast corner of Wisconsin.
-						Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy
-						42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
+						<p>
 
-					</p>
+							The ferry is located on the tip of the Door Peninsula, which is the northeast corner of Wisconsin.
+							Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy
+							42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
+
+						</p>
+
+					</div>	
 
 				</div>
 

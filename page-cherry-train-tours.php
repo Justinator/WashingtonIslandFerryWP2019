@@ -20,9 +20,15 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div class="smallWaterColor">
+				<div class="waterColorWrapper">
 
-					<h1 class="whiteText heroHeading">Cherry Train Tours</h1>
+					<img src="/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png" class="image waterColor">
+
+					<div class="headerWrap">
+
+						<h1 class="whiteText heroHeading">Cherry Train Tours</h1>
+
+					</div>
 
 				</div>
 
@@ -34,7 +40,7 @@ get_header();
 
 			<section id ="cherrySchedule" class="paddedSection">
 
-				<div class="navWidth flex-container-schedule">
+				<div class="navWidth flex-container-schedule-reverse">
 
 					<div class="ferryDesc">
 

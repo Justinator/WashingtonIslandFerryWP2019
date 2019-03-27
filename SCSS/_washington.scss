@@ -6,8 +6,35 @@
   background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-  background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmallest.png");
+  background-image: url("/wp-content/uploads/2019/03/Watercolorrectangle3tealSmall.png");
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include breakpoint(smallScreen){
+    height: 80px;
+    width: 90%;
+  }
+  @include breakpoint(largeMobileScreen){
+    height: 110px;
+    width: 90%;
+  }
+  @include breakpoint(tabletScreen){
+    height: 125px;
+    width: 90%;
+  }
+  @include breakpoint(laptopScreen){
+    height: 125px;
+    width: 70%;
+  }
+  @include breakpoint(largeScreen){
+    height: 140px;
+    width: 70%;
+  }
+  @include breakpoint(extraLargeScreen){
+    height: 140px;
+    width: 50%;
+  }
   h1{
 		@include breakpoint(smallScreen){
 			font-size: 1em;
@@ -22,9 +49,6 @@
 			font-size: 3em;
 		}
 	}
-}
-#washingtonWaterColor{
-  padding: 25px 100px;
 }
 .starredList{
   li{
@@ -68,6 +92,7 @@
 }
 .mapWrapper{
   height: 400px;
+  margin-bottom: 15px;
   @include breakpoint(smallScreen){
     height: 300px;
   }

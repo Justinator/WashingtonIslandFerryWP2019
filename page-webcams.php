@@ -20,7 +20,7 @@ get_header();
 
 			<div class="navWidth heroHeadingWrap">
 
-				<div id="webcamWaterColor" class="waterColorBackground">
+				<div id="webcamWaterColor" class="smallWaterColor">
 
 					<h1 class="whiteText heroHeading">Washington Island Ferry Docks Webcams</h1>
 

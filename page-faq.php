@@ -31,144 +31,88 @@ get_header();
 		</section>
 
 		<section id="pageContent">
+			<!-- Accordion 1 -->
+	    <section class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
 
-			<section id ="washingtonSchedule">
+	      <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+	        <span id="tab1" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+	          <h5>Use the tab key to navigate...</h5>
+	        </span>
 
-				<div class="navWidth flex-container-schedule">
+	        <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab1" data-binding="expand-accordion-container">
+	          <div class="accordion__content-inner">
+	            <p>You can cycle through all the different accordion items through tabbing.</p>
+	          </div>
+	        </div>
 
-					<div class="ferryScheduleWrapper">
+	      </article>
 
-						<h2 class="primaryText caps">Ferry Schedule</h2>
+	      <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+	        <span id="tab2" tabindex="0" class="accordion__title" aria-controls="panel2" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+	          <h5>Or, you can use your mouse.</h5>
+	        </span>
 
-						<?php echo do_shortcode('[MEC id="97"]'); ?>
+	        <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab2" data-binding="expand-accordion-container">
+	          <div class="accordion__content-inner">
+	            <p>This accordion can be used by both mouse and keyboard-only users.</p>
+	          </div>
+	        </div>
+	      </article>
 
-					</div>
+	      <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+	        <span id="tab3" tabindex="0" class="accordion__title" aria-controls="panel3" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+	          <h5>Click here to view more</h5>
+	        </span>
 
-					<div class="ferryDesc">
+	        <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab3" data-binding="expand-accordion-container">
+	          <div class="accordion__content-inner">
+	            <p>You can also use either the space bar or enter key to expand/collapse these panels.</p>
+	          </div>
+	        </div>
+	      </article>
 
-						<div class="blockText">
+	      <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+	        <span id="tab4" tabindex="0" class="accordion__title" aria-controls="panel4" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+	          <h5>ARIA</h5>
+	        </span>
 
-							<p>
+	        <div id="panel4" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab4" data-binding="expand-accordion-container">
+	          <div class="accordion__content-inner">
+	            <p>This accordion makes use of ARIA tags which help aid accessibility.</p>
+	          </div>
+	        </div>
+	      </article>
 
-								Each ferry has ample deck space with open-air seating. A heated cabin on board provides shelter in bad weather and
-								the winter. Photo opportunities abound on your trip through Death’s Door, so be sure to bring your camera!
+	    </section>
 
-							</p>
+	    <!-- Accordion 2 -->
+	    <section class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
+	      <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+	        <span id="tab5" tabindex="0" class="accordion__title" aria-controls="panel5" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+	          <h5>Heading 1</h5>
+	        </span>
 
-							<h3 class="primaryText caps">REMINDERS:</h3>
+	        <div id="panel5" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab5" data-binding="expand-accordion-container">
+	          <div class="accordion__content-inner">
+	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	          </div>
+	        </div>
 
-							<ul class="starredList">
+	      </article>
 
-								<li>Please be in line 15 minutes prior to departure</li>
+	      <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+	        <span id="tab6" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+	          <h5>Heading 2</h5>
+	        </span>
 
-								<li>Tickets are sold on a first-come, first-served basis</li>
-
-								<li>Pets must be on a leash or in a vehicle</li>
-
-								<li>If you are not taking your car to the island, please park at Northport Pier</li>
-
-								<li>There is no smoking on board the ferry</li>
-
-								<li>Not responsible for low exhaust systems</li>
-
-							</ul>
-
-						</div>
-
-					</div>
-
-				</div>
-
-			</section>
-
-			<section id="ferryRates" class="paddedSection ferryRates">
-
-				<div class="pageWidth">
-
-					<h5 class="primaryText centerText largeHeading">Ticket Rates</h5>
-
-				</div>
-
-				<?php get_template_part("/inc/ferryRates"); ?>
-
-			</section>
-
-			<section id="directions" class="paddedSection">
-
-				<div class="navWidth flex-container">
-
-					<div class="col50">
-
-						<div class="blockText">
-
-							<h3 class="primaryText caps largeHeading">Directions</h3>
-
-							<div class="mapWrapper">
-
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.88753139945!2d-86.97963308444835!3d45.29049437909929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d18e4d182ea0d%3A0xe3e1ba339daffd24!2sNorthport+Pier!5e0!3m2!1sen!2sus!4v1553188765935" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-							</div>
-
-							<p class="marginTop">
-								The ferry to Washington Island is located on the tip of the Door Peninsula, in the Northeast corner of Wisconsin. Take
-								Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy 42 or Hwy 57 to Sister Bay.
-								Then, follow Hwy 42 to its end at Northport Pier.
-							</p>
-
-						</div>
-
-					</div>
-
-					<div class="col50">
-
-						<div class="blockText">
-
-							<h3 class="primaryText caps largeHeading">Parking</h3>
-
-							<img src="/wp-content/uploads/2019/03/NorthportMapMedium70.jpg" class="image">
-
-							<p class="marginTop">
-
-								The best way to see all of Washington Island is with a vehicle, however, if you plan to visit Washington Island
-								without your car, parking is available in our lots near N. Port Des Morts Dr. and behind the Visitor Center.
-
-							</p>
-
-						</div>
-
-					</div>
-
-				</div>
+	        <div id="panel6" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
+	          <div class="accordion__content-inner">
+	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	          </div>
+	        </div>
+	      </article>
 
 			</section>
-
-			<section id="rockIsland" class="backgroundImage">
-
-				<div id="rockIslandWrap" class="navWidth">
-
-					<div id="rockIslandLead" class="background">
-
-						<h4 class="caps whiteText noMargin">INTERESTED IN VISITING ROCK ISLAND STATE PARK?</h4>
-
-						<p class="whiteText noMargin">
-
-							You will need to take a second, passenger-only ferry, the Karfi Ferry, from Washington Island to Rock Island.
-
-						</p>
-
-						<div id="rockIslandCTABtn" class="centerButton">
-
-							<a href="/#/" class="primaryButton caps">Learn more</a>
-
-						</div>
-
-					</div>
-
-				</div>
-
-			</section>
-
-			<?php get_template_part("/inc/washingtonFeaturedDest"); ?>
 
 		</section>
 

@@ -34,26 +34,3 @@ $(function() {
   });
 
 });
-// Custom Google maps
-var map;
-var map2;
-var map3;
-function initMap() {
-
-  var wisFerry = {lat: 45.338676, lng: -86.938388};
-
-  var northport = {lat: 45.290003, lng: -86.977847};
-
-  var lake = {lat: 45.290003, lng: -86.977847};
-
-  var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 16, center: wisFerry});
-    // The marker, positioned at wisFerry
-    //var marker = new google.maps.Marker({position: wisFerry, map: map});
-  var map2 = new google.maps.Map(
-        document.getElementById('map2'), {zoom: 17, center: northport});
-    // The marker, positioned at northport
-    //var marker = new google.maps.Marker({position: northport, map: map2});
-  var map3 = new google.maps.Map(
-        document.getElementById('map3'), {zoom: 17, center: lake});
-}

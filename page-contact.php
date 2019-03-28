@@ -118,7 +118,7 @@ get_header();
 
 						</p>
 
-					</div>	
+					</div>
 
 				</div>
 

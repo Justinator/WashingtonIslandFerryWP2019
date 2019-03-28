@@ -7,15 +7,15 @@
   z-index: 9;
 	display: flex;
 	@include breakpoint(smallScreen){
-		top: -50px;
+		top: -25px;
 		justify-content: center;
 	}
 	@include breakpoint(largeMobileScreen){
-		top: -50px;
+		top: -25px;
 		justify-content: center;
 	}
 	@include breakpoint(laptopScreen){
-		top: -75px;
+		top: -50px;
 		justify-content: flex-end;
 	}
 }

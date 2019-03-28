@@ -1,0 +1,16 @@
+/* 22.0 Birding page Styles -------------------------------------------*/
+#birding{
+  .starredList{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    @include breakpoint(smallScreen){
+      padding: 0;
+    }
+    @include breakpoint(largeMobileScreen){
+      padding: 0;
+    }
+    @include breakpoint(tabletScreen){
+      padding: 0 0 0 40px;
+    }
+  }
+}

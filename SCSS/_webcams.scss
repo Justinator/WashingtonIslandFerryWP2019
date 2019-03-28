@@ -17,5 +17,11 @@
     @include breakpoint(tabletScreen){
       height: 620px !important;
     }
+    @include breakpoint(laptopScreen){
+      height: 550px !important;
+    }
+    @include breakpoint(largeScreen){
+      height: 600px !important;
+    }
   }
 }

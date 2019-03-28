@@ -1223,6 +1223,21 @@ optgroup::-moz-focus-inner {
     opacity: 1;
     transition: .2s ease all; }
 
+.activePage a {
+  position: relative; }
+  .activePage a:before {
+    position: absolute;
+    content: "";
+    background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    opacity: 1;
+    transition: .2s ease all; }
+
 .menuLinkWrap {
   display: flex;
   justify-content: space-between;
@@ -2026,20 +2041,18 @@ button {
   background-color: none;
   border: none; }
 
-.filterButton {
-  padding: 10px;
-  cursor: pointer;
-  transition: .2s ease all;
-  margin: 5px 0; }
-  .filterButton:active {
-    background: #404041;
-    color: #FFFFFF; }
-  .filterButton:focus {
-    background: #404041;
-    color: #FFFFFF; }
-  .filterButton:hover {
-    background: #f4a81d;
-    transition: .2s ease all; }
+@media (max-width: 599px) {
+  .smallTextButton {
+    font-size: 12px;
+    padding: 10px; } }
+@media (min-width: 600px) {
+  .smallTextButton {
+    font-size: 12px;
+    padding: 10px; } }
+@media (min-width: 768px) {
+  .smallTextButton {
+    font-size: 18px;
+    padding: 10px 30px; } }
 
 /* 8.0 General Body Styles -------------------------------------------*/
 body {
@@ -2185,15 +2198,15 @@ ul {
   display: flex; }
   @media (max-width: 599px) {
     .heroHeadingWrap {
-      top: -50px;
+      top: -25px;
       justify-content: center; } }
   @media (min-width: 600px) {
     .heroHeadingWrap {
-      top: -50px;
+      top: -25px;
       justify-content: center; } }
   @media (min-width: 992px) {
     .heroHeadingWrap {
-      top: -75px;
+      top: -50px;
       justify-content: flex-end; } }
 
 .waterColorWrapper {
@@ -2824,95 +2837,51 @@ html, body {
 .aboutHero {
   background-image: url("/wp-content/uploads/2019/03/OaksGolfCourseDroneShot.jpg"); }
 
-#leadershipImage {
-  margin-top: 25px; }
-  @media (min-width: 992px) {
-    #leadershipImage {
-      margin-top: 25px; } }
-  @media (min-width: 1250px) {
-    #leadershipImage {
-      margin-top: 0; } }
+.ferryImage {
+  margin-bottom: 25px; }
 
-.leaderImageOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: calc(100% - 10px);
-  width: 100%;
-  content: "";
-  transition: .2s ease all;
-  background-color: rgba(0, 0, 0, 0);
-  opacity: 0; }
-
-.leadershipWrapper {
+.tableRow {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .leadershipWrapper a {
-    text-decoration: none;
-    color: #404041;
-    transition: .2s ease all; }
-    .leadershipWrapper a:hover .leaderImageOverlay {
-      background-color: rgba(0, 0, 0, 0.5);
-      transition: .2s ease all;
-      opacity: 1; }
-    .leadershipWrapper a:hover .centerUnderline {
-      width: 10em;
-      transition: .2s ease all; }
-    @media (max-width: 599px) {
-      .leadershipWrapper a {
-        width: 80%; } }
-    @media (min-width: 600px) {
-      .leadershipWrapper a {
-        width: 40%; } }
-    @media (min-width: 1250px) {
-      .leadershipWrapper a {
-        width: 20%; } }
+  width: 100%;
+  padding: 0;
+  list-style-type: none; }
+  @media (max-width: 599px) {
+    .tableRow {
+      flex-direction: column; } }
+  @media (min-width: 600px) {
+    .tableRow {
+      flex-direction: column; } }
+  @media (min-width: 768px) {
+    .tableRow {
+      flex-direction: row; } }
 
-.leaderWrap {
-  padding: 20px; }
+.tableTitle {
+  background-color: #008ea8;
+  color: #FFFFFF;
+  border: 0.5px solid #cbe2e6;
+  padding: 10px; }
+  @media (min-width: 600px) {
+    .tableTitle {
+      width: 95%; } }
+  @media (min-width: 768px) {
+    .tableTitle {
+      width: 50%; } }
 
-.imageWrapper {
-  position: relative; }
-
-.employeeName {
-  margin-bottom: 15px; }
-
-.imageWrap {
-  text-align: center; }
-
-@media (max-width: 599px) {
-  .leaderImage {
-    width: 80%; } }
-@media (min-width: 600px) {
-  .leaderImage {
-    width: 60%; } }
-@media (min-width: 992px) {
-  .leaderImage {
-    width: 45%; } }
-@media (min-width: 1600px) {
-  .leaderImage {
-    width: 35%; } }
-
-.jobPostWrapper {
-  margin: 10px;
-  background: #f6f6f6;
-  transition: .3s ease all; }
-  .jobPostWrapper a {
-    color: #000000;
-    text-decoration: none;
-    transition: .3s ease all; }
-    .jobPostWrapper a:hover {
-      color: #404041;
-      transition: .3s ease all; }
-  .jobPostWrapper:hover {
-    transform: scale(0.95);
-    transition: .3s ease all; }
-
-.jobPostContent {
-  padding: 20px; }
+.tableData {
+  border: 0.5px solid #cbe2e6;
+  padding: 10px; }
+  @media (min-width: 600px) {
+    .tableData {
+      width: 95%; } }
+  @media (min-width: 768px) {
+    .tableData {
+      width: 50%; } }
 
 /* 13.0 Sitemap stylings -------------------------------------------*/
+@media (min-width: 992px) {
+  .sitemap {
+    height: 80vh; } }
+
 #sitemapEntry {
   margin-top: 150px; }
 
@@ -2984,6 +2953,15 @@ html, body {
 
 .starredList li {
   list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg"); }
+@media (max-width: 599px) {
+  .starredList {
+    padding: 0; } }
+@media (min-width: 600px) {
+  .starredList {
+    padding: 0; } }
+@media (min-width: 768px) {
+  .starredList {
+    padding: 0 0 0 40px; } }
 
 .flex-container-schedule {
   display: flex;
@@ -3265,6 +3243,12 @@ html, body {
 @media (min-width: 768px) {
   #cameraWrapper iframe {
     height: 620px !important; } }
+@media (min-width: 992px) {
+  #cameraWrapper iframe {
+    height: 550px !important; } }
+@media (min-width: 1250px) {
+  #cameraWrapper iframe {
+    height: 600px !important; } }
 
 /* 18.0 Plan a trip Page -------------------------------------------*/
 #gettingAround {
@@ -3542,5 +3526,47 @@ html, body {
 
 #faqWrapper {
   padding: 20px; }
+
+/* 21.0 Attractions page Styles -------------------------------------------*/
+.videoWrapper {
+  padding: 10px; }
+  @media (max-width: 599px) {
+    .videoWrapper iframe {
+      width: 100%;
+      height: 300px; } }
+  @media (min-width: 600px) {
+    .videoWrapper iframe {
+      width: 100%;
+      height: 400px; } }
+  @media (min-width: 768px) {
+    .videoWrapper iframe {
+      width: 100%;
+      height: 500px; } }
+  @media (min-width: 992px) {
+    .videoWrapper iframe {
+      width: 100%;
+      height: 350px; } }
+  @media (min-width: 1250px) {
+    .videoWrapper iframe {
+      width: 100%;
+      height: 400px; } }
+
+/* 22.0 Birding page Styles -------------------------------------------*/
+#birding .starredList {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+  @media (max-width: 599px) {
+    #birding .starredList {
+      padding: 0; } }
+  @media (min-width: 600px) {
+    #birding .starredList {
+      padding: 0; } }
+  @media (min-width: 768px) {
+    #birding .starredList {
+      padding: 0 0 0 40px; } }
+
+/* 23.0 Kayak page Styles -------------------------------------------*/
+.kayakHero {
+  background-image: url("/wp-content/uploads/2019/03/kayaking-50.jpg"); }
 
 /*# sourceMappingURL=style.css.map */

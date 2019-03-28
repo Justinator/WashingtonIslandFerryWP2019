@@ -1,6 +1,6 @@
 <div class="fullWidth flex-container">
 
-  <div class="col40">
+  <div class="col50">
 
     <div class="borderedTable">
 

@@ -58,6 +58,15 @@
   li{
     list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
   }
+  @include breakpoint(smallScreen){
+    padding: 0;
+  }
+  @include breakpoint(largeMobileScreen){
+    padding: 0;
+  }
+  @include breakpoint(tabletScreen){
+    padding: 0 0 0 40px;
+  }
 }
 .flex-container-schedule{
 	display: flex;

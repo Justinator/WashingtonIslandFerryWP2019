@@ -38,9 +38,9 @@ get_header();
 
 		<section id="pageContent">
 
-			<section id ="islandSeasons">
+			<section id ="islandSeasons" class="paddedSection">
 
-				<div class="navWidth flex-container-schedule">
+				<div class="navWidth flex-container">
 
 					<div class="col50">
 
@@ -50,7 +50,7 @@ get_header();
 
 							<p>
 
-								Whether you are a kayak enthusiast, <a href="#" class="primaryLink">bird watcher</a>
+								Whether you are a kayak enthusiast, <a href="/bird-watching/" class="primaryLink">bird watcher</a>
 								or just want to explore, you will enjoy the beauty of Washington Island.
 
 							</p>
@@ -69,21 +69,83 @@ get_header();
 
 								<li><a href="/cherry-train-tours/" class="primaryLink">Cherry Train Tours</a></li>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Bird Watching</a></li>
+								<li><a href="/bird-watching/" class="primaryLink">Bird Watching</a></li>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Kayaking</a></li>
+								<li><a href="/kayaking/" class="primaryLink">Kayaking</a></li>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Rock Island State Park</a></li>
+								<li><a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="primaryLink" target="_blank" rel="noreferrer">Rock Island State Park</a></li>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Washington Island Chamber of Commerce</a></li>
+								<li><a href="https://washingtonisland.com/" class="primaryLink" target="_blank" rel="noreferrer">Washington Island Chamber of Commerce</a></li>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Door County Chamber of Commerce</a></li>
+								<li><a href="https://www.doorcounty.com/" class="primaryLink" target="_blank" rel="noreferrer">Door County Chamber of Commerce</a></li>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Event Calendar</a></li>
+								<li><a href="http://washingtonisland-wi.com/events/" class="primaryLink" target="_blank" rel="noreferrer">Event Calendar</a></li>
 
 							</ul>
 
 						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<section id ="schedules" class="paddedSection">
+
+				<div class="navWidth wrappedFlexContainer">
+
+					<div class="blockWrapper">
+
+						<a href="/attractions/">
+
+							<div class="blockOverlay"></div>
+
+							<div class="blockContent">
+
+								<img src="/wp-content/uploads/2019/03/Stavkirke1Medium.jpg" class="blockImage">
+
+								<h5 class="blockTitle"><span class="blockTitleSpan">Attractions</span></h5>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="blockWrapper">
+
+						<a href="/bird-watching/">
+
+							<div class="blockOverlay"></div>
+
+							<div class="blockContent">
+
+								<img src="/wp-content/uploads/2019/03/birdingMedium.jpg" class="blockImage">
+
+								<h5 class="blockTitle"><span class="blockTitleSpan">Birding</span></h5>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="blockWrapper">
+
+						<a href="/kayaking/">
+
+							<div class="blockOverlay"></div>
+
+							<div class="blockContent">
+
+								<img src="/wp-content/uploads/2019/03/kayakingMedium.jpg" class="blockImage">
+
+								<h5 class="blockTitle"><span class="blockTitleSpan">Kayaking</span></h5>
+
+							</div>
+
+						</a>
 
 					</div>
 
@@ -114,11 +176,11 @@ get_header();
 
 						<ul class="starredList">
 
-							<li>Cherry Train Tours: <a href="#" class="primaryLink">920-847-2546</a></li>
+							<li>Cherry Train Tours: <a href="tel:920-847-2546" class="primaryLink">920-847-2546</a></li>
 							<li>Bike Rental: available on island dock</li>
 							<li>Moped Rental: available near island dock</li>
-							<li>Group Tours: <a href="#" class="primaryLink">920-847-2146</a></li>
-							<li>Island Shuttle: <a href="#" class="primaryLink">920-535-0617</a></li>
+							<li>Group Tours: <a href="tel:920-847-2146" class="primaryLink">920-847-2146</a></li>
+							<li>Island Shuttle: <a href="tel:920-535-0617" class="primaryLink">920-535-0617</a></li>
 
 						</ul>
 

@@ -123,6 +123,24 @@
 		}
 	}
 }
+.activePage{
+	a{
+		position: relative;
+		&:before{
+			position: absolute;
+			content: "";
+			background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
+			background-repeat: no-repeat;
+	    background-position: center;
+	    top: -25px;
+	    left: 0;
+	    width: 100%;
+	    height: 25px;
+	    opacity: 1;
+			transition: .2s ease all;
+		}
+	}
+}
 .menuLinkWrap{
 	display: flex;
 	justify-content: space-between;

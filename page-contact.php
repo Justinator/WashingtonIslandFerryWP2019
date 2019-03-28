@@ -40,7 +40,7 @@ get_header();
 
 			<section id ="contactWISFerry">
 
-				<div class="pageWidth flex-container">
+				<div class="pageWidth flex-container paddedSection">
 
 					<div class="col60">
 
@@ -62,13 +62,23 @@ get_header();
 
 							</p>
 
+							<h3 class="primaryText caps">Driving Directions</h3>
+
+							<p>
+
+								The ferry is located on the tip of the Door Peninsula, which is the northeast corner of Wisconsin.
+								Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy
+								42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
+
+							</p>
+
 					</div>
 
 					<div class="col40">
 
 						<div class="mapWrapper">
 
-							<div id="map2"></div>
+							<?php echo do_shortcode('[wpgmza id="2"]'); ?>
 
 						</div>
 
@@ -81,7 +91,7 @@ get_header();
 
 						<div class="mapWrapper">
 
-							<div id="map"></div>
+							<?php echo do_shortcode('[wpgmza id="3"]'); ?>
 
 						</div>
 
@@ -89,32 +99,6 @@ get_header();
 
 							<a href="#" class="primaryLink">1924 Indian Point Road<br>
 							Washington, WI 54246</a>
-
-						</p>
-
-					</div>
-
-				</div>
-
-			</section>
-
-			<section id="drivingDirections" class="paddedSection">
-
-				<div class="pageWidth centerText">
-
-					<h3 class="primaryText caps">Driving Directions</h3>
-
-				</div>
-
-				<div class="limitWidth">
-
-					<div class="smallPaddedWrapper">
-
-						<p>
-
-							The ferry is located on the tip of the Door Peninsula, which is the northeast corner of Wisconsin.
-							Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy
-							42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
 
 						</p>
 

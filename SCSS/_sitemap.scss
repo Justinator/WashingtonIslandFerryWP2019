@@ -1,4 +1,9 @@
 /* 13.0 Sitemap stylings -------------------------------------------*/
+.sitemap{
+  @include breakpoint(laptopScreen){
+      height: 80vh;
+  }
+}
 #sitemapEntry{
   margin-top: 150px;
 }

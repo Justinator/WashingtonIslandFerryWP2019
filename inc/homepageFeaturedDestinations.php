@@ -10,41 +10,47 @@
 
     <div id="schoolHouse" class="col50">
 
-      <div class="destInfo">
+      <a href="/plan-a-trip/">
 
-        <div class="destTitle">
+        <div class="destInfo">
 
-          <h6 class="caps centerText whiteText noMargin largeHeading shadow">SCHOOL HOUSE BEACH</h6>
+          <div class="destTitle">
+
+            <h6 class="caps centerText whiteText noMargin largeHeading shadow">SCHOOL HOUSE BEACH</h6>
+
+          </div>
+
+          <div class="destCoordinates">
+
+            <p class="caps centerText whiteText noMargin shadow">45°23'53.2"N, 86°55'38.4"W</p>
+
+          </div>
 
         </div>
-
-        <div class="destCoordinates">
-
-          <p class="caps centerText whiteText noMargin shadow">45°23'53.2"N, 86°55'38.4"W</p>
-
-        </div>
-
-      </div>
 
     </div>
 
     <div id="stavkirke" class="col50">
 
-      <div class="destInfo">
+      <a href="/plan-a-trip/">
 
-        <div class="destTitle">
+        <div class="destInfo">
 
-          <h6 class="caps centerText whiteText noMargin largeHeading shadow">STAVKIRKE CHURCH</h6>
+          <div class="destTitle">
+
+            <h6 class="caps centerText whiteText noMargin largeHeading shadow">STAVKIRKE CHURCH</h6>
+
+          </div>
+
+          <div class="destCoordinates">
+
+            <p class="caps centerText whiteText noMargin shadow">45°22'38.5"N, 86°55'26.7"W</p>
+
+          </div>
 
         </div>
 
-        <div class="destCoordinates">
-
-          <p class="caps centerText whiteText noMargin shadow">45°22'38.5"N, 86°55'26.7"W</p>
-
-        </div>
-
-      </div>
+      </a>  
 
     </div>
 

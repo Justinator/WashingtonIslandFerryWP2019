@@ -174,21 +174,17 @@ button{
 	background-color: none;
 	border: none;
 }
-.filterButton{
-	padding: 10px;
-	cursor: pointer;
-	transition: .2s ease all;
-	margin: 5px 0;
-	&:active{
-		background: $primaryGrey;
-		color: $white;
-	}
-	&:focus{
-		background: $primaryGrey;
-		color: $white;
-	}
-	&:hover{
-		background: $primaryYellow;
-		transition: .2s ease all;
-	}
+.smallTextButton{
+  @include breakpoint(smallScreen){
+    font-size: 12px;
+    padding: 10px;
+  }
+  @include breakpoint(largeMobileScreen){
+    font-size: 12px;
+    padding: 10px;
+  }
+  @include breakpoint(tabletScreen){
+    font-size: 18px;
+    padding: 10px 30px;
+  }
 }

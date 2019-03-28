@@ -40,7 +40,7 @@ get_header();
 
 			<section id ="rockSchedule2" class="paddedSection">
 
-				<div class="navWidth flex-container-schedule">
+				<div class="navWidth flex-container-schedule-reverse">
 
 					<div class="ferryDesc">
 
@@ -56,6 +56,24 @@ get_header();
 
 							</p>
 
+							<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
+
+							<ul class="starredList">
+
+								<li>Arrive at Jackson Harbor early to park and unload your gear</li>
+
+								<li>Rock Island does not permit vehicles or bicycles</li>
+
+								<li>Tickets are sold on a first-come, first-served basis</li>
+
+								<li>Pets must be on a leash</li>
+
+								<li>There is no smoking aboard the ferry</li>
+
+								<li>Schedule is subject to weather and traffic</li>
+
+							</ul>
+
 						</div>
 
 					</div>
@@ -70,7 +88,7 @@ get_header();
 
 			</section>
 
-			<section id="roundTripsRock" class="paddedSection">
+			<section id="roundTripsRock" class="paddedSection paperback">
 
 				<div class="pageWidth centerText">
 
@@ -95,7 +113,7 @@ get_header();
 
 			</section>
 
-			<section id="directions" class="paddedSection paperback">
+			<section id="directions" class="paddedSection">
 
 				<div class="navWidth flex-container">
 
@@ -142,36 +160,6 @@ get_header();
 					</div>
 
 				</div>
-
-			</section>
-
-			<section id="rockReminders">
-
-			<div class="navWidth limitWidth">
-
-				<div class="smallPaddedWrapper">
-
-					<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
-
-					<ul class="starredList">
-
-						<li>Arrive at Jackson Harbor early to park and unload your gear</li>
-
-						<li>Rock Island does not permit vehicles or bicycles</li>
-
-						<li>Tickets are sold on a first-come, first-served basis</li>
-
-						<li>Pets must be on a leash</li>
-
-						<li>There is no smoking aboard the ferry</li>
-
-						<li>Schedule is subject to weather and traffic</li>
-
-					</ul>
-
-				</div>
-
-			</div>
 
 			</section>
 

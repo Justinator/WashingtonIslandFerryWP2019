@@ -34,3 +34,7 @@ $(function() {
   });
 
 });
+// Add active state to our nav based on page
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('activePage');
+});

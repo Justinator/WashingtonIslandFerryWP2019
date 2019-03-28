@@ -55,37 +55,23 @@ get_header();
 
 							</p>
 
-						</div>
+							<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
 
-					</div>
+							<ul class="starredList">
 
-					<div class="ferryScheduleWrapper">
+								<li>Open air tram tours begin and end at the Washington Island Ferry dock</li>
 
-						<?php echo do_shortcode('[MEC id="134"]'); ?>
+								<li>Four stops along route, each 10-15 minutes</li>
 
-					</div>
+								<li>Please allow 30 minutes for ferry crossing</li>
 
-				</div>
+								<li>No pets, please!</li>
 
-			</section>
+							</ul>
 
-			<section id="cherryTrips" class="paddedSection">
+							<h3 class="primaryText caps largeHeading noMargin">2019 Cherry Train Rates</h3>
 
-				<div class="navWidth centerText">
-
-					<h3 class="primaryText caps largeHeading noMargin">2019 Cherry Train Rates</h3>
-
-					<img src="/wp-content/uploads/2019/03/CreditCardIcons-rgb.png" id="rockCredit" class="image">
-
-				</div>
-
-				<div class="navWidth flex-container">
-
-					<div class="col50">
-
-						<?php get_template_part("/inc/cherryTrain"); ?>
-
-						<div class="centerText">
+							<?php get_template_part("/inc/cherryTrain"); ?>
 
 							<p><em>Group tours by reservation, call <a href="tel:(800)223-2094" class="primaryLink">800-223-2094</a></em>.</p>
 
@@ -93,27 +79,9 @@ get_header();
 
 					</div>
 
-					<div class="col50">
+					<div class="ferryScheduleWrapper">
 
-						<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
-
-							<div class="blockText">
-
-								<ul class="starredList">
-
-									<li>Open air tram tours begin and end at the Washington Island Ferry dock</li>
-
-									<li>Four stops along route, each 10-15 minutes</li>
-
-									<li>Please allow 30 minutes for ferry crossing</li>
-
-									<li>No pets, please!</li>
-
-								</ul>
-
-							</div>
-
-						</div>
+						<?php echo do_shortcode('[MEC id="134"]'); ?>
 
 					</div>
 

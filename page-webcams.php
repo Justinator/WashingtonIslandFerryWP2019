@@ -38,7 +38,7 @@ get_header();
 
 		<section id="pageContent">
 
-			<div class="pageWidth centerText">
+			<div class="pageWidth centerText paddedSection">
 
 				<img id="webcamMap" src="/wp-content/uploads/2019/03/webcams-map.jpg" class="image">
 
@@ -49,7 +49,7 @@ get_header();
 
 					<div class="col50">
 
-						<h3 class="primaryText caps">Northport Pier Ferry Dock Camera #1</h3>
+						<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #1</h4>
 
 						<!-- webcam.io widget -->
 						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
@@ -59,7 +59,31 @@ get_header();
 
 					<div class="col50">
 
-						<h3 class="primaryText caps">Northport Pier Ferry Dock Camera #2</h3>
+						<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #2</h4>
+
+						<!-- webcam.io widget -->
+						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
+						<!-- end webcam.io widget -->
+
+					</div>
+
+				</div>
+
+				<div id="cameraWrapper2" class="fullWidth flex-container">
+
+					<div class="col50">
+
+						<h4 class="primaryText caps">Washington Island Ferry Dock Entrance Camera #3</h4>
+
+						<!-- webcam.io widget -->
+						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
+						<!-- end webcam.io widget -->
+
+					</div>
+
+					<div class="col50">
+
+						<h4 class="primaryText caps">Washington Island Ferry Dock Camera #4</h4>
 
 						<!-- webcam.io widget -->
 						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>

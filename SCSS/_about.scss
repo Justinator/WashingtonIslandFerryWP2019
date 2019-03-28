@@ -2,100 +2,49 @@
 .aboutHero{
   background-image: url("/wp-content/uploads/2019/03/OaksGolfCourseDroneShot.jpg");
 }
-#leadershipImage{
-  margin-top: 25px;
-  @include breakpoint(laptopScreen){
-		margin-top: 25px;
-	}
-  @include breakpoint(largeScreen){
-		margin-top: 0;
-	}
+.ferryImage{
+  margin-bottom: 25px;
 }
-.leaderImageOverlay{
-  position: absolute;
-	top: 0;
-	left: 0;
-	height: calc(100% - 10px);
-	width: 100%;
-	content: "";
-	transition: .2s ease all;
-	background-color: rgba(0,0,0,.0);
-  opacity: 0;
-}
-.leadershipWrapper{
+.tableRow{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-	a{
-		text-decoration: none;
-		color: $primaryGrey;
-		transition: .2s ease all;
-		&:hover{
-			.leaderImageOverlay{
-				background-color: rgba(0,0,0,.5);
-				transition: .2s ease all;
-				opacity: 1;
-			}
-			.centerUnderline{
-				width: 10em;
-				transition: .2s ease all;
-			}
-		}
-    @include breakpoint(smallScreen){
-      width: 80%;
-    }
-    @include breakpoint(largeMobileScreen){
-      width: 40%;
-    }
-    @include breakpoint(largeScreen){
-      width: 20%;
-    }
-	}
-}
-.leaderWrap{
-  padding: 20px;
-}
-.imageWrapper{
-  position: relative;
-}
-.employeeName{
-  margin-bottom: 15px;
-}
-.imageWrap{
-  text-align: center;
-}
-.leaderImage{
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
   @include breakpoint(smallScreen){
-    width: 80%;
+    flex-direction: column;
   }
   @include breakpoint(largeMobileScreen){
-    width: 60%;
+    flex-direction: column;
   }
-  @include breakpoint(laptopScreen){
-    width: 45%;
-  }
-  @include breakpoint(extraLargeScreen){
-    width: 35%;
+  @include breakpoint(tabletScreen){
+    flex-direction: row;
   }
 }
-.jobPostWrapper{
-  margin: 10px;
-  background: $lightGrey;
-  transition: .3s ease all;
-    a{
-      color: $black;
-      text-decoration: none;
-      transition: .3s ease all;
-      &:hover{
-        color: $primaryGrey;
-        transition: .3s ease all;
-      }
-    }
-    &:hover{
-      transform: scale(0.95);
-      transition: .3s ease all;
-    }
+.tableTitle{
+  background-color: #008ea8;
+  color: #FFFFFF;
+  border: 0.5px solid #cbe2e6;
+  padding: 10px;
+  @include breakpoint(smallSCreen){
+    width: 95%;
+  }
+  @include breakpoint(largeMobileScreen){
+    width: 95%;
+  }
+  @include breakpoint(tabletScreen){
+    width: 50%;
+  }
 }
-.jobPostContent{
-  padding: 20px;
+.tableData{
+  border: 0.5px solid #cbe2e6;
+  padding: 10px;
+  @include breakpoint(smallSCreen){
+    width: 95%;
+  }
+  @include breakpoint(largeMobileScreen){
+    width: 95%;
+  }
+  @include breakpoint(tabletScreen){
+    width: 50%;
+  }
 }

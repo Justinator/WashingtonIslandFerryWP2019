@@ -117,7 +117,7 @@ get_header();
 
 							<div class="mapWrapper">
 
-								<div id="map3"></div>
+								<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 
 							</div>
 

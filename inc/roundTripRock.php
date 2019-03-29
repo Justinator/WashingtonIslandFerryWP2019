@@ -6,9 +6,9 @@
 
       <div class="coloredHeader">
 
-        <div class="contentWrap">
+        <h5 class="noMargin caps whiteText centerText">ROck island combination tickets</h5>
 
-          <h5 class="noMargin caps whiteText centerText">ROck island combination tickets</h5>
+        <div class="contentWrap">
 
           <p class="smallNotice whiteText"><em>Purchase at Northport Pier Ticket Booth prior to boarding the Washington Island Ferry.
             Does not include auto fare, or cart or kayak carried on the Rock Island Ferry. </em></p>

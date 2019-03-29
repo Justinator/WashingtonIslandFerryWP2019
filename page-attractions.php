@@ -70,17 +70,17 @@ get_header();
 
 						<ul class="starredList">
 
-							<li><a href="http://washingtonisland-wi.com/category/events" class="primaryLink" target="_blank" rel="noreferrer">Island Chamber Event List</a></li>
+							<li><a href="http://washingtonisland-wi.com/events/" class="primaryLink" target="_blank" rel="noreferrer">Island Chamber Event List</a></li>
 
-							<li><a href="http://washingtonisland.com/visitors-guide/events" class="primaryLink" target="_blank" rel="noreferrer">Island Visitors Guide</a></li>
+							<li><a href="http://washingtonisland.com/visitors-guide/events/" class="primaryLink" target="_blank" rel="noreferrer">Island Visitors Guide</a></li>
 
-							<li><a href="/bird-watching/" class="primaryLink" target="_blank" rel="noreferrer">Bird Watching</a></li>
+							<li><a href="/bird-watching/" class="primaryLink">Bird Watching</a></li>
 
-							<li><a href="/kayaking/" class="primaryLink" target="_blank" rel="noreferrer">Kayaking</a></li>
+							<li><a href="/kayaking/" class="primaryLink">Kayaking</a></li>
 
 							<li><a href="https://www.deathsdoorbbq.com/" class="primaryLink" target="_blank" rel="noreferrer">Death’s Door BBQ</a></li>
 
-							<li><a href="https://www.doorcounty.com/where-to-dine/fish-boils/" class="primaryLink" target="_blank" rel="noreferrer">Fish Boils</a></li>
+							<li><a href="https://www.doorcounty.com/dine/fish-boils/" class="primaryLink" target="_blank" rel="noreferrer">Fish Boils</a></li>
 
 						</ul>
 

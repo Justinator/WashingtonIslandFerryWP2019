@@ -53,9 +53,8 @@ get_header();
 
 							<p>The Washington Island Ferry Line was started in 1940 with two existing wooden
 								ferries. Over the years steel ferries were added and today the line boasts
-								<a href="#fleet" class="primaryLink">modern,
-								Coast Guard-approved vessels</a> that make up to 25 round trips a day during high
-								season and two round trips per day in winter.</p>
+								modern, Coast Guard-approved vessels that make up to 25 round trips a day during
+								high season and two round trips per day in winter.</p>
 
 							<p>After vehicles and passengers are safely on board at the Northport ferry dock,
 								the ferry will embark on a 30-minute ride past Plum, Pilot and Detroit Islands.

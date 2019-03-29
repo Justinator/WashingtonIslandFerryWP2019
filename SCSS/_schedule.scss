@@ -223,3 +223,80 @@
 .mec-box-calendar.mec-calendar .mec-calendar-header{
 	margin-top: 30px !important;
 }
+.mec-single-event{
+	@include breakpoint(smallScreen){
+		margin-top: 100px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 125px;
+	}
+	@include breakpoint(largeScreen){
+		margin-top: 150px;
+	}
+}
+.attachment-full{
+	width: 100%;
+	height: auto;
+}
+.mec-wrap .mec-single-title{
+	color: $primaryColor;
+}
+.mec-single-event .mec-events-meta-group-countdown{
+	@include breakpoint(smallScreen){
+		margin-left: 0;
+	}
+}
+.mec-container{
+	@include breakpoint(smallScreen){
+		width: 90%;
+	}
+}
+.mec-border-color, .mec-border-color-hover:hover,
+.mec-wrap .mec-border-color, .mec-wrap
+.mec-border-color-hover:hover{
+	border-color: $primaryColor;
+	text-decoration: none;
+}
+.mec-bg-color, .mec-bg-color-hover:hover,
+.mec-wrap .mec-bg-color, .mec-wrap .mec-bg-color-hover:hover{
+	background-color: $primaryColor;
+	color: $white !important;
+}
+.clockdiv{
+	color: $primaryColor;
+}
+.mec-event-cost, .mec-event-more-info, .mec-event-website,
+.mec-events-meta-date, .mec-single-event-additional-organizers,
+.mec-single-event-category, .mec-single-event-date, .mec-single-event-label,
+.mec-single-event-location, .mec-single-event-organizer, .mec-single-event-time{
+	background-color: $secondaryColorLight !important;
+	border-top: 5px solid $secondaryColor;
+}
+.mec-single-event .mec-event-meta dt,
+.mec-single-event .mec-event-meta h3{
+	color: $primaryColor;
+	font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.mec-single-event .mec-event-meta .mec-events-event-categories a,
+.mec-single-event .mec-event-meta dd{
+	color: $accentColor;
+	text-decoration: none;
+}
+.mec-single-event .mec-events-meta-group-booking form>h4:before,
+.mec-single-event .mec-frontbox-title:before{
+	border-bottom: 4px solid $primaryColor;
+}
+.mec-single-event .mec-events-meta-group-booking,
+.mec-single-event .mec-frontbox{
+	padding: 10px;
+}
+.mec-links-details{
+	ul{
+		padding: 0;
+		a{
+			text-decoration: none;
+		}
+	}
+}

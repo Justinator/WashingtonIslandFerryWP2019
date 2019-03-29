@@ -3,14 +3,25 @@ body{
 	background: $white;
 	margin: 0;
 }
+:focus{
+	@include breakpoint(smallScreen){
+		outline: none;
+	}
+	@include breakpoint(largeMobileScreen){
+		outline: none;
+	}
+	@include breakpoint(laptopScreen){
+		outline: 2px solid $primaryColor;
+	}
+}
 ::selection{
-		background: rgba(239,174,30, .5);
+		background: rgba(	0, 47, 108, .5);
 }
 ::-moz-selection{
-	background: rgba(239,174,30, .5);
+	background: rgba(	0, 47, 108, .5);
 }
 ::-ms-selection{
-	background: rgba(239,174,30, .5);
+	background: rgba(	0, 47, 108, .5);
 }
 .removeBottomMargin{
 	margin-bottom: -7px;

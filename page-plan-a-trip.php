@@ -50,7 +50,7 @@ get_header();
 
 							<p>
 
-								Whether you are a kayak enthusiast, <a href="/bird-watching/" class="primaryLink">bird watcher</a>
+								Whether you are a kayak enthusiast, <a href="/bird-watching/" class="primaryLink">bird watcher<span class="screen-reader-text"> Go to the bird watching page</span></a>
 								or just want to explore, you will enjoy the beauty of Washington Island.
 
 							</p>
@@ -69,9 +69,9 @@ get_header();
 
 								<li><a href="/cherry-train-tours/" class="primaryLink">Cherry Train Tours</a></li>
 
-								<li><a href="/bird-watching/" class="primaryLink">Bird Watching</a></li>
+								<li><a href="/bird-watching/" class="primaryLink">Bird Watching<span class="screen-reader-text"> Go to the bird watching page</span></a></li>
 
-								<li><a href="/kayaking/" class="primaryLink">Kayaking</a></li>
+								<li><a href="/kayaking/" class="primaryLink">Kayaking<span class="screen-reader-text"> Go to the kayaking page</span></a></li>
 
 								<li><a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="primaryLink" target="_blank" rel="noreferrer">Rock Island State Park</a></li>
 
@@ -170,19 +170,23 @@ get_header();
 						Transportation is recommended on Washington Island. You can bring your vehicle,
 						motorcycle or bicycle on the Washington Island Ferry. Bicycle and moped rentals
 						are available adjacent to the Washington Island Ferry dock once you arrive. You
-						can also take an <a href="/cherry-train-tours/" class="primaryLink">island tour</a>.
+						can also take an <a href="/cherry-train-tours/" class="primaryLink">island tour<span class="screen-reader-text"> on the Cherry Train</span></a>.
 
 						</p>
 
-						<ul class="starredList">
+						<div class="smallPaddedWrapper">
 
-							<li>Cherry Train Tours: <a href="tel:920-847-2546" class="primaryLink">920-847-2546</a></li>
-							<li>Bike Rental: available on island dock</li>
-							<li>Moped Rental: available near island dock</li>
-							<li>Group Tours: <a href="tel:920-847-2146" class="primaryLink">920-847-2146</a></li>
-							<li>Island Shuttle: <a href="tel:920-535-0617" class="primaryLink">920-535-0617</a></li>
+							<ul class="starredList">
 
-						</ul>
+								<li>Cherry Train Tours: <a href="tel:920-847-2546" class="primaryLink">920-847-2546</a></li>
+								<li>Bike Rental: available on island dock</li>
+								<li>Moped Rental: available near island dock</li>
+								<li>Group Tours: <a href="tel:920-847-2146" class="primaryLink">920-847-2146</a></li>
+								<li>Island Shuttle: <a href="tel:920-535-0617" class="primaryLink">920-535-0617</a></li>
+
+							</ul>
+
+						</div>
 
 					</div>
 

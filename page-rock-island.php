@@ -42,6 +42,12 @@ get_header();
 
 				<div class="navWidth flex-container-schedule-reverse">
 
+					<div class="ferryScheduleWrapper">
+
+						<?php echo do_shortcode('[MEC id="134"]'); ?>
+
+					</div>
+
 					<div class="ferryDesc">
 
 						<div class="blockText">
@@ -76,11 +82,11 @@ get_header();
 
 						</div>
 
-					</div>
+						<div class="faqButtonWrap">
 
-					<div class="ferryScheduleWrapper">
+							<a href="/faq/#rockIslandFAQ/" class="primaryButton caps">ROCK ISLAND FAQ</a>
 
-						<?php echo do_shortcode('[MEC id="134"]'); ?>
+						</div>
 
 					</div>
 

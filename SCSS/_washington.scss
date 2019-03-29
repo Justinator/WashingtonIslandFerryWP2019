@@ -55,6 +55,7 @@
 	}
 }
 .starredList{
+  margin-bottom: 25px;
   li{
     list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
   }
@@ -114,7 +115,6 @@
   }
   @include breakpoint(largeScreen){
     width: 40%;
-    margin-top: 60px;
   }
 }
 .mapWrapper{
@@ -159,7 +159,7 @@
 }
 .ratesWrap{
 	display: flex;
-	padding: 0 20px;
+	padding: 5px 20px;
 }
 .borderRight{
 	border-right: 2px solid $secondaryColor;

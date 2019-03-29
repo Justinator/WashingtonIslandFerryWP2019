@@ -58,7 +58,7 @@ get_header();
 
 								<img src="/wp-content/uploads/2019/03/WIF-BucketMedium.jpg" class="blockImage">
 
-								<h5 class="blockTitle"><span class="blockTitleSpan">Washington Island Ferry</span></h5>
+								<h2 class="blockTitle smallHeading"><span class="blockTitleSpan">Washington Island Ferry</span></h2>
 
 							</div>
 
@@ -76,7 +76,7 @@ get_header();
 
 								<img src="/wp-content/uploads/2019/03/RockIslandBucketMedium.jpg" class="blockImage">
 
-								<h5 class="blockTitle"><span class="blockTitleSpan">Rock Island Ferry</span></h5>
+								<h2 class="blockTitle smallHeading"><span class="blockTitleSpan">Rock Island Ferry</span></h2>
 
 							</div>
 
@@ -94,7 +94,7 @@ get_header();
 
 								<img src="/wp-content/uploads/2019/03/CherryTrainBucketMedium.jpg" class="blockImage">
 
-								<h5 class="blockTitle"><span class="blockTitleSpan">Cherry Train Tours</span></h5>
+								<h2 class="blockTitle smallHeading"><span class="blockTitleSpan">Cherry Train Tours</span></h2>
 
 							</div>
 
@@ -159,13 +159,13 @@ get_header();
 
 								<div class="buttonWrapper">
 
-									<a href="/#/" class="primaryButton caps">get directions</a>
+									<a href="https://www.google.com/maps/dir//northport+pier+door+county/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4d4d18e4d182ea0d:0xe3e1ba339daffd24?sa=X&ved=2ahUKEwiHqYOk3KfhAhUSCawKHT18BwsQ9RcwEXoECAwQDw/" class="primaryButton caps" target="_blank" rel="noreferrer">get directions</a>
 
 								</div>
 
 								<div class="buttonWrapper">
 
-									<a href="/#/" class="primaryButton caps">Where do i park?</a>
+									<a href="/faq/" class="primaryButton caps">Where do i park?</a>
 
 								</div>
 
@@ -177,7 +177,7 @@ get_header();
 
 					<div class="col50">
 
-						<div class="mapWrapper">
+						<div class="mapWrapper" tabindex="-1">
 
 							<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 
@@ -229,7 +229,7 @@ get_header();
 							Yes. There are over 100 miles of paved roads on Washington Island. Some
 							distances from the main ferry dock are: Downtown - 3 miles; Jackson Harbor (to
 							Rock Island) - 8 miles; Schoolhouse Beach - 6.5 miles. See a detailed map of
-							Washington Island <a href="#" class="primaryLink">here</a>.
+							Washington Island <a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/WashIslandMap2019-Website.pdf" class="primaryLink" target="_blank">here<span class="screen-reader-text">Opens a detailed map of Washington Island in a new tab</span></a>.
 						</p>
 
 					</div>
@@ -243,7 +243,7 @@ get_header();
 						<p>
 							From hiking trails, campsites, beaches and wildlife to the rich history, local
 							shops and eateries, there’s something here for everyone! You can find a full list
-							of Washington Island activities and attractions <a href="/plan-a-trip/" class="primaryLink">here</a>.
+							of Washington Island activities and attractions <a href="/plan-a-trip/" class="primaryLink"><span class="screen-reader-text">Go to the plan a trip page</span>here</a>.
 						</p>
 
 					</div>

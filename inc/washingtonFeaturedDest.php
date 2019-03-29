@@ -2,7 +2,7 @@
 
   <div class="navWidth">
 
-    <h5 class="largeHeading primaryText caps centerText">FEATURED ISLAND DESINATIONS</h5>
+    <h5 class="largeHeading primaryText caps centerText">FEATURED ISLAND DESTINATIONS</h5>
 
   </div>
 
@@ -28,7 +28,7 @@
 
         </div>
 
-      </a>  
+      </a>
 
     </div>
 

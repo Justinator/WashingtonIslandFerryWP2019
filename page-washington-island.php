@@ -38,25 +38,25 @@ get_header();
 
 		<section id="pageContent">
 
-			<section id ="washingtonSchedule">
+			<section id ="washingtonSchedule" class="paddedSection">
 
 				<div class="navWidth flex-container-schedule">
 
 					<div class="ferryScheduleWrapper">
 
-						<h2 class="primaryText caps">Ferry Schedule</h2>
+						<h2 class="primaryText caps">Schedule</h2>
 
 						<?php echo do_shortcode('[MEC id="97"]'); ?>
 
 						<div class="centerText">
 
-							<p><em>Ferry schedule is subject to change due to weather and traffic.</em></p>
+							<p><em>Schedule is subject to change due to weather and traffic.</em></p>
 
 						</div>
 
 					</div>
 
-					<div class="ferryDesc">
+					<div id="washDesc" class="ferryDesc">
 
 						<div class="blockText">
 
@@ -87,6 +87,12 @@ get_header();
 
 						</div>
 
+						<div class="faqButtonWrap">
+
+							<a href="/faq/#WashIslandFAQ/" class="primaryButton caps">Washington ISLAND FAQ</a>
+
+						</div>
+
 					</div>
 
 				</div>
@@ -97,7 +103,7 @@ get_header();
 
 				<div class="pageWidth">
 
-					<h5 class="primaryText centerText largeHeading">Ticket Rates</h5>
+					<h5 class="primaryText centerText largeHeading">2019 Round Trip Rates</h5>
 
 				</div>
 
@@ -120,6 +126,9 @@ get_header();
 								<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 
 							</div>
+
+							<h4 class="primaryText caps">215 WI-42<br>
+								Ellison Bay, WI 54210</h4>
 
 							<p class="marginTop">
 								The ferry to Washington Island is located on the tip of the Door Peninsula, in the Northeast corner of Wisconsin. Take
@@ -180,7 +189,7 @@ get_header();
 
 						<div id="rockIslandCTABtn" class="centerButton">
 
-							<a href="/rock-island/" class="primaryButton caps">Learn more</a>
+							<a href="/rock-island/" class="primaryButton caps">Learn more<span class="screen-reader-text"> about Rock Island</span></a>
 
 						</div>
 

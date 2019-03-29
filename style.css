@@ -1213,30 +1213,87 @@ optgroup::-moz-focus-inner {
     height: 25px;
     opacity: 0;
     transition: .2s ease all; }
-  .menu-item a:hover:before {
-    opacity: 1;
-    transition: .2s ease all; }
-  .menu-item a:focus:before {
-    opacity: 1;
-    transition: .2s ease all; }
-  .menu-item a:active:before {
-    opacity: 1;
-    transition: .2s ease all; }
+  @media (max-width: 599px) {
+    .menu-item a:hover:before {
+      opacity: 0; } }
+  @media (min-width: 600px) {
+    .menu-item a:hover:before {
+      opacity: 0; } }
+  @media (min-width: 992px) {
+    .menu-item a:hover:before {
+      opacity: 1;
+      transition: .2s ease all; } }
+  @media (max-width: 599px) {
+    .menu-item a:focus:before {
+      opacity: 0; } }
+  @media (min-width: 600px) {
+    .menu-item a:focus:before {
+      opacity: 0; } }
+  @media (min-width: 992px) {
+    .menu-item a:focus:before {
+      opacity: 1;
+      transition: .2s ease all; } }
+  @media (max-width: 599px) {
+    .menu-item a:active:before {
+      opacity: 0; } }
+  @media (min-width: 600px) {
+    .menu-item a:active:before {
+      opacity: 0; } }
+  @media (min-width: 992px) {
+    .menu-item a:active:before {
+      opacity: 1;
+      transition: .2s ease all; } }
 
-.activePage a {
+.current-menu-item a {
   position: relative; }
-  .activePage a:before {
+  .current-menu-item a:before {
     position: absolute;
     content: "";
     background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
     background-repeat: no-repeat;
     background-position: center;
-    top: -25px;
-    left: 0;
-    width: 100%;
     height: 25px;
     opacity: 1;
     transition: .2s ease all; }
+    @media (max-width: 599px) {
+      .current-menu-item a:before {
+        top: 2px;
+        left: auto;
+        width: 10px;
+        right: 105%; } }
+    @media (min-width: 600px) {
+      .current-menu-item a:before {
+        top: 2px;
+        left: auto;
+        right: 105%;
+        width: 10px; } }
+    @media (min-width: 992px) {
+      .current-menu-item a:before {
+        height: 0; } }
+  .current-menu-item a:after {
+    position: absolute;
+    content: "";
+    background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    opacity: 1;
+    transition: .2s ease all; }
+    @media (max-width: 599px) {
+      .current-menu-item a:after {
+        top: 2px;
+        left: 105%;
+        width: 10px; } }
+    @media (min-width: 600px) {
+      .current-menu-item a:after {
+        top: 2px;
+        left: 105%;
+        width: 10px; } }
+    @media (min-width: 992px) {
+      .current-menu-item a:after {
+        top: -25px;
+        left: 0;
+        width: 100%; } }
 
 .menuLinkWrap {
   display: flex;
@@ -1333,7 +1390,8 @@ nav {
     list-style-type: none;
     font-size: 20px;
     padding: 10px 20px;
-    display: flex; }
+    display: flex;
+    margin-left: 20px; }
     #mobile-menu li a {
       color: #002F6C;
       font-weight: 700;
@@ -1344,74 +1402,6 @@ nav {
   @media (min-width: 600px) {
     #mobile-menu {
       padding: 150px 0 20px 0; } }
-
-.menuLink {
-  font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
-  position: relative;
-  display: block;
-  padding: 10px;
-  transition: .2s ease all; }
-  @media (min-width: 1600px) {
-    .menuLink {
-      padding: 10px 25px; } }
-
-.menuLink:after {
-  position: absolute;
-  content: "";
-  top: 75%;
-  left: 5%;
-  width: 90%;
-  height: 5px;
-  opacity: 0;
-  background-image: url("/wp-content/uploads/2019/02/handDrawnUnderlineLarge.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: .3s ease all; }
-.menuLink:hover:after {
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 5%;
-  width: 90%;
-  height: 5px;
-  opacity: 1;
-  background-image: url("/wp-content/uploads/2019/02/handDrawnUnderlineLarge.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: .3s ease all;
-  transition: opacity .3s ease all; }
-
-.contactLink {
-  position: relative;
-  display: block;
-  padding: 10px 30px 10px 30px;
-  transition: .2s ease all; }
-  @media (min-width: 1250px) {
-    .contactLink {
-      padding: 10px 50px 10px 50px; } }
-  .contactLink:after {
-    position: absolute;
-    content: "";
-    top: 75%;
-    left: 20%;
-    width: 60%;
-    height: 3px;
-    opacity: 0;
-    background-color: #404041;
-    transition: .3s ease all; }
-  .contactLink:hover:after {
-    position: absolute;
-    content: "";
-    top: 100%;
-    left: 20%;
-    width: 60%;
-    height: 3px;
-    opacity: 1;
-    background-color: #404041;
-    transition: .3s ease all;
-    transition: opacity .3s ease all; }
 
 .menu .active a {
   border-bottom: 2px solid #404041 !important;
@@ -1847,7 +1837,8 @@ h6 {
 
 .smallHeading {
   font-size: 1.5em;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-weight: 500 !important; }
 
 .uppercaseHeading {
   text-transform: uppercase; }
@@ -1917,7 +1908,10 @@ h6 {
   padding: 10px 30px 10px 30px;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px; }
   .primaryButton:hover {
     background-color: rgba(0, 0, 0, 0);
     color: #c8102e;
@@ -2043,15 +2037,14 @@ button {
 
 @media (max-width: 599px) {
   .smallTextButton {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px; } }
 @media (min-width: 600px) {
   .smallTextButton {
-    font-size: 12px;
+    font-size: 24px;
     padding: 10px; } }
 @media (min-width: 768px) {
   .smallTextButton {
-    font-size: 18px;
     padding: 10px 30px; } }
 
 /* 8.0 General Body Styles -------------------------------------------*/
@@ -2059,14 +2052,24 @@ body {
   background: #FFFFFF;
   margin: 0; }
 
+@media (max-width: 599px) {
+  :focus {
+    outline: none; } }
+@media (min-width: 600px) {
+  :focus {
+    outline: none; } }
+@media (min-width: 992px) {
+  :focus {
+    outline: 2px solid #002F6C; } }
+
 ::selection {
-  background: rgba(239, 174, 30, 0.5); }
+  background: rgba(0, 47, 108, 0.5); }
 
 ::-moz-selection {
-  background: rgba(239, 174, 30, 0.5); }
+  background: rgba(0, 47, 108, 0.5); }
 
 ::-ms-selection {
-  background: rgba(239, 174, 30, 0.5); }
+  background: rgba(0, 47, 108, 0.5); }
 
 .removeBottomMargin {
   margin-bottom: -7px; }
@@ -2951,17 +2954,19 @@ html, body {
     .smallWaterColor h1 {
       font-size: 3em; } }
 
-.starredList li {
-  list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg"); }
-@media (max-width: 599px) {
-  .starredList {
-    padding: 0; } }
-@media (min-width: 600px) {
-  .starredList {
-    padding: 0; } }
-@media (min-width: 768px) {
-  .starredList {
-    padding: 0 0 0 40px; } }
+.starredList {
+  margin-bottom: 25px; }
+  .starredList li {
+    list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg"); }
+  @media (max-width: 599px) {
+    .starredList {
+      padding: 0; } }
+  @media (min-width: 600px) {
+    .starredList {
+      padding: 0; } }
+  @media (min-width: 768px) {
+    .starredList {
+      padding: 0 0 0 40px; } }
 
 .flex-container-schedule {
   display: flex;
@@ -3007,8 +3012,7 @@ html, body {
     width: 100%; } }
 @media (min-width: 1250px) {
   .ferryDesc {
-    width: 40%;
-    margin-top: 60px; } }
+    width: 40%; } }
 
 .mapWrapper {
   height: 400px;
@@ -3052,7 +3056,7 @@ html, body {
 
 .ratesWrap {
   display: flex;
-  padding: 0 20px; }
+  padding: 5px 20px; }
 
 .borderRight {
   border-right: 2px solid #008ea8; }
@@ -3222,6 +3226,21 @@ html, body {
   font-size: 12px;
   line-height: 1.5em; }
 
+.faqButtonWrap {
+  padding-left: 25px; }
+  @media (max-width: 599px) {
+    .faqButtonWrap {
+      padding: 25px 0 50px 0; } }
+  @media (min-width: 600px) {
+    .faqButtonWrap {
+      padding: 25px 0 50px 0; } }
+  @media (min-width: 768px) {
+    .faqButtonWrap {
+      padding: 25px 0 50px 50px; } }
+  @media (min-width: 1250px) {
+    .faqButtonWrap {
+      padding: 25px 0 50px 25px; } }
+
 /* 16.0 Cherry Train Page -------------------------------------------*/
 .cherryHero {
   background-image: url("/wp-content/uploads/2019/03/CherryTrainHeroLarge50.jpg"); }
@@ -3235,19 +3254,19 @@ html, body {
   margin-bottom: 15px; }
 
 @media (max-width: 599px) {
-  #cameraWrapper iframe {
+  .cameraWrapper iframe {
     height: 400px !important; } }
 @media (min-width: 600px) {
-  #cameraWrapper iframe {
+  .cameraWrapper iframe {
     height: 600px !important; } }
 @media (min-width: 768px) {
-  #cameraWrapper iframe {
+  .cameraWrapper iframe {
     height: 620px !important; } }
 @media (min-width: 992px) {
-  #cameraWrapper iframe {
+  .cameraWrapper iframe {
     height: 550px !important; } }
 @media (min-width: 1250px) {
-  #cameraWrapper iframe {
+  .cameraWrapper iframe {
     height: 600px !important; } }
 
 /* 18.0 Plan a trip Page -------------------------------------------*/
@@ -3461,6 +3480,77 @@ html, body {
 
 .mec-box-calendar.mec-calendar .mec-calendar-header {
   margin-top: 30px !important; }
+
+@media (max-width: 599px) {
+  .mec-single-event {
+    margin-top: 100px; } }
+@media (min-width: 600px) {
+  .mec-single-event {
+    margin-top: 125px; } }
+@media (min-width: 1250px) {
+  .mec-single-event {
+    margin-top: 150px; } }
+
+.attachment-full {
+  width: 100%;
+  height: auto; }
+
+.mec-wrap .mec-single-title {
+  color: #002F6C; }
+
+@media (max-width: 599px) {
+  .mec-single-event .mec-events-meta-group-countdown {
+    margin-left: 0; } }
+
+@media (max-width: 599px) {
+  .mec-container {
+    width: 90%; } }
+
+.mec-border-color, .mec-border-color-hover:hover,
+.mec-wrap .mec-border-color, .mec-wrap
+.mec-border-color-hover:hover {
+  border-color: #002F6C;
+  text-decoration: none; }
+
+.mec-bg-color, .mec-bg-color-hover:hover,
+.mec-wrap .mec-bg-color, .mec-wrap .mec-bg-color-hover:hover {
+  background-color: #002F6C;
+  color: #FFFFFF !important; }
+
+.clockdiv {
+  color: #002F6C; }
+
+.mec-event-cost, .mec-event-more-info, .mec-event-website,
+.mec-events-meta-date, .mec-single-event-additional-organizers,
+.mec-single-event-category, .mec-single-event-date, .mec-single-event-label,
+.mec-single-event-location, .mec-single-event-organizer, .mec-single-event-time {
+  background-color: #cbe2e6 !important;
+  border-top: 5px solid #008ea8; }
+
+.mec-single-event .mec-event-meta dt,
+.mec-single-event .mec-event-meta h3 {
+  color: #002F6C;
+  font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px; }
+
+.mec-single-event .mec-event-meta .mec-events-event-categories a,
+.mec-single-event .mec-event-meta dd {
+  color: #c8102e;
+  text-decoration: none; }
+
+.mec-single-event .mec-events-meta-group-booking form > h4:before,
+.mec-single-event .mec-frontbox-title:before {
+  border-bottom: 4px solid #002F6C; }
+
+.mec-single-event .mec-events-meta-group-booking,
+.mec-single-event .mec-frontbox {
+  padding: 10px; }
+
+.mec-links-details ul {
+  padding: 0; }
+  .mec-links-details ul a {
+    text-decoration: none; }
 
 /* 20.0 FAQ page Styles -------------------------------------------*/
 .accordion {

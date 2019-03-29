@@ -45,7 +45,7 @@ get_header();
 				<p>Get a 24/7 view of our Washington Island Ferry docks. Check weather conditions,
 					watch ferry traffic and see our beautiful dock view. </p>
 
-				<div id="cameraWrapper" class="fullWidth flex-container">
+				<div id="cameraWrapper" class="fullWidth flex-container cameraWrapper">
 
 					<div class="col50">
 
@@ -69,7 +69,7 @@ get_header();
 
 				</div>
 
-				<div id="cameraWrapper2" class="fullWidth flex-container">
+				<div id="cameraWrapper2" class="fullWidth flex-container cameraWrapper">
 
 					<div class="col50">
 

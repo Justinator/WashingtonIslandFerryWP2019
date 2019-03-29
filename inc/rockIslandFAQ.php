@@ -9,7 +9,7 @@
 
     <div id="panel9" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab5" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>You can find the Rock Island Ferry schedule <a href="/washington-island-ferry/" class="faqLink">here</a>
+        <p>You can find the Rock Island Ferry schedule <a href="/rock-island/" class="faqLink">here<span class="screen-reader-text"> Go to the rock island ferry page</span></a>
            and in our annual brochure offered at most Door County businesses.  </p>
       </div>
     </div>
@@ -23,7 +23,7 @@
 
     <div id="panel10" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Take the <a href="/washington-island-ferry/" class="faqLink">Washington Island Ferry</a>
+        <p>Take the <a href="/washington-island/" class="faqLink">Washington Island Ferry<span class="screen-reader-text"> Go to the washington island ferry page</span></a>
           (30 min. trip) from Northport Pier—end of State Hwy. 42—to Washington Island. Then, it’s
           approximately 8 miles (20 min.) across Washington Island, from the Washington Island Ferry
           dock to Jackson Harbor, where the Rock Island Ferry is located. Allow time for parking your
@@ -45,7 +45,7 @@
           Ferry. You may purchase combination tickets for the Washington Island Ferry and the Rock Island
           Ferry at the Northport Pier Ticket Booth.</p>
 
-        <p>If you intend to camp on Rock Island, reserve your <a href="dnr.wi.gov/topic/parks/name/rockisland" class="faqLink">campsite</a>
+        <p>If you intend to camp on Rock Island, reserve your <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink">campsite<span class="screen-reader-text"> Opens link to the DNR website in a new tab</span></a>
           through the state’s website. On busy summer weekends, that is the only way you can be assured of a
           campsite on Rock Island. For day visits, you may park and cross on the Rock Island Ferry, with no
           entry fees required for Rock Island. </p>
@@ -173,7 +173,7 @@
           wind and wave conditions. Currents, and even submerged rocks, may also present a hazard.
           Always wear your personal flotation device when boating and let others know where you’re
           headed and what your objectives are. </p>
-        <p><a href="#" class="faqLink">Download Kayak Guide</a></p>
+        <p><a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/kayak-brochure.pdf" class="faqLink">Download Kayak Guide<span class="screen-reader-text"> Opens a PDF of the kayak guide in a new tab</span></a></p>
       </div>
     </div>
   </article>
@@ -239,12 +239,12 @@
     <div id="panel21" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Besides local history books, a good way to learn and become involved with Rock Island is to
-          join the <a href="www.fori.us" class="faqLink">Friends of Rock Island</a> (called FORI). FORI
+          join the <a href="http://www.fori.us/" class="faqLink">Friends of Rock Island<span class="screen-reader-text"> Opens friends of rock island website in a new tab</span></a> (called FORI). FORI
           Members are from everywhere, not only Wisconsin. They are an abiding passion for nature,
           history and for the lighthouse on Rock Island. </p>
         <p>This is a volunteer organization, but even if you’re not able to volunteer, your financial
           support helps to keep many facets of Rock Island going, and in turn, FORI supports makes
-          Rock Island’s camping and visitor experience that much richer for everyone. </p>      
+          Rock Island’s camping and visitor experience that much richer for everyone. </p>
       </div>
     </div>
   </article>

@@ -44,7 +44,7 @@ get_header();
 
 					<div class="ferryScheduleWrapper">
 
-						<h2 class="primaryText caps">Schedule</h2>
+						<h2 class="primaryText caps">Washington Island Ferry Schedule</h2>
 
 						<?php echo do_shortcode('[MEC id="97"]'); ?>
 
@@ -67,7 +67,7 @@ get_header();
 
 							</p>
 
-							<h3 class="primaryText caps">REMINDERS:</h3>
+							<h3 class="primaryText caps largeHeading">REMINDERS:</h3>
 
 							<ul class="starredList">
 
@@ -89,7 +89,7 @@ get_header();
 
 						<div class="faqButtonWrap">
 
-							<a href="/faq/#WashIslandFAQ/" class="primaryButton caps">Washington ISLAND FAQ</a>
+							<a href="/faq#washingtonIslandFAQ" class="primaryButton caps">Washington ISLAND FAQ</a>
 
 						</div>
 
@@ -163,6 +163,8 @@ get_header();
 
 			</section>
 
+			<?php get_template_part("/inc/washingtonFeaturedDest"); ?>
+
 			<section id="rockIslandCTA" class="backgroundImage">
 
 				<div id="rockIslandWrap" class="navWidth">
@@ -198,8 +200,6 @@ get_header();
 				</div>
 
 			</section>
-
-			<?php get_template_part("/inc/washingtonFeaturedDest"); ?>
 
 		</section>
 

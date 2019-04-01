@@ -226,10 +226,10 @@
       height: 60vh;
     }
 		@include breakpoint(tabletScreen){
-      height: 90vh;
+      height: 70vh;
     }
     @include breakpoint(laptopScreen){
-      height: 90vh;
+      height: 70vh;
     }
 	}
 .marginedHero{

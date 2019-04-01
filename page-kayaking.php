@@ -55,19 +55,19 @@ get_header();
 									find miles of pristine coastline and limitless open water. Grab
 									a paddle and join the fun!</p>
 
-								<p>Our handy Kayaking Guide contains a list of approximate distances
+								<p>Our Kayak Guide contains a list of approximate distances
 									for popular kayaking routes, a listing of launching and landing sites
-									and a helpful aerial map of the island.</p>
+									and an aerial map of Washington Island and Rock Island.</p>
 
 								<a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/kayak-brochure.pdf" target="_blank" class="primaryButton caps smallTextButton">DOWNLOAD kayak GUIDE</a>
 
 							</div>
 
-							<h3 class="primaryText caps largeHeading">Safety Tips</h3>
+							<h3 class="primaryText caps largeHeading">Safety Tips:</h3>
 
 							<ul class="starredList">
 
-								<li>Seas may be short and choppy and the water cold. Fog is common. Always wear your PFD.</li>
+								<li>Seas may be short and choppy and the water cold. Fog is common. Always wear your personal floatation device.</li>
 
 								<li>Paddle with caution due to frequent ferry traffic and commercial shipping traffic.</li>
 

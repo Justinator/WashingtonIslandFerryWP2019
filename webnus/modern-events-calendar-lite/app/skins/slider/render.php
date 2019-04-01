@@ -11,7 +11,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
             <?php
                 foreach($this->events as $date):
                 foreach($date as $event):
-                
+
                 // Skip to next event if there is no image
                 if(empty($event->data->thumbnails['large'])) continue;
 
@@ -19,7 +19,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                 $doc = new DOMDocument();
                 $doc->loadHTML($event->data->thumbnails['large']);
                 $xpath = new DOMXPath($doc);
-                $src = $xpath->evaluate("string(//img/@src)"); 
+                $src = $xpath->evaluate("string(//img/@src)");
 
                 $location = isset($event->data->locations[$event->data->meta['mec_location_id']])? $event->data->locations[$event->data->meta['mec_location_id']] : array();
                 $event_color = isset($event->data->meta['mec_color']) ? '<span class="event-color" style="background: #'.$event->data->meta['mec_color'].'"></span>' : '';
@@ -46,7 +46,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                     if ( $label['style']  == 'mec-label-featured' )
                     {
                         $label_style = esc_html__( 'Featured' , 'modern-events-calendar-lite' );
-                    } 
+                    }
                     elseif ( $label['style']  == 'mec-label-canceled' )
                     {
                         $label_style = esc_html__( 'Canceled' , 'modern-events-calendar-lite' );
@@ -54,7 +54,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                 }
                 endif;
                 $speakers = '""';
-                if ( !empty($event->data->speakers)) 
+                if ( !empty($event->data->speakers))
                 {
                     $speakers= [];
                     foreach ($event->data->speakers as $key => $value) {
@@ -64,11 +64,11 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                             "image"		=> $value['thumbnail'],
                             "sameAs"	=> $value['facebook'],
                         );
-                    } 
+                    }
                     $speakers = json_encode($speakers);
                 }
             ?>
-            
+
                 <?php if($this->style == 't1'): ?>
                     <article data-style="<?php echo $label_style; ?>" class="mec-event-article mec-clear <?php echo $this->get_event_classes($event); ?>">
                         <script type="application/ld+json">
@@ -94,7 +94,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                         <div class="mec-slider-t1-img" style="background: url(<?php echo $src; ?> );"></div>
 
                         <div class="mec-slider-t1-content mec-event-grid-modern">
-                        
+
                             <div class="event-grid-modern-head clearfix">
                                 <div class="mec-event-date mec-color"><?php echo date_i18n($this->date_format_type1_1, strtotime($event->date['start']['date'])); ?></div>
                                 <div class="mec-event-month"><?php echo date_i18n($this->date_format_type1_2, strtotime($event->date['start']['date'])); ?></div>
@@ -106,7 +106,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                                 <div class="mec-event-detail"><?php echo (isset($location['name']) ? $location['name'] : '') . (isset($location['address']) ? ' | '.$location['address'] : ''); ?></div>
                             </div>
                             <div class="mec-event-footer">
-                                <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Detail', 'modern-events-calendar-lite')); ?></a>
+                                <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Details', 'modern-events-calendar-lite')); ?></a>
                             </div>
                         </div>
                     </article>
@@ -127,7 +127,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                                 <div class="mec-event-detail"><?php echo (isset($location['name']) ? $location['name'] : '') . (isset($location['address']) ? ' | '.$location['address'] : ''); ?></div>
                             </div>
                             <div class="mec-event-footer">
-                                <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Detail', 'modern-events-calendar-lite')); ?></a>
+                                <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Trip Details', 'modern-events-calendar-lite')); ?></a>
                             </div>
                         </div>
                     </article>
@@ -167,7 +167,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                             <div class="mec-event-detail"><?php echo (isset($location['name']) ? $location['name'] : '') . (isset($location['address']) ? ' | '.$location['address'] : ''); ?></div>
                         </div>
                         <div class="mec-slider-t4-footer">
-                            <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Detail', 'modern-events-calendar-lite')); ?></a>
+                            <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Details', 'modern-events-calendar-lite')); ?></a>
                         </div>
                     </div>
                 </article>
@@ -198,7 +198,7 @@ $event_colorskin = (isset($styling['mec_colorskin']) or isset($styling['color'])
                                 </div>
                             </div>
                             <div class="mec-event-footer">
-                                <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Detail', 'modern-events-calendar-lite')); ?></a>
+                                <a class="mec-booking-button" href="<?php echo $this->main->get_event_date_permalink($event->data->permalink, $event->date['start']['date']); ?>"><?php echo (is_array($event->data->tickets) and count($event->data->tickets)) ? $this->main->m('register_button', __('REGISTER', 'modern-events-calendar-lite')) : $this->main->m('view_detail', __('View Details', 'modern-events-calendar-lite')); ?></a>
                             </div>
                         </div>
                     </article>

@@ -20,7 +20,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$13.50</p>
+          <p class="times noMargin price">$13.50</p>
 
         </div>
 
@@ -36,7 +36,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$7.00</p>
+          <p class="times noMargin price">$7.00</p>
 
         </div>
 
@@ -52,7 +52,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">FREE</p>
+          <p class="times noMargin price">FREE</p>
 
         </div>
 
@@ -68,7 +68,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$26.00</p>
+          <p class="times noMargin price">$26.00</p>
 
         </div>
 
@@ -84,7 +84,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$15.00</p>
+          <p class="times noMargin price">$15.00</p>
 
         </div>
 
@@ -100,7 +100,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$4.00</p>
+          <p class="times noMargin price">$4.00</p>
 
         </div>
 
@@ -116,7 +116,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">FREE</p>
+          <p class="times noMargin price">FREE</p>
 
         </div>
 
@@ -150,7 +150,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$15.00</p>
+              <p class="times noMargin price">$15.00</p>
 
             </div>
 
@@ -166,7 +166,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$28.00</p>
+              <p class="times noMargin price">$28.00</p>
 
             </div>
 
@@ -182,7 +182,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$34.00</p>
+              <p class="times noMargin price">$34.00</p>
 
             </div>
 
@@ -198,7 +198,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$42.00</p>
+              <p class="times noMargin price">$42.00</p>
 
             </div>
 
@@ -214,7 +214,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$52.00</p>
+              <p class="times noMargin price">$52.00</p>
 
             </div>
 
@@ -230,7 +230,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$60.00</p>
+              <p class="times noMargin price">$60.00</p>
 
             </div>
 
@@ -246,7 +246,7 @@
 
             <div class="col30">
 
-              <p class="times noMargin">$74.00</p>
+              <p class="times noMargin price">$74.00</p>
 
             </div>
 

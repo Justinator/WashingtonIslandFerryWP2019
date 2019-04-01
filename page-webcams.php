@@ -40,10 +40,10 @@ get_header();
 
 			<div class="pageWidth centerText paddedSection">
 
-				<img id="webcamMap" src="/wp-content/uploads/2019/03/webcams-map.jpg" class="image">
-
 				<p>Get a 24/7 view of our Washington Island Ferry docks. Check weather conditions,
 					watch ferry traffic and see our beautiful dock view. </p>
+
+				<img id="webcamMap" src="/wp-content/uploads/2019/03/webcams-map.jpg" class="image">
 
 				<div id="cameraWrapper" class="fullWidth flex-container cameraWrapper">
 

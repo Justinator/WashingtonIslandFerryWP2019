@@ -40,9 +40,13 @@ get_header();
 
 			<section id ="rockSchedule2" class="paddedSection">
 
-				<div class="navWidth flex-container-schedule-reverse">
+				<div class="navWidth flex-container-schedule">
 
 					<div class="ferryScheduleWrapper">
+
+						<h2 class="primaryText caps">Rock Island Ferry Schedule</h2>
+
+						<p><em>The Rock Island Ferry operates May 24 through October 14.</em></p>
 
 						<?php echo do_shortcode('[MEC id="134"]'); ?>
 
@@ -62,7 +66,7 @@ get_header();
 
 							</p>
 
-							<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
+							<h3 class="primaryText caps largeHeading noMargin">Reminders:</h3>
 
 							<ul class="starredList">
 
@@ -84,7 +88,7 @@ get_header();
 
 						<div class="faqButtonWrap">
 
-							<a href="/faq/#rockIslandFAQ/" class="primaryButton caps">ROCK ISLAND FAQ</a>
+							<a href="/faq#rockIslandFAQ" class="primaryButton caps">ROCK ISLAND FAQ</a>
 
 						</div>
 
@@ -98,7 +102,13 @@ get_header();
 
 				<div class="pageWidth centerText">
 
-					<h3 class="primaryText caps largeHeading noMargin">2019 Round Trip Rates</h3>
+					<h3 class="primaryText caps largeHeading">2019 Round Trip Rates</h3>
+
+				</div>
+
+				<div class="pageWidth centerText">
+
+					<?php get_template_part("/inc/roundTripRock"); ?>
 
 					<img src="/wp-content/uploads/2019/03/CreditCardIcons-rgb.png" id="rockCredit" class="image">
 
@@ -108,12 +118,6 @@ get_header();
 							Rock Island Ferry.)</em>
 
 					</p>
-
-				</div>
-
-				<div class="pageWidth">
-
-					<?php get_template_part("/inc/roundTripRock"); ?>
 
 				</div>
 
@@ -127,7 +131,7 @@ get_header();
 
 						<div class="blockText">
 
-							<h3 class="primaryText caps largeHeading noMargin">Driving Directions</h3>
+							<h3 class="primaryText caps largeHeading noMargin">Directions</h3>
 
 							<p >
 								The drive from the Washington Island Ferry dock to the Rock Island Ferry dock at Jackson

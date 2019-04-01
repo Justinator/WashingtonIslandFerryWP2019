@@ -130,6 +130,8 @@ add_action( 'widgets_init', 'washingtonislandresponsive_widgets_init' );
 
  	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/js/customJS.js');
 
+	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/js/focus-visible.min.js');
+
  	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
  		wp_enqueue_script( 'comment-reply' );
  	}

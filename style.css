@@ -865,10 +865,10 @@ optgroup::-moz-focus-inner {
       height: 60vh; } }
   @media (min-width: 768px) {
     .hero {
-      height: 90vh; } }
+      height: 70vh; } }
   @media (min-width: 992px) {
     .hero {
-      height: 90vh; } }
+      height: 70vh; } }
 
 @media (max-width: 599px) {
   .marginedHero {
@@ -1685,9 +1685,6 @@ nav {
   justify-content: center;
   align-items: center; }
 
-.borderRight {
-  padding: 0 10px 0 10px; }
-
 #footerContactLink {
   padding: 0 10px 0 10px; }
 
@@ -2112,6 +2109,16 @@ body {
 ul {
   margin-top: 0;
   margin-bottom: 0; }
+
+/*
+  This will hide the focus indicator if the element receives focus via the mouse,
+  but it will still show up on keyboard focus.
+*/
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none; }
+
+body.using-mouse :focus {
+  outline: none; }
 
 /*9.0 Icon Styling -------------------------------------------*/
 .whiteIcon {
@@ -3015,23 +3022,22 @@ html, body {
     width: 40%; } }
 
 .mapWrapper {
-  height: 400px;
   margin-bottom: 15px; }
   @media (max-width: 599px) {
-    .mapWrapper {
-      height: 300px; } }
+    .mapWrapper .wpgmza_map {
+      height: 300px !important; } }
   @media (min-width: 600px) {
-    .mapWrapper {
-      height: 300px; } }
+    .mapWrapper .wpgmza_map {
+      height: 300px !important; } }
   @media (min-width: 992px) {
-    .mapWrapper {
-      height: 285px; } }
+    .mapWrapper .wpgmza_map {
+      height: 285px !important; } }
   @media (min-width: 1250px) {
-    .mapWrapper {
-      height: 400px; } }
+    .mapWrapper .wpgmza_map {
+      height: 400px !important; } }
   @media (min-width: 1600px) {
-    .mapWrapper {
-      height: 500px; } }
+    .mapWrapper .wpgmza_map {
+      height: 500px !important; } }
 
 #nightTrips {
   margin-top: 25px; }
@@ -3060,6 +3066,15 @@ html, body {
 
 .borderRight {
   border-right: 2px solid #008ea8; }
+  @media (max-width: 599px) {
+    .borderRight {
+      padding: 0; } }
+  @media (min-width: 600px) {
+    .borderRight {
+      padding: 0; } }
+  @media (min-width: 992px) {
+    .borderRight {
+      padding: 0 10px; } }
 
 .paymentWrapper {
   display: flex; }
@@ -3219,8 +3234,18 @@ html, body {
 .rockHero {
   background-image: url("/wp-content/uploads/2019/03/RockIslandHeroLarge50.jpg"); }
 
-#rockCredit {
-  width: 20%; }
+@media (max-width: 599px) {
+  #rockCredit {
+    width: 60%; } }
+@media (min-width: 600px) {
+  #rockCredit {
+    width: 60%; } }
+@media (min-width: 992px) {
+  #rockCredit {
+    width: 30%; } }
+@media (min-width: 1250px) {
+  #rockCredit {
+    width: 20%; } }
 
 .smallNotice {
   font-size: 12px;
@@ -3365,6 +3390,9 @@ html, body {
 
 .times {
   font-size: 20px; }
+
+.price {
+  text-align: right; }
 
 .mec-month-side {
   overflow: scroll;

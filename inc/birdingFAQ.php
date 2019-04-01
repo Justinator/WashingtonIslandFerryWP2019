@@ -1,7 +1,7 @@
 <!-- Accordion 3 -->
 <h2 class="primaryText caps">Birding FAQs</h2>
 
-<section id="washingtonIslandFAQ" class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
+<section id="birdingFAQ" class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
 
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab22" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
@@ -28,6 +28,8 @@
         <p>Yes, where roads end at the shore and several island parks: Percy Johnson County Park, Jackson
           Harbor Ridges, Rock Island State Park, Schoolhouse Beach, Jacobsen’s Museum at Little Lake and
           Sand Dunes Beach.</p>
+
+        <p><a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/birdguide.pdf" class="faqLink">Download Bird Guide<span class="screen-reader-text"> Opens a PDF of the bird guide in a new tab</span></a></p>
       </div>
     </div>
   </article>

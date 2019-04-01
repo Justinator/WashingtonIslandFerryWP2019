@@ -1,7 +1,7 @@
 <!-- Accordion 2 -->
-<h2 class="primaryText caps">Rock Island FAQs</h2>
+<h2 id="rockIslandFAQ" class="primaryText caps">Rock Island FAQs</h2>
 
-<section id="rockIslandFAQ" class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
+<section class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab9" tabindex="0" class="accordion__title" aria-controls="panel5" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What is the Rock Island Ferry schedule?</h5>
@@ -9,8 +9,8 @@
 
     <div id="panel9" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab5" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>You can find the Rock Island Ferry schedule <a href="/rock-island/" class="faqLink">here<span class="screen-reader-text"> Go to the rock island ferry page</span></a>
-           and in our annual brochure offered at most Door County businesses.  </p>
+        <p>You can find the Rock Island Ferry schedule <a href="/rock-island/" class="faqLink">here,<span class="screen-reader-text"> Go to the rock island ferry page</span></a>
+           and in our annual brochure offered at most Door County establishments.  </p>
       </div>
     </div>
 
@@ -18,7 +18,7 @@
 
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab10" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
-      <h5>How do I get from the Door Peninsula to Rock Island? </h5>
+      <h5>How do I get from the Door County to Rock Island? </h5>
     </span>
 
     <div id="panel10" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
@@ -27,7 +27,7 @@
           (30 min. trip) from Northport Pier—end of State Hwy. 42—to Washington Island. Then, it’s
           approximately 8 miles (20 min.) across Washington Island, from the Washington Island Ferry
           dock to Jackson Harbor, where the Rock Island Ferry is located. Allow time for parking your
-          car (free!) and unloading your gear before boarding the Rock Island Ferry. Note: Make sure
+          car (free!) and unloading your gear before boarding the Rock Island Ferry. Make sure
           to observe scheduled leaving times for the Rock Island Ferry. </p>
       </div>
     </div>
@@ -47,8 +47,7 @@
 
         <p>If you intend to camp on Rock Island, reserve your <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink">campsite<span class="screen-reader-text"> Opens link to the DNR website in a new tab</span></a>
           through the state’s website. On busy summer weekends, that is the only way you can be assured of a
-          campsite on Rock Island. For day visits, you may park and cross on the Rock Island Ferry, with no
-          entry fees required for Rock Island. </p>
+          campsite on Rock Island. For day visits, you may park and cross on the Rock Island Ferry. </p>
       </div>
     </div>
   </article>
@@ -85,11 +84,11 @@
 
     <div id="panel14" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Rock Island has “rustic” sites for tent camping. Campsites have fire rings and grills. Pit
+        <p>Rock Island has rustic sites for tent camping. Campsites have fire rings and grills. Pit
           toilets are near the camping area and there is an indoor toilet (water flush) but not public
           showers. There is a beach nearby for swimming. No supplies are sold on Rock Island so bring
           your necessary food and supplies. </p>
-        <p>The Rock Island ranger advises packing in only what is necessary for your stay. Be prudent
+        <p>The Rock Island ranger advises packing only what is necessary for your stay. Be prudent
           in your packing. Packaging and garbage must then be carried out from Rock Island by park
           staff.</p>
       </div>
@@ -240,7 +239,7 @@
       <div class="accordion__content-inner">
         <p>Besides local history books, a good way to learn and become involved with Rock Island is to
           join the <a href="http://www.fori.us/" class="faqLink">Friends of Rock Island<span class="screen-reader-text"> Opens friends of rock island website in a new tab</span></a> (called FORI). FORI
-          Members are from everywhere, not only Wisconsin. They are an abiding passion for nature,
+          Members are from everywhere, not only Wisconsin. They have an abiding passion for nature,
           history and for the lighthouse on Rock Island. </p>
         <p>This is a volunteer organization, but even if you’re not able to volunteer, your financial
           support helps to keep many facets of Rock Island going, and in turn, FORI supports makes

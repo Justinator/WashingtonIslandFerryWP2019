@@ -1,8 +1,8 @@
-<section id="featuredDestinations" class="paddedSection">
+<section id="featuredDestinations">
 
   <div class="navWidth">
 
-    <h5 class="largeHeading primaryText caps centerText">FEATURED ISLAND DESTINATIONS</h5>
+    <h5 class="largeHeading primaryText caps centerText">FEATURED Washington ISLAND DESTINATIONS</h5>
 
   </div>
 

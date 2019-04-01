@@ -48,10 +48,10 @@ get_header();
 
 							<div class="paddedSection">
 
-								<h2 class="primaryText caps">Birding on Washington Island and Rock Island</h2>
-
-								<p>Washington Island is on one of the main north/south migration routes,
-								making it an excellent place for bird watching.</p>
+								<p>Washington Island and Rock Island are on one of the main north/south migration routes,
+								making it an excellent place for bird watching. Our bird guide contains a list of
+								recommended spots to bird watch, a listing of various types of birds and an arial
+								map of Washington Island and Rock Island.</p>
 
 								<a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/birdguide.pdf" target="_blank" class="primaryButton caps smallTextButton">DOWNLOAD BIRD GUIDE</a>
 
@@ -77,7 +77,7 @@ get_header();
 
 								<li>Grassland-nesting birds are attracted to our meadows. By early August, many of these birds have begun to migrate south. To observe these birds, safely park your car on the shoulder of the road. Your car makes a good blind. </li>
 
-								<li>Most roads that end at the shore have a public access to the water for views of Green Bay or Lake Michigan. </li>
+								<li>Most roads that end at the shore have public access to the water for views of Green Bay or Lake Michigan. </li>
 
 							</ul>
 

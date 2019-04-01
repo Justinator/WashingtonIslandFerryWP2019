@@ -1,7 +1,7 @@
 <!-- Accordion 1 -->
-<h2 class="primaryText caps">Washington Island FAQs</h2>
+<h2 id="washingtonIslandFAQ" class="primaryText caps">Washington Island FAQs</h2>
 
-<section id="washingtonIslandFAQ" class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
+<section class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
 
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab1" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
@@ -40,7 +40,7 @@
         <p>Transportation is recommended on Washington Island. You can bring your vehicle, motorcycle or
           bicycle on the Washington Island Ferry. Bicycle and moped rentals are available adjacent to
           the Washington Island Ferry dock once you arrive. You can find more information
-          <a href="/plan-a-trip/" class="faqLink">here<span class="screen-reader-text"> View all FAQs</span></a></p>
+          <a href="/plan-a-trip/" class="faqLink">here.<span class="screen-reader-text"> View all FAQs</span></a></p>
       </div>
     </div>
   </article>

@@ -118,22 +118,23 @@
   }
 }
 .mapWrapper{
-  height: 400px;
   margin-bottom: 15px;
-  @include breakpoint(smallScreen){
-    height: 300px;
-  }
-  @include breakpoint(largeMobileScreen){
-    height: 300px;
-  }
-  @include breakpoint(laptopScreen){
-    height: 285px;
-  }
-  @include breakpoint(largeScreen){
-    height: 400px;
-  }
-  @include breakpoint(extraLargeScreen){
-    height: 500px;
+  .wpgmza_map{
+    @include breakpoint(smallScreen){
+      height: 300px !important;
+    }
+    @include breakpoint(largeMobileScreen){
+      height: 300px !important;
+    }
+    @include breakpoint(laptopScreen){
+      height: 285px !important;
+    }
+    @include breakpoint(largeScreen){
+      height: 400px !important;
+    }
+    @include breakpoint(extraLargeScreen){
+      height: 500px !important;
+    }
   }
 }
 #nightTrips{
@@ -163,6 +164,15 @@
 }
 .borderRight{
 	border-right: 2px solid $secondaryColor;
+  @include breakpoint(smallScreen){
+    padding: 0;
+  }
+  @include breakpoint(largeMobileScreen){
+    padding: 0;
+  }
+  @include breakpoint(laptopScreen){
+    padding: 0 10px;
+  }
 }
 .paymentWrapper{
 	display: flex;

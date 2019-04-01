@@ -3,7 +3,18 @@
   background-image: url("/wp-content/uploads/2019/03/RockIslandHeroLarge50.jpg");
 }
 #rockCredit{
-  width: 20%;
+  @include breakpoint(smallScreen){
+    width: 60%;
+  }
+  @include breakpoint(largeMobileScreen){
+    width: 60%;
+  }
+  @include breakpoint(laptopScreen){
+    width: 30%;
+  }
+  @include breakpoint(largeScreen){
+    width: 20%;
+  }
 }
 .smallNotice{
   font-size: 12px;

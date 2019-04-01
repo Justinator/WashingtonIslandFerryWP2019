@@ -38,7 +38,7 @@ get_header();
 
 		<section id="pageContent">
 
-			<section id ="schedules">
+			<section id ="schedules" class="paddedSection">
 
 				<div class="navWidth">
 
@@ -146,13 +146,14 @@ get_header();
 
 						<div class="blockText">
 
-							<h3 class="primaryText caps">Getting Here</h3>
+							<h3 class="primaryText caps">Getting to washington Island</h3>
 
 							<p>
-								The ferry to Washington Island is located on the tip of the Door Peninsula, in the Northeast
+								The Washington Island Ferry is located at the tip of the Door Peninsula, in the Northeast
 								corner of Wisconsin. Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can
 								take either Hwy 42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
-								Once you’re on the ferry, we’ll take it from there!
+								If you plan to visit Washington Island without your vehicle, parking is available on the
+								mainland. Once you board the Washington Island Ferry, we’ll take it from there!
 							</p>
 
 							<div class="buttonContainer">
@@ -160,12 +161,6 @@ get_header();
 								<div class="buttonWrapper">
 
 									<a href="https://www.google.com/maps/dir//northport+pier+door+county/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4d4d18e4d182ea0d:0xe3e1ba339daffd24?sa=X&ved=2ahUKEwiHqYOk3KfhAhUSCawKHT18BwsQ9RcwEXoECAwQDw/" class="primaryButton caps" target="_blank" rel="noreferrer">get directions</a>
-
-								</div>
-
-								<div class="buttonWrapper">
-
-									<a href="/faq/" class="primaryButton caps">Where do i park?</a>
 
 								</div>
 
@@ -193,7 +188,7 @@ get_header();
 
 				<div class="pageWidth paddedSection">
 
-					<h2 class="centerText caps primaryText">Upcoming Trips</h2>
+					<h2 class="centerText caps primaryText">Washington Island Ferry</h2>
 
 					<?php echo do_shortcode('[MEC id="117"]'); ?>
 
@@ -212,8 +207,8 @@ get_header();
 						<h4 class="primaryText centerText">Can I take my pet on the ferry?</h4>
 
 						<p>
-							<strong>Yes!</strong> Leashed pets are allowed on the Washington Island Ferry and the Rock Island Ferry
-							free of charge. Don’t forget to share! We love seeing photos of you and your pets taking
+							Yes! Leashed pets are allowed on the Washington Island Ferry and the Rock Island Ferry
+							free of charge. Don’t forget to share photos of you and your pets taking
 							the ferry on social media!
 						</p>
 
@@ -223,10 +218,10 @@ get_header();
 
 						<img src="/wp-content/uploads/2019/03/FAQCarsSmall.png" class="image">
 
-						<h4 class="primaryText centerText">Do I need my car on the Island?</h4>
+						<h4 class="primaryText centerText">Do I need my car on Washington Island?</h4>
 
 						<p>
-							Yes. There are over 100 miles of paved roads on Washington Island. Some
+							We highly recommend bringing your car. There are over 100 miles of paved roads on Washington Island. Some
 							distances from the main ferry dock are: Downtown - 3 miles; Jackson Harbor (to
 							Rock Island) - 8 miles; Schoolhouse Beach - 6.5 miles. See a detailed map of
 							Washington Island <a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/WashIslandMap2019-Website.pdf" class="primaryLink" target="_blank">here<span class="screen-reader-text">Opens a detailed map of Washington Island in a new tab</span></a>.
@@ -238,7 +233,7 @@ get_header();
 
 						<img src="/wp-content/uploads/2019/03/FAQToDoSmall.png" class="image">
 
-						<h4 class="primaryText centerText">What is there to do on the island?</h4>
+						<h4 class="primaryText centerText">What can I do on Washington Island?</h4>
 
 						<p>
 							From hiking trails, campsites, beaches and wildlife to the rich history, local

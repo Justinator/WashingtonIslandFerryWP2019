@@ -68,3 +68,13 @@ ul{
 	margin-top: 0;
 	margin-bottom: 0;
 }
+/*
+  This will hide the focus indicator if the element receives focus via the mouse,
+  but it will still show up on keyboard focus.
+*/
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+body.using-mouse :focus {
+  outline: none;
+}

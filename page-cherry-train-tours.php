@@ -42,11 +42,19 @@ get_header();
 
 				<div class="navWidth flex-container-schedule-reverse">
 
+					<div class="ferryScheduleWrapper">
+
+						<h2 class="primaryText caps">Cherry Train Schedule</h2>
+
+						<p><em>The Cherry Train operates May 18 through October 20.</em></p>
+
+						<?php echo do_shortcode('[MEC id="134"]'); ?>
+
+					</div>
+
 					<div class="ferryDesc">
 
 						<div class="blockText">
-
-							<h2 class="primaryText caps">Take a Guided Tour of Washington Island!</h2>
 
 							<p>
 
@@ -76,12 +84,6 @@ get_header();
 							<p><em>Group tours by reservation, call <a href="tel:(800)223-2094" class="primaryLink">800-223-2094</a></em>.</p>
 
 						</div>
-
-					</div>
-
-					<div class="ferryScheduleWrapper">
-
-						<?php echo do_shortcode('[MEC id="134"]'); ?>
 
 					</div>
 

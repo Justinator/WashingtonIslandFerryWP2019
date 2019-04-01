@@ -3404,6 +3404,12 @@ html, body {
   box-shadow: none !important;
   font-size: 16px !important; }
 
+.mec-box-calendar.mec-calendar .mec-calendar-side .mec-previous-month {
+  left: 30px; }
+
+.mec-box-calendar.mec-calendar .mec-calendar-side .mec-next-month {
+  right: 30px; }
+
 .mec-sl-angle-right, .mec-sl-angle-left {
   font-size: 14px !important;
   color: #c8102e !important; }
@@ -3551,6 +3557,13 @@ html, body {
   padding: 0; }
   .mec-links-details ul a {
     text-decoration: none; }
+
+.mec-wrap .button, .mec-wrap button:not(.owl-dot),
+.mec-wrap input[type=button], .mec-wrap input[type=reset],
+.mec-wrap input[type=submit] {
+  padding: 0 10px 10px 10px;
+  margin-right: 0;
+  margin-bottom: 0; }
 
 /* 20.0 FAQ page Styles -------------------------------------------*/
 .accordion {

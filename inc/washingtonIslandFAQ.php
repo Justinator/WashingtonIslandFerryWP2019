@@ -64,7 +64,7 @@
 
     <div id="panel5" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab4" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Each Washington Island Ferry can carry 150 passengers and 18-21 vehicles.</p>
+        <p>Each Washington Island Ferry can carry 149 passengers and 18-22 standard sized vehicles depending on the size.</p>
       </div>
     </div>
   </article>

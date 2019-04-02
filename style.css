@@ -1043,7 +1043,7 @@ optgroup::-moz-focus-inner {
   background: #FFFFFF; }
 
 .paddedSection {
-  padding: 50px 0; }
+  padding: 50px 0 !important; }
 
 @media (max-width: 599px) {
   .smallPaddedSection {
@@ -2127,7 +2127,10 @@ body.using-mouse :focus {
   font-size: 16px; }
 
 .greyIcon {
-  color: #f6f6f6; }
+  stroke: #f6f6f6;
+  fill: #f6f6f6;
+  width: 20px;
+  height: 20px; }
 
 .primaryIcon {
   color: #404041;
@@ -2176,11 +2179,11 @@ body.using-mouse :focus {
 
 .blueIcon {
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 30px;
+  height: 30px;
   stroke-width: 0;
-  stroke: #404041;
-  fill: #404041; }
+  stroke: #008ea8;
+  fill: #008ea8; }
 
 .mediumIcon {
   display: inline-block;
@@ -3021,23 +3024,23 @@ html, body {
   .ferryDesc {
     width: 40%; } }
 
-.mapWrapper {
-  margin-bottom: 15px; }
-  @media (max-width: 599px) {
-    .mapWrapper .wpgmza_map {
-      height: 300px !important; } }
-  @media (min-width: 600px) {
-    .mapWrapper .wpgmza_map {
-      height: 300px !important; } }
-  @media (min-width: 992px) {
-    .mapWrapper .wpgmza_map {
-      height: 285px !important; } }
-  @media (min-width: 1250px) {
-    .mapWrapper .wpgmza_map {
-      height: 400px !important; } }
-  @media (min-width: 1600px) {
-    .mapWrapper .wpgmza_map {
-      height: 500px !important; } }
+@media (max-width: 599px) {
+  .mapWrapper .wpgmza_map {
+    height: 300px !important;
+    margin-bottom: 15px; } }
+@media (min-width: 600px) {
+  .mapWrapper .wpgmza_map {
+    height: 300px !important;
+    margin-bottom: 15px; } }
+@media (min-width: 992px) {
+  .mapWrapper .wpgmza_map {
+    height: 285px !important; } }
+@media (min-width: 1250px) {
+  .mapWrapper .wpgmza_map {
+    height: 400px !important; } }
+@media (min-width: 1600px) {
+  .mapWrapper .wpgmza_map {
+    height: 500px !important; } }
 
 #nightTrips {
   margin-top: 25px; }
@@ -3161,7 +3164,9 @@ html, body {
 
 #rockIslandCTA {
   background-image: url("/wp-content/uploads/2019/03/1.2-RockIslandBgd50.jpg");
-  height: 600px; }
+  height: 600px;
+  padding-bottom: 100px;
+  margin-bottom: -120px; }
 
 #rockIslandWrap {
   display: flex;
@@ -3230,6 +3235,18 @@ html, body {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumWatercolorFull.png"); }
 
+.scheduleInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.printWrapper {
+  display: flex;
+  align-items: center; }
+
+.printLink {
+  margin-left: 15px; }
+
 /* 15.0 Rock Island Page -------------------------------------------*/
 .rockHero {
   background-image: url("/wp-content/uploads/2019/03/RockIslandHeroLarge50.jpg"); }
@@ -3269,6 +3286,10 @@ html, body {
 /* 16.0 Cherry Train Page -------------------------------------------*/
 .cherryHero {
   background-image: url("/wp-content/uploads/2019/03/CherryTrainHeroLarge50.jpg"); }
+
+#roundTripsCherry {
+  padding-bottom: 150px !important;
+  margin-bottom: -100px; }
 
 /* 17.0 Webcams Page -------------------------------------------*/
 .webcamHero {
@@ -3509,7 +3530,7 @@ html, body {
 .mec-sl-clock-o {
   font-weight: 700; }
 
-#rockSchedule2 .mec-search-form .mec-dropdown-wrap {
+#cherrySchedule .mec-search-form .mec-dropdown-wrap {
   display: none !important; }
 
 .mec-box-calendar.mec-calendar .mec-calendar-header {
@@ -3698,6 +3719,6 @@ html, body {
 
 /* 23.0 Kayak page Styles -------------------------------------------*/
 .kayakHero {
-  background-image: url("/wp-content/uploads/2019/03/kayaking-50.jpg"); }
+  background-image: url("/wp-content/uploads/2019/04/KayakCaptureCropped.jpg"); }
 
 /*# sourceMappingURL=style.css.map */

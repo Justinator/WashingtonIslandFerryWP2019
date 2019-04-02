@@ -44,7 +44,7 @@
 
         <ul class="tableRow">
 
-          <li class="tableTitle">Gross Weight</li>
+          <li class="tableTitle">Gross Tonnage</li>
 
           <li class="tableData">97 Tons</li>
 

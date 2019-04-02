@@ -120,7 +120,7 @@ get_header();
 
 						<p>
 
-							Washington Island is a 35-square mile, year-round home to 700 people and a destination for thousands of visitors annually. The Washington Island
+							Washington Island is a 22-square mile, year-round home to over 700 people and a destination for thousands of visitors annually. The Washington Island
 							Ferry is a vital, year-round mode of transportation, crossing Death’s Door passage on the way to the island. The island offers a variety
 							of indoor and outdoor activities suitable for warm or cool weather.
 
@@ -188,7 +188,7 @@ get_header();
 
 				<div class="pageWidth paddedSection">
 
-					<h2 class="centerText caps primaryText">Washington Island Ferry</h2>
+					<h2 class="centerText caps primaryText">Upcoming Washington Island Ferry Trips</h2>
 
 					<?php echo do_shortcode('[MEC id="117"]'); ?>
 
@@ -220,12 +220,11 @@ get_header();
 
 						<h4 class="primaryText centerText">Do I need my car on Washington Island?</h4>
 
-						<p>
-							We highly recommend bringing your car. There are over 100 miles of paved roads on Washington Island. Some
-							distances from the main ferry dock are: Downtown - 3 miles; Jackson Harbor (to
-							Rock Island) - 8 miles; Schoolhouse Beach - 6.5 miles. See a detailed map of
-							Washington Island <a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/WashIslandMap2019-Website.pdf" class="primaryLink" target="_blank">here<span class="screen-reader-text">Opens a detailed map of Washington Island in a new tab</span></a>.
-						</p>
+						<p>Transportation is recommended on Washington Island. You can bring your vehicle,
+							motorcycle or bicycle on the Washington Island Ferry. Bicycle, UTV, and moped
+							rentals are available adjacent to the Washington Island Ferry dock once you
+							arrive. You can find more information
+							<a href="/plan-a-trip/" class="primaryLink">here.<span class="screen-reader-text">Opens the plan a trip page</span></a></p>
 
 					</div>
 

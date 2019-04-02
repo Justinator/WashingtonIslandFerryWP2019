@@ -38,7 +38,7 @@
     <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab3" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Transportation is recommended on Washington Island. You can bring your vehicle, motorcycle or
-          bicycle on the Washington Island Ferry. Bicycle and moped rentals are available adjacent to
+          bicycle on the Washington Island Ferry. Bicycle, UTV, and moped rentals are available adjacent to
           the Washington Island Ferry dock once you arrive. You can find more information
           <a href="/plan-a-trip/" class="faqLink">here.<span class="screen-reader-text"> View all FAQs</span></a></p>
       </div>

@@ -118,13 +118,14 @@
   }
 }
 .mapWrapper{
-  margin-bottom: 15px;
   .wpgmza_map{
     @include breakpoint(smallScreen){
       height: 300px !important;
+      margin-bottom: 15px;
     }
     @include breakpoint(largeMobileScreen){
       height: 300px !important;
+      margin-bottom: 15px;
     }
     @include breakpoint(laptopScreen){
       height: 285px !important;
@@ -268,6 +269,8 @@
 #rockIslandCTA{
   background-image: url("/wp-content/uploads/2019/03/1.2-RockIslandBgd50.jpg");
   height: 600px;
+  padding-bottom: 100px;
+  margin-bottom: -120px;
 }
 #rockIslandWrap{
   display: flex;
@@ -339,4 +342,16 @@
 		transition: .3s ease all;
 		background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumWatercolorFull.png");
 	}
+}
+.scheduleInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.printWrapper{
+  display: flex;
+  align-items: center;
+}
+.printLink{
+  margin-left: 15px;
 }

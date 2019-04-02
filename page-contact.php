@@ -44,43 +44,41 @@ get_header();
 
 					<div class="col60">
 
-						<h2 class="primaryText caps">Contact us with any questions or comments about our ferry service, Washington Island,
-							Rock Island or the Cherry Train.</h2>
+						<h3 class="primaryText caps">Contact us with any questions or comments about our ferry service, Washington Island,
+							Rock Island or the Cherry Train.</h3>
 
 							<?php echo do_shortcode('[caldera_form id="CF5c9ac7d6773cf"]'); ?>
 
-							<h3 class="primaryText caps">Washington Island Ferry Line</h3>
+							<div class="marginTop">
 
-							<p>
+								<h3 class="primaryText caps">Washington Island Ferry Line</h3>
 
-								Phone: <a href="tel:(800)223-2094" class="primaryLink">(800) 223-2094</a> or <a href="tel:(920)847-2546" class="primaryLink">(920) 847-2546</a><br>
-								Fax: (920) 847-2807<br>
-								Email: <a href="mailto:info@wisferry.com" class="primaryLink">info@wisferry.com</a><br>
-								Address:<br>
-								P.O. Box 39<br>
-								Washington Island, WI 54246
+								<p>
 
-							</p>
+									Phone: <a href="tel:(800)223-2094" class="primaryLink">(800) 223-2094</a> or <a href="tel:(920)847-2546" class="primaryLink">(920) 847-2546</a><br>
+									Fax: (920) 847-2807<br>
+									Email: <a href="mailto:info@wisferry.com" class="primaryLink">info@wisferry.com</a><br>
+									Address:<br>
+									P.O. Box 39<br>
+									Washington Island, WI 54246
 
-							<h3 class="primaryText caps">Driving Directions</h3>
+								</p>
 
-							<p>
+								<h3 class="primaryText caps">Driving Directions</h3>
 
-								The ferry is located on the tip of the Door Peninsula, which is the northeast corner of Wisconsin.
-								Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy
-								42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
+								<p>
 
-							</p>
+									The ferry is located on the tip of the Door Peninsula, which is the northeast corner of Wisconsin.
+									Take Highway 57 North from Green Bay to Sturgeon Bay. From there, you can take either Hwy
+									42 or Hwy 57 to Sister Bay. Then, follow Hwy 42 to its end at Northport Pier.
+
+								</p>
+
+							</div>
 
 					</div>
 
 					<div class="col40">
-
-						<div class="mapWrapper">
-
-							<?php echo do_shortcode('[wpgmza id="2"]'); ?>
-
-						</div>
 
 						<h4 class="primaryText caps">NORTHPORT PIER/WASHINGTON ISLAND FERRY</h4>
 
@@ -93,7 +91,7 @@ get_header();
 
 						<div class="mapWrapper">
 
-							<?php echo do_shortcode('[wpgmza id="3"]'); ?>
+							<?php echo do_shortcode('[wpgmza id="2"]'); ?>
 
 						</div>
 
@@ -105,6 +103,12 @@ get_header();
 							Washington, WI 54246</a>
 
 						</p>
+
+						<div class="mapWrapper">
+
+							<?php echo do_shortcode('[wpgmza id="3"]'); ?>
+
+						</div>
 
 					</div>
 

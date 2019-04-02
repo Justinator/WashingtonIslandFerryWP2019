@@ -134,7 +134,7 @@
 
     <div id="panel17" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Fair to good. New cell towers were installed on Washington Island and coverage greatly improved.
+        <p>Fair to good on the west side of Rock Island. New cell towers were installed on Washington Island and coverage greatly improved for Verizon, Cellcom and US Cellular customers.
           There are “shadow” areas behind bluffs. Your phone’s digital clock may adjust to nearby Upper
           Michigan (EDST) time from cell towers located there. </p>
       </div>
@@ -211,21 +211,6 @@
         <p>Yes, group rates are for organized groups of 15 or more. Groups must board together and one
           person must pay all fees. <a href="/contact/" class="faqLink">Contact us</a> to make
           arrangements in advance.</p>
-      </div>
-    </div>
-  </article>
-
-  <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
-    <span id="tab22" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
-      <h5>If I visit Rock Island and stay until the Rock Island Ferry’s last trip of the day, can I then catch the last Washington Island Ferry back to the Door Peninsula? </h5>
-    </span>
-
-    <div id="panel22" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
-      <div class="accordion__content-inner">
-        <p>Yes, the Rock Island Ferry schedule accounts for sufficient drive time to cross Washington
-          Island by car and reach Detroit Harbor where the Washington Island Ferry docks. But if you’re
-          still in doubt, or the Rock Island Ferry is behind schedule (due to weather, etc.) ask the
-          captain to place a call on your behalf so you can make your connection back to the mainland.</p>
       </div>
     </div>
   </article>

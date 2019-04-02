@@ -5,7 +5,10 @@
 	font-size: 16px;
 }
 .greyIcon{
-	color: $lightGrey;
+	stroke: $lightGrey;
+	fill: $lightGrey;
+	width: 20px;
+  height: 20px;
 }
 .primaryIcon{
 	color: $primaryGrey;
@@ -55,11 +58,11 @@
 }
 .blueIcon{
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 30px;
+  height: 30px;
   stroke-width: 0;
-  stroke: $primaryGrey;
-  fill: $primaryGrey;
+  stroke: $secondaryColor;
+  fill: $secondaryColor;
 }
 .mediumIcon{
 	display: inline-block;

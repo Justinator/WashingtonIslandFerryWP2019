@@ -1104,7 +1104,7 @@ optgroup::-moz-focus-inner {
     padding: 150px 0; } }
 
 .removeBottomPadding {
-  padding-bottom: 0; }
+  padding-bottom: 0 !important; }
 
 .backgroundImage {
   background-size: cover;
@@ -1188,16 +1188,15 @@ optgroup::-moz-focus-inner {
     text-decoration: none;
     color: #002F6C;
     font-weight: 700;
-    padding: 5px; }
-    @media (min-width: 768px) {
+    padding: 5px;
+    font-family: CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+    letter-spacing: 1.5px; }
+    @media (min-width: 992px) {
       #primary-menu li a {
-        font-size: 12px; } }
+        font-size: 16px; } }
     @media (min-width: 1250px) {
       #primary-menu li a {
-        font-size: 14px; } }
-    @media (min-width: 1600px) {
-      #primary-menu li a {
-        font-size: 18px; } }
+        font-size: 20px; } }
 
 .menu-item a {
   position: relative; }
@@ -1388,14 +1387,17 @@ nav {
   transform: translateY(-120%); }
   #mobile-menu li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 26px;
     padding: 10px 20px;
     display: flex;
-    margin-left: 20px; }
+    margin-left: 20px;
+    text-transform: uppercase; }
     #mobile-menu li a {
       color: #002F6C;
       font-weight: 700;
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+      letter-spacing: 1.5px; }
   @media (max-width: 599px) {
     #mobile-menu {
       padding: 120px 0 20px 0; } }
@@ -1704,6 +1706,9 @@ nav {
 @font-face {
   font-family: Calps;
   src: url(/wp-content/themes/washingtonislandresponsive/fonts/calps-regular.otf); }
+@font-face {
+  font-family: CalpsSlim;
+  src: url(/wp-content/themes/washingtonislandresponsive/fonts/calps-slim-medium.otf); }
 body,
 button,
 input,
@@ -1902,7 +1907,7 @@ h6 {
   border: 2px solid #c8102e;
   color: #FFFFFF;
   transition: .2s ease all;
-  padding: 10px 30px 10px 30px;
+  padding: 15px 30px 10px 30px;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   border-radius: 10px;
@@ -1910,7 +1915,7 @@ h6 {
   font-size: 24px;
   letter-spacing: 1px; }
   .primaryButton:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #FFFFFF;
     color: #c8102e;
     transition: .2s ease all; }
 
@@ -2309,7 +2314,7 @@ body.using-mouse :focus {
   @media (min-width: 992px) {
     .blockWrapper {
       width: 30%;
-      margin: 0 15px; } }
+      margin: 20px 15px; } }
   .blockWrapper:hover .blockOverlay {
     background-color: rgba(0, 0, 0, 0.7);
     transition: .2s ease all; }
@@ -2322,7 +2327,7 @@ body.using-mouse :focus {
   width: 100%;
   content: "";
   transition: .2s ease all;
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: rgba(0, 0, 0, 0.2); }
 
 .blockImage {
   width: 100%;
@@ -2416,10 +2421,10 @@ body.using-mouse :focus {
   position: relative; }
   #schoolHouse:hover {
     transition: .3s ease all;
-    background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachWatercolorLarge.png"); }
+    background-image: url("/wp-content/uploads/2019/04/SchoolHouseBeachWatercolorLargeMedium-1.jpg"); }
 
 #stavkirke {
-  background-image: url("/wp-content/uploads/2019/03/StavkirkeCropped.jpg");
+  background-image: url("/wp-content/uploads/2019/04/1.3_StavkirkeCroppedMedium-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2429,7 +2434,7 @@ body.using-mouse :focus {
   position: relative; }
   #stavkirke:hover {
     transition: .3s ease all;
-    background-image: url("/wp-content/uploads/2019/03/StavkirkeWatercolorCropped.png"); }
+    background-image: url("/wp-content/uploads/2019/04/1.3-StavkirkeWatercolor-cropped.jpg"); }
 
 .destInfo {
   position: absolute;
@@ -2832,7 +2837,8 @@ body.using-mouse :focus {
   border: 2px solid #c8102e;
   border-radius: 10px;
   background: #c8102e;
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5); }
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: none; }
   #fld_7908577_1:hover {
     transition: .2s ease all;
     background: rgba(0, 0, 0, 0);
@@ -2845,6 +2851,16 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0; }
+
+@media (max-width: 599px) {
+  #contactInfoWrapper {
+    padding: 0; } }
+@media (min-width: 600px) {
+  #contactInfoWrapper {
+    padding: 0; } }
+@media (min-width: 992px) {
+  #contactInfoWrapper {
+    padding: 20px; } }
 
 /* 12.0 About Pages stylings -------------------------------------------*/
 .aboutHero {
@@ -3210,7 +3226,7 @@ html, body {
       top: 100px; } }
 
 #mountainPark {
-  background-image: url("/wp-content/uploads/2019/03/FeatureLookoutTowerMedium50.jpg");
+  background-image: url("/wp-content/uploads/2019/04/1.3_Feature-LookoutTowerMedium-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3220,10 +3236,10 @@ html, body {
   position: relative; }
   #mountainPark:hover {
     transition: .3s ease all;
-    background-image: url("/wp-content/uploads/2019/03/FeatureLookoutTowerWatercolorMedium.png"); }
+    background-image: url("/wp-content/uploads/2019/04/1.3-Feature-LookoutTowerWatercolor.jpg"); }
 
 #farm {
-  background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumFull50.jpg");
+  background-image: url("/wp-content/uploads/2019/04/1.3_Feature-FarmMuseum-croppedMedium-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3233,7 +3249,7 @@ html, body {
   position: relative; }
   #farm:hover {
     transition: .3s ease all;
-    background-image: url("/wp-content/uploads/2019/03/FeatureFarmMuseumWatercolorFull.png"); }
+    background-image: url("/wp-content/uploads/2019/04/1.3FarmImageCropped.jpg"); }
 
 .scheduleInfo {
   display: flex;
@@ -3249,7 +3265,7 @@ html, body {
 
 /* 15.0 Rock Island Page -------------------------------------------*/
 .rockHero {
-  background-image: url("/wp-content/uploads/2019/03/RockIslandHeroLarge50.jpg"); }
+  background-image: url("/wp-content/uploads/2019/04/3.1-Rock-Island-Hero2Medium.jpg"); }
 
 @media (max-width: 599px) {
   #rockCredit {
@@ -3316,9 +3332,8 @@ html, body {
     height: 600px !important; } }
 
 /* 18.0 Plan a trip Page -------------------------------------------*/
-#gettingAround {
-  padding-bottom: 150px;
-  margin-bottom: -100px; }
+.tripHero {
+  background-image: url("/wp-content/uploads/2019/04/planATripHeroLowCropped.jpg"); }
 
 /* 19.0 All Schedule Styles -------------------------------------------*/
 .scheduleOuterWrapper {
@@ -3613,6 +3628,12 @@ html, body {
   padding: 0 10px 10px 10px;
   margin-right: 0;
   margin-bottom: 0; }
+
+.mec-single-event-category {
+  display: none; }
+
+.mec-single-event-date {
+  display: none; }
 
 /* 20.0 FAQ page Styles -------------------------------------------*/
 .accordion {

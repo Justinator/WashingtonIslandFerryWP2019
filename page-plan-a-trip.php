@@ -14,7 +14,7 @@ get_header();
 
 		<section>
 
-			<div class="hero washingtonHero">
+			<div class="hero tripHero">
 
 			</div>
 
@@ -38,50 +38,42 @@ get_header();
 
 		<section id="pageContent">
 
-			<section id ="islandSeasons" class="paddedSection">
+			<section id ="islandSeasons" class="paddedSection removeBottomPadding">
 
-				<div class="navWidth flex-container">
+				<div class="pageWidth">
 
-					<div class="col50">
+					<div class="limitWidth">
 
-						<div class="blockText">
+						<h2 class="primaryText caps centerText">An Island for All Seasons</h2>
 
-							<h2 class="primaryText caps">An Island for All Seasons</h2>
+						<p>
 
-							<p>
+							Whether you are a kayak enthusiast, <a href="/bird-watching/" class="primaryLink">bird watcher<span class="screen-reader-text"> Go to the bird watching page</span></a>
+							or just want to explore, you will enjoy the beauty of Washington Island.
 
-								Whether you are a <a href="/kayaking/" class="primaryLink">kayak enthusiast</a>, <a href="/bird-watching/" class="primaryLink">bird watcher<span class="screen-reader-text"> Go to the bird watching page</span></a>
-								or just want to explore, you will enjoy the beauty of Washington Island.
-
-							</p>
-
-						</div>
+						</p>
 
 					</div>
 
-					<div class="col50">
+					<div class="fullWidth flex-container paddedSection">
 
-						<div class="blockText">
+						<div class="col50">
 
-							<h2 class="primaryText caps">Accommodations & Activities</h2>
+							<div class="videoWrapper">
 
-							<ul class="starredList">
+								<iframe width="90%" height="500px" src="https://www.youtube.com/embed/oUKVkQZZNYw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-								<li><a href="/cherry-train-tours/" class="primaryLink">Cherry Train Tours</a></li>
+							</div>
 
-								<li><a href="/bird-watching/" class="primaryLink">Bird Watching<span class="screen-reader-text"> Go to the bird watching page</span></a></li>
+						</div>
 
-								<li><a href="/kayaking/" class="primaryLink">Kayaking<span class="screen-reader-text"> Go to the kayaking page</span></a></li>
+						<div class="col50">
 
-								<li><a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="primaryLink" target="_blank" rel="noreferrer">Rock Island State Park</a></li>
+							<div class="videoWrapper">
 
-								<li><a href="https://washingtonisland.com/" class="primaryLink" target="_blank" rel="noreferrer">Washington Island Chamber of Commerce</a></li>
+								<iframe width="90%" height="500px" src="https://www.youtube.com/embed/1nzZD9-bJoc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-								<li><a href="https://www.doorcounty.com/" class="primaryLink" target="_blank" rel="noreferrer">Door County Chamber of Commerce</a></li>
-
-								<li><a href="http://washingtonisland-wi.com/events/" class="primaryLink" target="_blank" rel="noreferrer">Event Calendar</a></li>
-
-							</ul>
+							</div>
 
 						</div>
 
@@ -91,67 +83,7 @@ get_header();
 
 			</section>
 
-			<section id ="schedules" class="paddedSection">
-
-				<div class="navWidth wrappedFlexContainer">
-
-					<div class="blockWrapper">
-
-						<a href="/attractions/">
-
-							<div class="blockOverlay"></div>
-
-							<div class="blockContent">
-
-								<img src="/wp-content/uploads/2019/03/Stavkirke1Medium.jpg" class="blockImage">
-
-								<h5 class="blockTitle"><span class="blockTitleSpan">Attractions</span></h5>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="blockWrapper">
-
-						<a href="/bird-watching/">
-
-							<div class="blockOverlay"></div>
-
-							<div class="blockContent">
-
-								<img src="/wp-content/uploads/2019/03/birdingMedium.jpg" class="blockImage">
-
-								<h5 class="blockTitle"><span class="blockTitleSpan">Birding</span></h5>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="blockWrapper">
-
-						<a href="/kayaking/">
-
-							<div class="blockOverlay"></div>
-
-							<div class="blockContent">
-
-								<img src="/wp-content/uploads/2019/03/kayakingMedium.jpg" class="blockImage">
-
-								<h5 class="blockTitle"><span class="blockTitleSpan">Kayaking</span></h5>
-
-							</div>
-
-						</a>
-
-					</div>
-
-				</div>
-
-			</section>
+			<?php get_template_part("/inc/planTrip"); ?>
 
 			<section id="gettingAround" class="paddedSection paperback">
 
@@ -182,6 +114,60 @@ get_header();
 								<li>Island Shuttle: <a href="tel:920-535-0617" class="primaryLink">920-535-0617</a></li>
 
 							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<section id="planMaps">
+
+				<div class="pageWidth flex-container">
+
+					<div class="col50">
+
+						<div class="smallPaddedWrapper">
+
+							<h4 class="primaryText caps">NORTHPORT PIER/WASHINGTON ISLAND FERRY</h4>
+
+							<p>
+
+								<a href="https://www.google.com/maps/dir//northport+pier+door+county/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4d4d18e4d182ea0d:0xe3e1ba339daffd24?sa=X&ved=2ahUKEwiHqYOk3KfhAhUSCawKHT18BwsQ9RcwEXoECAwQDw" class="primaryLink" target="_blank" rel="noreferrer">215 WI-42<br>
+								Ellison Bay, WI 54210</a>
+
+							</p>
+
+							<div class="mapWrapper">
+
+								<?php echo do_shortcode('[wpgmza id="2"]'); ?>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col50">
+
+						<div class="smallPaddedWrapper">
+
+							<h4 class="primaryText caps">JACKSON HARBOR/ROCK ISLAND FERRY</h4>
+
+							<p>
+
+								<a href="https://www.google.com/maps/dir/44.4858368,-88.0017408/JACKSON+HARBOR%2FROCK+ISLAND+FERRY/@44.9388371,-87.9893972,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4d4d1d57af1229e3:0xa520e1b0b639592!2m2!1d-86.8563167!2d45.3991096" class="primaryLink" target="_blank" rel="noreferrer">1924 Indian Point Road<br>
+								Washington, WI 54246</a>
+
+							</p>
+
+							<div class="mapWrapper">
+
+								<?php echo do_shortcode('[wpgmza id="4"]'); ?>
+
+							</div>
 
 						</div>
 

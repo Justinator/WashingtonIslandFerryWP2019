@@ -60,6 +60,7 @@
   border-radius: 10px;
   background: $accentColor;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
 		&:hover{
 			transition: .2s ease all;
       background: $transparent;
@@ -74,4 +75,15 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+#contactInfoWrapper{
+  @include breakpoint(smallScreen){
+    padding: 0;
+  }
+  @include breakpoint(largeMobileScreen){
+    padding: 0;
+  }
+  @include breakpoint(laptopScreen){
+    padding: 20px;
+  }
 }

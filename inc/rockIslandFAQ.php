@@ -172,7 +172,6 @@
           wind and wave conditions. Currents, and even submerged rocks, may also present a hazard.
           Always wear your personal flotation device when boating and let others know where you’re
           headed and what your objectives are. </p>
-        <p><a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/kayak-brochure.pdf" class="faqLink">Download Kayak Guide<span class="screen-reader-text"> Opens a PDF of the kayak guide in a new tab</span></a></p>
       </div>
     </div>
   </article>

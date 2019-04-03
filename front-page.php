@@ -112,7 +112,7 @@ get_header();
 
 					<div id="islandWrapper" class="col20">
 
-						<img src="/wp-content/uploads/2019/03/1.0-WatercolorIsland.png" id="watercolorIsland" class="image">
+						<img src="/wp-content/uploads/2019/04/1.0-WatercolorIsland-1.jpg" id="watercolorIsland" class="image">
 
 					</div>
 
@@ -172,7 +172,7 @@ get_header();
 
 					<div class="col50">
 
-						<div class="mapWrapper" tabindex="-1">
+						<div class="mapWrapper" aria-hidden="true">
 
 							<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 
@@ -202,7 +202,7 @@ get_header();
 
 					<div class="faqWrapper">
 
-						<img src="/wp-content/uploads/2019/03/FAQDogSmall.png" class="image">
+						<img src="/wp-content/uploads/2019/04/FAQDogSmall.jpg" class="image">
 
 						<h4 class="primaryText centerText">Can I take my pet on the ferry?</h4>
 
@@ -216,7 +216,7 @@ get_header();
 
 					<div class="faqWrapper">
 
-						<img src="/wp-content/uploads/2019/03/FAQCarsSmall.png" class="image">
+						<img src="/wp-content/uploads/2019/04/FAQCarsSmall.jpg" class="image">
 
 						<h4 class="primaryText centerText">Do I need my car on Washington Island?</h4>
 
@@ -230,7 +230,7 @@ get_header();
 
 					<div class="faqWrapper">
 
-						<img src="/wp-content/uploads/2019/03/FAQToDoSmall.png" class="image">
+						<img src="/wp-content/uploads/2019/04/FAQToDoSmall.jpg" class="image">
 
 						<h4 class="primaryText centerText">What can I do on Washington Island?</h4>
 

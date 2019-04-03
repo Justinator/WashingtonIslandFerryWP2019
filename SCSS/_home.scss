@@ -108,7 +108,7 @@
 	}
 	@include breakpoint(laptopScreen){
 		width: 30%;
-		margin: 0 15px;
+		margin: 20px 15px;
 	}
 	&:hover{
 		.blockOverlay{
@@ -125,7 +125,7 @@
 	width: 100%;
 	content: "";
 	transition: .2s ease all;
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.2);
 }
 .blockImage{
 	width: 100%;
@@ -227,11 +227,11 @@
 	position: relative;
 	&:hover{
 		transition: .3s ease all;
-		background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachWatercolorLarge.png");
+		background-image: url("/wp-content/uploads/2019/04/SchoolHouseBeachWatercolorLargeMedium-1.jpg");
 	}
 }
 #stavkirke{
-	background-image: url("/wp-content/uploads/2019/03/StavkirkeCropped.jpg");
+	background-image: url("/wp-content/uploads/2019/04/1.3_StavkirkeCroppedMedium-1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -241,7 +241,7 @@
 	position: relative;
 	&:hover{
 		transition: .3s ease all;
-		background-image: url("/wp-content/uploads/2019/03/StavkirkeWatercolorCropped.png");
+		background-image: url("/wp-content/uploads/2019/04/1.3-StavkirkeWatercolor-cropped.jpg");
 	}
 }
 .destInfo{

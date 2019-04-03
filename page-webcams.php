@@ -52,7 +52,7 @@ get_header();
 						<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #1</h4>
 
 						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
+						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["XM6Y3"] = {"e":"MwA8EP","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=XM6Y3" async></script>
 						<!-- end webcam.io widget -->
 
 					</div>
@@ -62,7 +62,7 @@ get_header();
 						<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #2</h4>
 
 						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
+						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["eytXb"] = {"e":"zoyw09","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=eytXb" async></script>
 						<!-- end webcam.io widget -->
 
 					</div>
@@ -76,18 +76,12 @@ get_header();
 						<h4 class="primaryText caps">Washington Island Ferry Dock Entrance Camera #3</h4>
 
 						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
+						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["w7SQ0"] = {"e":"zY1Lyz","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=w7SQ0" async></script>
 						<!-- end webcam.io widget -->
 
 					</div>
 
 					<div class="col50">
-
-						<h4 class="primaryText caps">Washington Island Ferry Dock Camera #4</h4>
-
-						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["41Qic"] = {"e":"9bbWg9","t":"1","x":"100%","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=41Qic" async></script>
-						<!-- end webcam.io widget -->
 
 					</div>
 

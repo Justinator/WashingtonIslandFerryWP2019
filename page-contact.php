@@ -44,10 +44,12 @@ get_header();
 
 					<div class="col60">
 
-						<h3 class="primaryText caps">Contact us with any questions or comments about our ferry service, Washington Island,
-							Rock Island or the Cherry Train.</h3>
+						<div id="contactInfoWrapper">
 
-							<?php echo do_shortcode('[caldera_form id="CF5c9ac7d6773cf"]'); ?>
+							<h3 class="primaryText caps">Contact us with any questions or comments about our ferry service, Washington Island,
+								Rock Island or the Cherry Train.</h3>
+
+								<?php echo do_shortcode('[caldera_form id="CF5c9ac7d6773cf"]'); ?>
 
 							<div class="marginTop">
 
@@ -75,6 +77,8 @@ get_header();
 								</p>
 
 							</div>
+
+						</div>
 
 					</div>
 
@@ -106,7 +110,7 @@ get_header();
 
 						<div class="mapWrapper">
 
-							<?php echo do_shortcode('[wpgmza id="3"]'); ?>
+							<?php echo do_shortcode('[wpgmza id="4"]'); ?>
 
 						</div>
 

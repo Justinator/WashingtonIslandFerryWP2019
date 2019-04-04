@@ -52,7 +52,7 @@
 
     <div id="panel4" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab4" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Leashed pets are allowed on the Washington Island Ferry and the Rock Island Ferry.</p>
+        <p>Leashed pets are allowed on the main decks of the Washington Island Ferry and the Rock Island Ferry.</p>
       </div>
     </div>
   </article>
@@ -64,7 +64,7 @@
 
     <div id="panel5" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab4" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Each Washington Island Ferry can carry 149 passengers and 18-22 standard sized vehicles depending on the size.</p>
+        <p>Each Washington Island Ferry can carry 149 passengers and 18-22 standard-sized vehicles.</p>
       </div>
     </div>
   </article>

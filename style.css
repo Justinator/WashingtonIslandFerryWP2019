@@ -1840,7 +1840,7 @@ h6 {
 .smallHeading {
   font-size: 1.5em;
   margin-bottom: 0;
-  font-weight: 500 !important; }
+  font-weight: 700 !important; }
 
 .uppercaseHeading {
   text-transform: uppercase; }
@@ -2315,19 +2315,24 @@ body.using-mouse :focus {
     .blockWrapper {
       width: 30%;
       margin: 20px 15px; } }
+  .blockWrapper a {
+    text-decoration: none; }
   .blockWrapper:hover .blockOverlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 47, 108, 0.4);
     transition: .2s ease all; }
+
+.blockContent {
+  position: relative; }
 
 .blockOverlay {
   position: absolute;
   top: 0;
   left: 0;
-  height: calc(100% + 10px);
+  height: 100%;
   width: 100%;
   content: "";
   transition: .2s ease all;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0); }
 
 .blockImage {
   width: 100%;
@@ -2853,13 +2858,13 @@ html, body {
   padding: 0; }
 
 @media (max-width: 599px) {
-  #contactInfoWrapper {
+  .contactInfoWrapper {
     padding: 0; } }
 @media (min-width: 600px) {
-  #contactInfoWrapper {
+  .contactInfoWrapper {
     padding: 0; } }
 @media (min-width: 992px) {
-  #contactInfoWrapper {
+  .contactInfoWrapper {
     padding: 20px; } }
 
 /* 12.0 About Pages stylings -------------------------------------------*/
@@ -3725,6 +3730,10 @@ html, body {
       height: 400px; } }
 
 /* 22.0 Birding page Styles -------------------------------------------*/
+.birdHero {
+  background-image: url("/wp-content/uploads/2019/04/BirdWatchingMedium.jpg");
+  background-position: top center; }
+
 #birding .starredList {
   margin-top: 25px;
   margin-bottom: 25px; }

@@ -111,12 +111,6 @@ get_header();
 
 						</div>
 
-						<div class="faqButtonWrap">
-
-							<a href="/faq#washingtonIslandFAQ" class="primaryButton caps">Washington ISLAND FAQ</a>
-
-						</div>
-
 					</div>
 
 				</div>
@@ -192,6 +186,18 @@ get_header();
 			</section>
 
 			<?php get_template_part("/inc/washingtonFeaturedDest"); ?>
+
+			<div class="pageWidth paddedSection">
+
+				<div class="centerText">
+
+					<h5 class="primaryText caps largeHeading">More questions about the Washington Island Ferry?</h5>
+
+					<a href="/faq/" class="primaryButton caps">VIEW ALL FAQS</a>
+
+				</div>
+
+			</div>
 
 			<section id="rockIslandCTA" class="backgroundImage">
 

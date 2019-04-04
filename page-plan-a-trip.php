@@ -110,8 +110,7 @@ get_header();
 
 								<li>Bike Rental: available on island dock</li>
 								<li>Moped Rental: available near island dock</li>
-								<li>Group Tours: <a href="tel:920-847-2146" class="primaryLink">920-847-2146</a></li>
-								<li>Island Shuttle: <a href="tel:920-535-0617" class="primaryLink">920-535-0617</a></li>
+								<li>UTV Rental: available near island dock</li>
 
 							</ul>
 

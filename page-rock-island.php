@@ -86,8 +86,6 @@ get_header();
 
 						<div class="blockText">
 
-							<h2 class="primaryText caps">Visit Rock Island State Park via the Karfi</h2>
-
 							<p>
 
 								Take a trip out of the ordinary when you visit beautiful Rock Island State Park, a 912-acre island
@@ -113,12 +111,6 @@ get_header();
 								<li>Schedule is subject to weather and traffic</li>
 
 							</ul>
-
-						</div>
-
-						<div class="faqButtonWrap">
-
-							<a href="/faq#rockIslandFAQ" class="primaryButton caps">ROCK ISLAND FAQ</a>
 
 						</div>
 
@@ -166,9 +158,8 @@ get_header();
 							<p >
 								The drive from the Washington Island Ferry dock to the Rock Island Ferry dock at Jackson
 								Harbor follows County Road W across Washington Island about 8.4 miles and should take about
-								20 minutes. Allow time for parking your car and unloading before boarding the passengers-only
-								Rock Island Ferry. Public transportation is not available from the Washington Island Ferry
-								dock to the Rock Island Ferry dock.
+								20 minutes. Allow time for parking your car and unloading before boarding the passenger-only
+								Rock Island Ferry.
 							</p>
 
 						</div>
@@ -202,6 +193,18 @@ get_header();
 				</div>
 
 			</section>
+
+			<div class="pageWidth paddedSection">
+
+				<div class="centerText">
+
+					<h5 class="primaryText caps largeHeading">More questions about the Rock Island Ferry?</h5>
+
+					<a href="/faq/" class="primaryButton caps">VIEW ALL FAQS</a>
+
+				</div>
+
+			</div>
 
 		</section>
 

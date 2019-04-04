@@ -34,6 +34,18 @@
   </article>
 
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+    <span tabindex="0" class="accordion__title" aria-controls="panel2" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+      <h5>How do I get Rock Island State Park information?</h5>
+    </span>
+
+    <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab2" data-binding="expand-accordion-container">
+      <div class="accordion__content-inner">
+        <p>Find more information <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink">here<span class="screen-reader-text">Opens the DNR website in a new tab</span></a>. </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab11" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Where can I park? Do I need a Wisconsin State Park sticker? </h5>
     </span>
@@ -118,7 +130,7 @@
       <div class="accordion__content-inner">
         <p>Jackson Harbor on Washington Island is an old fishing community. Near the Town Dock
           you will find the Jackson Harbor Maritime Museum, featuring commercial fishing
-          history. The “Time Out” concession next to the museum sells soda, hot dogs, ice
+          history. Concessions next to the museum sell soda, hot dogs, ice
           cream, popcorn and other snacks. A conservancy area is adjacent to the beach,
           with interpretive trails. Rock Island State Park offices are at the head of the
           State Dock property in Jackson Harbor. (During the summer season the staff is

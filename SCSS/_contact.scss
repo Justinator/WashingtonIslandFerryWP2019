@@ -76,7 +76,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-#contactInfoWrapper{
+.contactInfoWrapper{
   @include breakpoint(smallScreen){
     padding: 0;
   }

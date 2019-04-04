@@ -40,7 +40,7 @@ get_header();
 
 			<section id ="cherrySchedule" class="paddedSection">
 
-				<div class="navWidth flex-container-schedule-reverse">
+				<div class="navWidth flex-container-schedule">
 
 					<div class="ferryScheduleWrapper">
 

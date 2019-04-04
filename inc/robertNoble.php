@@ -62,7 +62,7 @@
 
           <li class="tableTitle">Capacity</li>
 
-          <li class="tableData">150 Passengers, 19 Autos</li>
+          <li class="tableData">149 Passengers, 19 Autos</li>
 
         </ul>
 
@@ -72,7 +72,7 @@
 
           <li class="tableData">Named after a 25-year-old man who survived icy
             Death’s Door waters in December of 1864. A few years later, Noble became
-            owner and operator of the first propeller-driven ferry in Door County,
+            owner and operator of the first ferry in Door County,
             operating in Sturgeon Bay until a bridge was eventually constructed in
             1870. </li>
 

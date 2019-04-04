@@ -84,7 +84,7 @@ get_header();
 					<h2 class="primaryText caps centerText">Washington Island Ferry Fleet</h2>
 
 					<p>There are four ferries that make up the current Washington Island Ferry fleet.
-						Each ferry can carry 149 passengers and 18-22 standard sized vehicles depending on the size. The fleet includes the
+						Each ferry can carry 149 passengers and 18-22 standard-sized vehicles depending on the size. The fleet includes the
 						Arni J. Richter, a unique four-season ferry built for the Washington Island
 						Ferry Line in 2003. </p>
 

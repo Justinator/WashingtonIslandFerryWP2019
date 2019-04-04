@@ -110,22 +110,28 @@
 		width: 30%;
 		margin: 20px 15px;
 	}
+	a{
+		text-decoration: none;
+	}
 	&:hover{
 		.blockOverlay{
-			background-color: rgba(0,0,0,.7);
+			background-color: rgba(	0, 47, 108, .4);
 			transition: .2s ease all;
 		}
 	}
+}
+.blockContent{
+	position: relative;
 }
 .blockOverlay{
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: calc(100% + 10px);
+	height: 100%;
 	width: 100%;
 	content: "";
 	transition: .2s ease all;
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,0);
 }
 .blockImage{
 	width: 100%;

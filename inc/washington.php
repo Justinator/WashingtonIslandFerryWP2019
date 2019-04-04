@@ -62,7 +62,7 @@
 
           <li class="tableTitle">Capacity</li>
 
-          <li class="tableData">150 Passengers, 21 Autos</li>
+          <li class="tableData">149 Passengers, 21 Autos</li>
 
         </ul>
 

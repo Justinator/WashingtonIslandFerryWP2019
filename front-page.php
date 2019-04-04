@@ -38,73 +38,7 @@ get_header();
 
 		<section id="pageContent">
 
-			<section id ="schedules" class="paddedSection">
-
-				<div class="navWidth">
-
-					<h2 class="centerText caps primaryText">Schedules and Rates</h2>
-
-				</div>
-
-				<div class="navWidth wrappedFlexContainer">
-
-					<div class="blockWrapper">
-
-						<a href="/washington-island/">
-
-							<div class="blockOverlay"></div>
-
-							<div class="blockContent">
-
-								<img src="/wp-content/uploads/2019/03/WIF-BucketMedium.jpg" class="blockImage">
-
-								<h2 class="blockTitle smallHeading"><span class="blockTitleSpan">Washington Island Ferry</span></h2>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="blockWrapper">
-
-						<a href="/rock-island/">
-
-							<div class="blockOverlay"></div>
-
-							<div class="blockContent">
-
-								<img src="/wp-content/uploads/2019/03/RockIslandBucketMedium.jpg" class="blockImage">
-
-								<h2 class="blockTitle smallHeading"><span class="blockTitleSpan">Rock Island Ferry</span></h2>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="blockWrapper">
-
-						<a href="/cherry-train-tours/">
-
-							<div class="blockOverlay"></div>
-
-							<div class="blockContent">
-
-								<img src="/wp-content/uploads/2019/03/CherryTrainBucketMedium.jpg" class="blockImage">
-
-								<h2 class="blockTitle smallHeading"><span class="blockTitleSpan">Cherry Train Tours</span></h2>
-
-							</div>
-
-						</a>
-
-					</div>
-
-				</div>
-
-			</section>
+			<?php get_template_part("/inc/schedules"); ?>
 
 			<section id="aboutFerry" class="paddedSection">
 

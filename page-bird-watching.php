@@ -14,7 +14,7 @@ get_header();
 
 		<section>
 
-			<div class="hero webcamHero">
+			<div class="hero birdHero">
 
 			</div>
 

@@ -10,7 +10,7 @@
 
     <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab1" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>You can find the Washington Island Ferry schedule <a href="/washington-island/" class="faqLink">here<span class="screen-reader-text"> Go to the washington island page and view the washington island schedule</span></a> , and in our
+        <p>You can find the Washington Island Ferry schedule <a href="/washington-island/" class="faqLink">here<span class="screen-reader-text"> Go to the washington island page and view the washington island schedule</span></a>, and in our
           annual brochure offered at most Door County establishments.  </p>
       </div>
     </div>
@@ -38,9 +38,9 @@
     <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab3" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Transportation is recommended on Washington Island. You can bring your vehicle, motorcycle or
-          bicycle on the Washington Island Ferry. Bicycle, UTV, and moped rentals are available adjacent to
-          the Washington Island Ferry dock once you arrive. You can find more information
-          <a href="/plan-a-trip/" class="faqLink">here.<span class="screen-reader-text"> View all FAQs</span></a></p>
+          bicycle on the Washington Island Ferry. Once you arrive, bicycle, UTV and moped rentals are available adjacent to
+          the Washington Island Ferry dock. You can find more information
+          <a href="/plan-a-trip/" class="faqLink">here<span class="screen-reader-text"> View all FAQs</span></a>.</p>
       </div>
     </div>
   </article>
@@ -77,7 +77,7 @@
     <div id="panel6" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab4" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Northport Pier is located at
-          <a href="https://www.google.com/maps/dir/44.4858368,-88.0017408/northport+pier+door+county/@44.884572,-88.0500159,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4d4d18e4d182ea0d:0xe3e1ba339daffd24!2m2!1d-86.9774444!2d45.2904944" class="faqLink">215 WI-42 Ellison Bay, WI 54210<span class="screen-reader-text"> Opens Google Maps in a new tab</span></a>
+          <a href="https://goo.gl/maps/KgALREYf7gF2" class="faqLink" target="_blank">215 WI-42 Ellison Bay, WI 54210<span class="screen-reader-text"> Opens Google Maps in a new tab</span></a>
            i.e. at the end of Hwy 42. This is where visitors board the Washington Island Ferry to travel
            to Washington Island. </p>
       </div>

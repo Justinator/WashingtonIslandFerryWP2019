@@ -1,0 +1,23 @@
+.slideshowWrapper{
+  margin: 0 auto;
+  @include breakpoint(smallScreen){
+    height: 300px;
+    width: 100%;
+  }
+  @include breakpoint(largeMobileScreen){
+    height: 400px;
+    width: 100%;
+  }
+  @include breakpoint(tabletScreen){
+    height: 500px;
+    width: 90%;
+  }
+  @include breakpoint(laptopScreen){
+    height: 500px;
+    width: 70%;
+  }
+  @include breakpoint(largeScreen){
+    height: 550px;
+    width: 60%;
+  }
+}

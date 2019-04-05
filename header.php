@@ -21,7 +21,9 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-	<!--<link href="/wp-content/themes/washingtonislandresponsive/css/hamburgers.min.css" rel="stylesheet">-->
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/washingtonislandresponsive/fonts/MyFontsWebfontsKit.css">
+
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/washingtonislandresponsive/css/css.fadeshow.min.css">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
 

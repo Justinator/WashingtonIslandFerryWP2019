@@ -1,4 +1,4 @@
-<!-- Accordion 3 -->
+<!-- Accordion 4 -->
 <h2 class="primaryText caps">Birding FAQs</h2>
 
 <section id="birdingFAQ" class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">

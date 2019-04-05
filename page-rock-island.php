@@ -50,7 +50,7 @@ get_header();
 
 						<?php echo do_shortcode('[MEC id="134"]'); ?>
 
-						<div class="scheduleInfo">
+						<div class="scheduleInfo flex-container">
 
 							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
 
@@ -94,7 +94,7 @@ get_header();
 
 							</p>
 
-							<h3 class="primaryText caps largeHeading noMargin">Reminders:</h3>
+							<h3 class="primaryText caps largeHeading">Reminders:</h3>
 
 							<ul class="starredList">
 
@@ -128,9 +128,9 @@ get_header();
 
 				</div>
 
-				<div class="pageWidth centerText">
+				<?php get_template_part("/inc/roundTripRock"); ?>
 
-					<?php get_template_part("/inc/roundTripRock"); ?>
+				<div class="centerText">
 
 					<img src="/wp-content/uploads/2019/03/CreditCardIcons-rgb.png" id="rockCredit" class="image">
 
@@ -198,9 +198,9 @@ get_header();
 
 				<div class="centerText">
 
-					<h5 class="primaryText caps largeHeading">More questions about the Rock Island Ferry?</h5>
+					<h5 class="primaryText caps largeHeading">More questions about Rock Island?</h5>
 
-					<a href="/faq/" class="primaryButton caps">VIEW ALL FAQS</a>
+					<a href="/faq/#rockIslandFAQ" class="primaryButton caps">VIEW ALL FAQS</a>
 
 				</div>
 

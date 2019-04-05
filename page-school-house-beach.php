@@ -14,7 +14,7 @@ get_header();
 
 		<section>
 
-			<div class="hero washingtonHero">
+			<div class="hero tripHero">
 
 			</div>
 
@@ -26,7 +26,9 @@ get_header();
 
 					<div class="headerWrap">
 
-						<h1 class="whiteText heroHeading">Frequently Asked Questions</h1>
+						<h1 class="whiteText heroHeading">School House Beach</h1>
+
+						<p class="whiteText">45°23'53.2"N, 86°55'38.4"W</p>
 
 					</div>
 
@@ -38,29 +40,30 @@ get_header();
 
 		<section id="pageContent">
 
-			<section id="accordions" class="paddedSection limitWidth">
+			<section id ="stavkirkeDesc" class="paddedSection">
 
-				<div id="faqWrapper">
+				<div class="pageWidth">
 
-					<?php get_template_part("/inc/washingtonIslandFAQ"); ?>
+					<div class="limitWidth">
 
-			    <?php get_template_part("/inc/rockIslandFAQ"); ?>
+						<p>The most popular swim beach and picnic area on Washington
+							Island, this beach features white, polished limestone rocks.
+							The stones are special, unique and limited and as such are
+							for viewing and appreciation only!</p>
 
-					<?php get_template_part("/inc/cherryTrainFAQ"); ?>
-
-					<?php get_template_part("/inc/birdingFAQ"); ?>
+					</div>
 
 				</div>
 
 			</section>
+
+			<?php get_template_part("/inc/schoolhouseSlideshow"); ?>
 
 		</section>
 
 	</main>
 
 </div>
-
-<script src="/wp-content/themes/washingtonislandresponsive/js/accordion.js"></script>
 
 <?php
 

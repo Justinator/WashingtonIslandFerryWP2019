@@ -2,15 +2,15 @@
 
   <div class="navWidth">
 
-    <h5 class="largeHeading primaryText caps centerText">FEATURED ISLAND DESTINATIONS</h5>
+    <h5 class="largeHeading primaryText caps centerText">FEATURED Washington ISLAND DESTINATIONS</h5>
 
   </div>
 
   <div class="fullWidth flex-container">
 
-    <div id="schoolHouse" class="col50">
+    <a href="/school-house-beach" class="col50">
 
-      <a href="/plan-a-trip/">
+      <div id="schoolHouse" class="featuredDest">
 
         <div class="destInfo">
 
@@ -28,11 +28,13 @@
 
         </div>
 
-    </div>
+      </div>
 
-    <div id="stavkirke" class="col50">
+    </a>
 
-      <a href="/plan-a-trip/">
+    <a href="/stavkirke-church" class="col50">
+
+      <div id="stavkirke" class="featuredDest">
 
         <div class="destInfo">
 
@@ -50,9 +52,9 @@
 
         </div>
 
-      </a>
+      </div>
 
-    </div>
+    </a>
 
   </div>
 

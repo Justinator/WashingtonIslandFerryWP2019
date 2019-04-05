@@ -50,7 +50,7 @@ get_header();
 
 						<?php echo do_shortcode('[MEC id="361"]'); ?>
 
-						<div class="scheduleInfo">
+						<div class="scheduleInfo flex-container">
 
 							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
 
@@ -93,7 +93,7 @@ get_header();
 
 							</p>
 
-							<h4 class="primaryText caps largeHeading noMargin">Reminders:</h4>
+							<h4 class="primaryText caps largeHeading">Reminders:</h4>
 
 							<ul class="starredList">
 
@@ -123,9 +123,9 @@ get_header();
 
 				</div>
 
-				<div class="pageWidth centerText">
+				<?php get_template_part("/inc/cherryTrain"); ?>
 
-					<?php get_template_part("/inc/cherryTrain"); ?>
+				<div class="centerText">
 
 					<img src="/wp-content/uploads/2019/03/CreditCardIcons-rgb.png" id="rockCredit" class="image">
 
@@ -134,6 +134,59 @@ get_header();
 				</div>
 
 			</section>
+
+			<section id="cherryTrainPOI">
+
+				<?php get_template_part("/inc/cherryTrainPOI"); ?>
+
+			</section>
+
+			<section id="groupTours">
+
+				<div class="pageWidth">
+
+					<div class="centerText">
+
+						<h5 class="largeHeading primaryText caps">Charter Tour Information</h5>
+
+					</div>
+
+					<div class="limitWidth">
+
+						<p>The Cherry Train offers the choice of charter reservations for bus
+							tours, weddings, business tours, family reunions/outings, Boy/Girl
+							Scout trips, school functions, international touring groups, office
+							parties, anniversary gatherings, seminars, surprise party tours,
+							sports groups, conventions, etc.</p>
+
+						<p>We offer customized tours for any size group. We also provide
+							Step-On-Guides for your bus tour to our island. Washington
+							Island Ferry Lines will transport your bus and passengers while
+							they relax on the bus enjoying the gorgeous view, colors and
+							beauty of spring, summer and fall! An island experience is
+							truly the highlight of any tour. Our native island guides
+							provide history, legend and folklore...along with earthy
+							island humor and stories you won't believe!</p>
+
+						<p>Contact the Cherry Train Tour Office at <a href="tel:(920)847-2546" class="primaryLink">(920) 847-2546</a> for more information.</p>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<div class="pageWidth paddedSection">
+
+				<div class="centerText">
+
+					<h5 class="primaryText caps largeHeading">More questions about Cherry Train Tours?</h5>
+
+					<a href="/faq/#cherryTrainFAQ" class="primaryButton caps">VIEW ALL FAQS</a>
+
+				</div>
+
+			</div>
 
 		</section>
 

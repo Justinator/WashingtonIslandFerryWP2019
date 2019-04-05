@@ -73,15 +73,15 @@
 		a{
 			text-decoration: none;
 			color: $primaryColor;
-			font-weight: 700;
+			font-weight: 500;
 			padding: 5px;
-			font-family: CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+			font-family: $CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 			letter-spacing: 1.5px;
 			@include breakpoint(laptopScreen){
 				font-size: 16px;
 			}
 			@include breakpoint(largeScreen){
-				font-size: 20px;
+				font-size: 22px;
 			}
 		}
 	}
@@ -303,9 +303,9 @@ nav{
 		text-transform: uppercase;
 		a{
 			color: $primaryColor;
-			font-weight: 700;
+			font-weight: 500;
 			text-decoration: none;
-			font-family: CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+			font-family: $CalpsSlim;
 			letter-spacing: 1.5px;
 		}
 	}

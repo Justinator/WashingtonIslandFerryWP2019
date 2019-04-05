@@ -1,4 +1,4 @@
-<div class="fullWidth flex-container">
+<div class="navWidth flex-container">
 
   <div class="col50">
 
@@ -27,7 +27,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$29.50</p>
+          <p class="times noMargin price">$29.50</p>
 
         </div>
 
@@ -43,7 +43,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$14.50</p>
+          <p class="times noMargin price">$14.50</p>
 
         </div>
 
@@ -59,7 +59,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">FREE</p>
+          <p class="times noMargin price">FREE</p>
 
         </div>
 
@@ -89,7 +89,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$16.00</p>
+          <p class="times noMargin price">$16.00</p>
 
         </div>
 
@@ -105,7 +105,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">$7.50</p>
+          <p class="times noMargin price">$7.50</p>
 
         </div>
 
@@ -121,7 +121,7 @@
 
         <div class="col30">
 
-          <p class="times noMargin">FREE</p>
+          <p class="times noMargin price">FREE</p>
 
         </div>
 

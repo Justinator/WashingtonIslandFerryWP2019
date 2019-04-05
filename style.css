@@ -635,6 +635,7 @@ optgroup::-moz-focus-inner {
   background: #eeeeee; }
 
 /* 1.0 sitewide variables -------------------------------------------*/
+/* Fonts */
 /* 2.0 Define mobile breakpoints for our site ----------------------*/
 /* 3.0 Our page layouts -------------------------------------------*/
 .col20 {
@@ -1187,16 +1188,16 @@ optgroup::-moz-focus-inner {
   #primary-menu li a {
     text-decoration: none;
     color: #002F6C;
-    font-weight: 700;
+    font-weight: 500;
     padding: 5px;
-    font-family: CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-family: CalpsSlim-Medium, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
     letter-spacing: 1.5px; }
     @media (min-width: 992px) {
       #primary-menu li a {
         font-size: 16px; } }
     @media (min-width: 1250px) {
       #primary-menu li a {
-        font-size: 20px; } }
+        font-size: 22px; } }
 
 .menu-item a {
   position: relative; }
@@ -1394,9 +1395,9 @@ nav {
     text-transform: uppercase; }
     #mobile-menu li a {
       color: #002F6C;
-      font-weight: 700;
+      font-weight: 500;
       text-decoration: none;
-      font-family: CalpsSlim, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+      font-family: CalpsSlim-Medium;
       letter-spacing: 1.5px; }
   @media (max-width: 599px) {
     #mobile-menu {
@@ -1703,12 +1704,6 @@ nav {
       margin-bottom: 25px; } }
 
 /* 6.0 Site Typography -------------------------------------------*/
-@font-face {
-  font-family: Calps;
-  src: url(/wp-content/themes/washingtonislandresponsive/fonts/calps-regular.otf); }
-@font-face {
-  font-family: CalpsSlim;
-  src: url(/wp-content/themes/washingtonislandresponsive/fonts/calps-slim-medium.otf); }
 body,
 button,
 input,
@@ -1721,7 +1716,7 @@ textarea {
   line-height: 1.6em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: CalpsSlim-Medium;
   line-height: 1.2em;
   font-weight: 500 !important; }
 
@@ -1799,12 +1794,6 @@ h6 {
 .caps {
   text-transform: uppercase; }
 
-.strongText {
-  font-family: 'Roboto', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
-  line-height: 1.2em;
-  font-weight: 700;
-  font-size: 1.4em; }
-
 .underlinedHeading {
   position: relative; }
   .underlinedHeading:after {
@@ -1851,25 +1840,6 @@ h6 {
 .smallMarginHeader {
   margin-bottom: 10px; }
 
-.underline {
-  content: "";
-  background-color: #f4a81d;
-  height: 3px;
-  width: 4em;
-  margin-top: 5px;
-  margin-bottom: 20px; }
-
-.centerUnderline {
-  content: "";
-  position: relative;
-  height: 3px;
-  width: 4em;
-  margin: 0 auto;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  border-bottom: 3px solid #f4a81d;
-  transition: .2s ease all; }
-
 .shadow {
   text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5); }
 
@@ -1907,11 +1877,11 @@ h6 {
   border: 2px solid #c8102e;
   color: #FFFFFF;
   transition: .2s ease all;
-  padding: 15px 30px 10px 30px;
+  padding: 10px 30px 10px 30px;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   border-radius: 10px;
-  font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: CalpsSlim-Medium, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   font-size: 24px;
   letter-spacing: 1px; }
   .primaryButton:hover {
@@ -2262,6 +2232,9 @@ body.using-mouse :focus {
     @media (min-width: 992px) {
       .waterColorWrapper h1 {
         font-size: 2.5em; } }
+  .waterColorWrapper p {
+    width: 90%;
+    margin: 0 auto; }
 
 #homeWaterColor h1 {
   width: 90%;
@@ -2415,28 +2388,30 @@ body.using-mouse :focus {
     padding: 20px;
     margin: 0 auto; } }
 
-#schoolHouse {
-  background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachPrewatercolorLarge.jpg");
+.featuredDest {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
   transition: .3s ease all;
-  padding: 150px 0;
   position: relative; }
+  @media (max-width: 599px) {
+    .featuredDest {
+      height: 400px; } }
+  @media (min-width: 600px) {
+    .featuredDest {
+      height: 500px; } }
+  @media (min-width: 1250px) {
+    .featuredDest {
+      height: 600px; } }
+
+#schoolHouse {
+  background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachPrewatercolorLarge.jpg"); }
   #schoolHouse:hover {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/04/SchoolHouseBeachWatercolorLargeMedium-1.jpg"); }
 
 #stavkirke {
-  background-image: url("/wp-content/uploads/2019/04/1.3_StavkirkeCroppedMedium-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-  transition: .3s ease all;
-  padding: 150px 0;
-  position: relative; }
+  background-image: url("/wp-content/uploads/2019/04/1.3_StavkirkeCroppedMedium-1.jpg"); }
   #stavkirke:hover {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/04/1.3-StavkirkeWatercolor-cropped.jpg"); }
@@ -3231,27 +3206,13 @@ html, body {
       top: 100px; } }
 
 #mountainPark {
-  background-image: url("/wp-content/uploads/2019/04/1.3_Feature-LookoutTowerMedium-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-  transition: .3s ease all;
-  padding: 150px 0;
-  position: relative; }
+  background-image: url("/wp-content/uploads/2019/04/1.3_Feature-LookoutTowerMedium-1.jpg"); }
   #mountainPark:hover {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/04/1.3-Feature-LookoutTowerWatercolor.jpg"); }
 
 #farm {
-  background-image: url("/wp-content/uploads/2019/04/1.3_Feature-FarmMuseum-croppedMedium-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-  transition: .3s ease all;
-  padding: 150px 0;
-  position: relative; }
+  background-image: url("/wp-content/uploads/2019/04/1.3_Feature-FarmMuseum-croppedMedium-1.jpg"); }
   #farm:hover {
     transition: .3s ease all;
     background-image: url("/wp-content/uploads/2019/04/1.3FarmImageCropped.jpg"); }
@@ -3264,6 +3225,15 @@ html, body {
 .printWrapper {
   display: flex;
   align-items: center; }
+  @media (max-width: 599px) {
+    .printWrapper {
+      margin-top: 15px; } }
+  @media (min-width: 600px) {
+    .printWrapper {
+      margin-top: 15px; } }
+  @media (min-width: 992px) {
+    .printWrapper {
+      margin-top: 0; } }
 
 .printLink {
   margin-left: 15px; }
@@ -3308,10 +3278,6 @@ html, body {
 .cherryHero {
   background-image: url("/wp-content/uploads/2019/03/CherryTrainHeroLarge50.jpg"); }
 
-#roundTripsCherry {
-  padding-bottom: 150px !important;
-  margin-bottom: -100px; }
-
 /* 17.0 Webcams Page -------------------------------------------*/
 .webcamHero {
   background-image: url("/wp-content/uploads/2019/03/washingtonFerryHeroLarge50.jpg"); }
@@ -3339,6 +3305,14 @@ html, body {
 /* 18.0 Plan a trip Page -------------------------------------------*/
 .tripHero {
   background-image: url("/wp-content/uploads/2019/04/planATripHeroLowCropped.jpg"); }
+
+.stavkirkeHero {
+  background-image: url("/wp-content/uploads/2019/04/stavkirkeHero2.jpg");
+  background-position: top center; }
+
+.farmHero {
+  background-image: url("/wp-content/uploads/2019/04/farmMuseumHero.jpg");
+  background-position: top center; }
 
 /* 19.0 All Schedule Styles -------------------------------------------*/
 .scheduleOuterWrapper {
@@ -3465,7 +3439,7 @@ html, body {
 .mec-calendar-header h2 {
   color: #002F6C !important;
   font-size: 36px !important;
-  font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif; }
+  font-family: CalpsSlim-Medium, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif; }
 
 .mec-next-month, .mec-previous-month {
   border: none !important;
@@ -3605,7 +3579,7 @@ html, body {
 .mec-single-event .mec-event-meta dt,
 .mec-single-event .mec-event-meta h3 {
   color: #002F6C;
-  font-family: Calps, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: CalpsSlim-Medium, "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   font-size: 20px;
   letter-spacing: 1px; }
 
@@ -3750,5 +3724,28 @@ html, body {
 /* 23.0 Kayak page Styles -------------------------------------------*/
 .kayakHero {
   background-image: url("/wp-content/uploads/2019/04/KayakCaptureCropped.jpg"); }
+
+.slideshowWrapper {
+  margin: 0 auto; }
+  @media (max-width: 599px) {
+    .slideshowWrapper {
+      height: 300px;
+      width: 100%; } }
+  @media (min-width: 600px) {
+    .slideshowWrapper {
+      height: 400px;
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .slideshowWrapper {
+      height: 500px;
+      width: 90%; } }
+  @media (min-width: 992px) {
+    .slideshowWrapper {
+      height: 500px;
+      width: 70%; } }
+  @media (min-width: 1250px) {
+    .slideshowWrapper {
+      height: 550px;
+      width: 60%; } }
 
 /*# sourceMappingURL=style.css.map */

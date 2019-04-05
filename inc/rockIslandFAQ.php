@@ -9,7 +9,7 @@
 
     <div id="panel9" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab5" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>You can find the Rock Island Ferry schedule <a href="/rock-island/" class="faqLink">here,<span class="screen-reader-text"> Go to the rock island ferry page</span></a>
+        <p>You can find the Rock Island Ferry schedule <a href="/rock-island/" class="faqLink">here<span class="screen-reader-text"> Go to the rock island ferry page</span></a>,
            and in our annual brochure offered at most Door County establishments.  </p>
       </div>
     </div>
@@ -18,7 +18,7 @@
 
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab10" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
-      <h5>How do I get from the Door County to Rock Island? </h5>
+      <h5>How do I get from Door County to Rock Island? </h5>
     </span>
 
     <div id="panel10" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
@@ -114,7 +114,7 @@
 
     <div id="panel15" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Leashed pets are allowed on the Washington Island Ferry and the Rock Island Ferry.
+        <p>Leashed pets are allowed on the main decks of the Washington Island Ferry and the Rock Island Ferry.
           Be responsible for your pet and respect other campers. Please clean up after your pet,
           even in the State Park woods. </p>
       </div>
@@ -146,7 +146,7 @@
 
     <div id="panel17" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Fair to good on the west side of Rock Island. New cell towers were installed on Washington Island and coverage greatly improved for Verizon, Cellcom and US Cellular customers.
+        <p>Fair to good on the west side of Rock Island. New cell towers were installed on Washington Island and coverage greatly improved for Verizon, Cellcom and U.S. Cellular customers.
           There are “shadow” areas behind bluffs. Your phone’s digital clock may adjust to nearby Upper
           Michigan (EDST) time from cell towers located there. </p>
       </div>

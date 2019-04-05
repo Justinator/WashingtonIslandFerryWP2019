@@ -317,13 +317,6 @@
 }
 #mountainPark{
 	background-image: url("/wp-content/uploads/2019/04/1.3_Feature-LookoutTowerMedium-1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 400px;
-	transition: .3s ease all;
-	padding: 150px 0;
-	position: relative;
 	&:hover{
 		transition: .3s ease all;
 		background-image: url("/wp-content/uploads/2019/04/1.3-Feature-LookoutTowerWatercolor.jpg");
@@ -331,13 +324,6 @@
 }
 #farm{
 	background-image: url("/wp-content/uploads/2019/04/1.3_Feature-FarmMuseum-croppedMedium-1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 400px;
-	transition: .3s ease all;
-	padding: 150px 0;
-	position: relative;
 	&:hover{
 		transition: .3s ease all;
 		background-image: url("/wp-content/uploads/2019/04/1.3FarmImageCropped.jpg");
@@ -351,6 +337,15 @@
 .printWrapper{
   display: flex;
   align-items: center;
+  @include breakpoint(smallScreen){
+    margin-top: 15px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 15px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 0;
+  }
 }
 .printLink{
   margin-left: 15px;

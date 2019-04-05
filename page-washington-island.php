@@ -48,7 +48,7 @@ get_header();
 
 						<?php echo do_shortcode('[MEC id="97"]'); ?>
 
-						<div class="scheduleInfo">
+						<div class="scheduleInfo flex-container">
 
 							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
 
@@ -191,7 +191,7 @@ get_header();
 
 				<div class="centerText">
 
-					<h5 class="primaryText caps largeHeading">More questions about the Washington Island Ferry?</h5>
+					<h5 class="primaryText caps largeHeading">More questions about Washington Island?</h5>
 
 					<a href="/faq/" class="primaryButton caps">VIEW ALL FAQS</a>
 

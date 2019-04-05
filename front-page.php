@@ -94,7 +94,7 @@ get_header();
 
 								<div class="buttonWrapper">
 
-									<a href="https://www.google.com/maps/dir//northport+pier+door+county/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4d4d18e4d182ea0d:0xe3e1ba339daffd24?sa=X&ved=2ahUKEwiHqYOk3KfhAhUSCawKHT18BwsQ9RcwEXoECAwQDw/" class="primaryButton caps" target="_blank" rel="noreferrer">get directions</a>
+									<a href="https://goo.gl/maps/KgALREYf7gF2" class="primaryButton caps" target="_blank" rel="noreferrer">get directions</a>
 
 								</div>
 
@@ -155,9 +155,8 @@ get_header();
 						<h4 class="primaryText centerText">Do I need my car on Washington Island?</h4>
 
 						<p>Transportation is recommended on Washington Island. You can bring your vehicle,
-							motorcycle or bicycle on the Washington Island Ferry. Bicycle, UTV, and moped
-							rentals are available adjacent to the Washington Island Ferry dock once you
-							arrive. You can find more information
+							motorcycle or bicycle on the Washington Island Ferry. Once you arrive, bicycle, UTV and moped
+							rentals are available adjacent to the Washington Island Ferry dock. You can find more information
 							<a href="/plan-a-trip/" class="primaryLink">here.<span class="screen-reader-text">Opens the plan a trip page</span></a></p>
 
 					</div>

@@ -8,9 +8,9 @@
 
   <div class="fullWidth flex-container">
 
-    <div id="mountainPark" class="col50">
+    <a href="/plan-a-trip/" class="col50">
 
-      <a href="/plan-a-trip/">
+      <div id="mountainPark" class="featuredDest">
 
         <div class="destInfo">
 
@@ -28,13 +28,13 @@
 
         </div>
 
-      </a>
+      </div>
 
-    </div>
+    </a>
 
-    <div id="farm" class="col50">
+    <a href="/farm-museum" class="col50">
 
-      <a href="/plan-a-trip/">
+      <div id="farm" class="featuredDest">
 
         <div class="destInfo">
 
@@ -52,9 +52,9 @@
 
         </div>
 
-      </a>
+      </div>
 
-    </div>
+    </a>
 
   </div>
 

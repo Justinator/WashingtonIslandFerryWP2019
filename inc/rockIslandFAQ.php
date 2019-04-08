@@ -40,7 +40,7 @@
 
     <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab2" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Find more information <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink">here<span class="screen-reader-text">Opens the DNR website in a new tab</span></a>. </p>
+        <p>Find more information <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink" target="_blank" rel="noreferrer">here<span class="screen-reader-text">Opens the DNR website in a new tab</span></a>. </p>
       </div>
     </div>
   </article>
@@ -57,7 +57,7 @@
           Ferry. You may purchase combination tickets for the Washington Island Ferry and the Rock Island
           Ferry at the Northport Pier Ticket Booth.</p>
 
-        <p>If you intend to camp on Rock Island, reserve your <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink">campsite<span class="screen-reader-text"> Opens link to the DNR website in a new tab</span></a>
+        <p>If you intend to camp on Rock Island, reserve your <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink" target="_blank" rel="noreferrer">campsite<span class="screen-reader-text"> Opens link to the DNR website in a new tab</span></a>
           through the state’s website. On busy summer weekends, that is the only way you can be assured of a
           campsite on Rock Island. For day visits, you may park and cross on the Rock Island Ferry. </p>
       </div>
@@ -234,7 +234,7 @@
     <div id="panel21" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Besides local history books, a good way to learn and become involved with Rock Island is to
-          join the <a href="http://www.fori.us/" class="faqLink">Friends of Rock Island<span class="screen-reader-text"> Opens friends of rock island website in a new tab</span></a> (called FORI). FORI
+          join the <a href="http://www.fori.us/" class="faqLink" target="_blank" rel="noreferrer">Friends of Rock Island<span class="screen-reader-text"> Opens friends of rock island website in a new tab</span></a> (called FORI). FORI
           Members are from everywhere, not only Wisconsin. They have an abiding passion for nature,
           history and for the lighthouse on Rock Island. </p>
         <p>This is a volunteer organization, but even if you’re not able to volunteer, your financial

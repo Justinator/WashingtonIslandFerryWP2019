@@ -132,7 +132,7 @@
 
       <div class="coloredHeader">
 
-        <h5 class="noMargin caps whiteText centerText">OVERSIZED VEHICLES (ONE WAY)</h5>
+        <h5 id="oversizedHeader" class="caps whiteText">OVERSIZED VEHICLES (ONE WAY)</h5>
 
       </div>
 

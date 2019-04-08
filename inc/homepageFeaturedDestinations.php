@@ -8,7 +8,7 @@
 
   <div class="fullWidth flex-container">
 
-    <a href="/school-house-beach" class="col50">
+    <a href="/schoolhouse-beach" class="col50">
 
       <div id="schoolHouse" class="featuredDest">
 

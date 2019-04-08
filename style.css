@@ -3238,6 +3238,18 @@ html, body {
 .printLink {
   margin-left: 15px; }
 
+#oversizedHeader {
+  margin: 0 0 0 20px; }
+  @media (max-width: 599px) {
+    #oversizedHeader {
+      text-align: center; } }
+  @media (min-width: 600px) {
+    #oversizedHeader {
+      text-align: center; } }
+  @media (min-width: 992px) {
+    #oversizedHeader {
+      text-align: left; } }
+
 /* 15.0 Rock Island Page -------------------------------------------*/
 .rockHero {
   background-image: url("/wp-content/uploads/2019/04/3.1-Rock-Island-Hero2Medium.jpg"); }

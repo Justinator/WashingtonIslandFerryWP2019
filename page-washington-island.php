@@ -121,7 +121,7 @@ get_header();
 
 				<div class="pageWidth">
 
-					<h5 class="primaryText centerText largeHeading">2019 Round Trip Rates</h5>
+					<h5 class="primaryText centerText largeHeading">2019 Rates</h5>
 
 				</div>
 

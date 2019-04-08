@@ -141,7 +141,7 @@ get_header();
 
 			</section>
 
-			<section id="groupTours">
+			<!--<section id="groupTours">
 
 				<div class="pageWidth">
 
@@ -174,7 +174,7 @@ get_header();
 
 				</div>
 
-			</section>
+			</section>-->
 
 			<div class="pageWidth paddedSection">
 

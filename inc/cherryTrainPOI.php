@@ -28,7 +28,7 @@
 
     <div class="blockWrapper">
 
-      <a href="/school-house-beach">
+      <a href="/schoolhouse-beach">
 
         <div class="blockContent">
 
@@ -38,7 +38,7 @@
 
         </div>
 
-        <h4 class="primaryText centerText marginTop caps">School House Beach</h4>
+        <h4 class="primaryText centerText marginTop caps">SchoolHouse Beach</h4>
 
       </a>
 
@@ -61,7 +61,7 @@
       </a>
 
     </div>
-
+    <!--
     <div class="blockWrapper">
 
       <div class="blockContent">
@@ -97,7 +97,7 @@
       <h4 class="primaryText centerText marginTop caps">Jacobsen Museum at Little Lake</h4>
 
     </div>
-
+    -->
   </div>
 
 </section>

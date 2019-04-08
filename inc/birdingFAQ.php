@@ -29,7 +29,7 @@
           Harbor Ridges, Rock Island State Park, Schoolhouse Beach, Jacobsen’s Museum at Little Lake and
           Sand Dunes Beach.</p>
 
-        <p><a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/birdguide.pdf" class="faqLink">Download Bird Guide<span class="screen-reader-text"> Opens a PDF of the bird guide in a new tab</span></a></p>
+        <p><a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/birdguide.pdf" class="faqLink" target="_blank">Download Bird Guide<span class="screen-reader-text"> Opens a PDF of the bird guide in a new tab</span></a></p>
       </div>
     </div>
   </article>

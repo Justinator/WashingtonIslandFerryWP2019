@@ -43,27 +43,35 @@ get_header();
 				<p>Get a 24/7 view of our Washington Island Ferry docks. Check weather conditions,
 					watch ferry traffic and see our beautiful dock view. </p>
 
-				<img id="webcamMap" src="/wp-content/uploads/2019/03/webcams-map.jpg" class="image">
+				<!--<img id="webcamMap" src="/wp-content/uploads/2019/03/webcams-map.jpg" class="image">-->
 
-				<div id="cameraWrapper" class="fullWidth flex-container cameraWrapper">
+				<div id="cameraWrapper" class="fullWidth cameraWrapper">
 
-					<div class="col50">
+					<div class="limitWidth">
 
-						<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #1</h4>
+						<div class="smallPaddedWrapper">
 
-						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["XM6Y3"] = {"e":"MwA8EP","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=XM6Y3" async></script>
-						<!-- end webcam.io widget -->
+							<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #1</h4>
+
+							<!-- webcam.io widget -->
+							<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["XM6Y3"] = {"e":"MwA8EP","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=XM6Y3" async></script>
+							<!-- end webcam.io widget -->
+
+						</div>
 
 					</div>
 
-					<div class="col50">
+					<div class="limitWidth">
 
-						<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #2</h4>
+						<div class="smallPaddedWrapper">
 
-						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["eytXb"] = {"e":"zoyw09","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=eytXb" async></script>
-						<!-- end webcam.io widget -->
+							<h4 class="primaryText caps">Northport Pier Ferry Dock Camera #2</h4>
+
+							<!-- webcam.io widget -->
+							<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["eytXb"] = {"e":"zoyw09","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=eytXb" async></script>
+							<!-- end webcam.io widget -->
+
+						</div>
 
 					</div>
 
@@ -71,17 +79,17 @@ get_header();
 
 				<div id="cameraWrapper2" class="fullWidth flex-container cameraWrapper">
 
-					<div class="col50">
+					<div class="limitWidth">
 
-						<h4 class="primaryText caps">Washington Island Ferry Dock Entrance Camera #3</h4>
+						<div class="smallPaddedWrapper">
 
-						<!-- webcam.io widget -->
-						<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["w7SQ0"] = {"e":"zY1Lyz","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=w7SQ0" async></script>
-						<!-- end webcam.io widget -->
+							<h4 class="primaryText caps">Washington Island Ferry Dock Camera</h4>
 
-					</div>
+							<!-- webcam.io widget -->
+							<script type="text/javascript">window.timelapseview_options=window.timelapseview_options || {};window.timelapseview_options["w7SQ0"] = {"e":"zY1Lyz","t":"1","x":"680","y":"620"};</script><script src="https://webcam.io/s/widget-v1_03.load.js?i=w7SQ0" async></script>
+							<!-- end webcam.io widget -->
 
-					<div class="col50">
+						</div>
 
 					</div>
 

@@ -48,7 +48,7 @@ get_header();
 
 						<p>The most popular swim beach and picnic area on Washington
 							Island, this beach features white, polished limestone rocks.
-							The stones are special, unique and limited and as such are
+							The stones are unique and limited, and are
 							for viewing and appreciation only!</p>
 
 					</div>

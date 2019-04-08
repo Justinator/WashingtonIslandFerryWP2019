@@ -350,3 +350,15 @@
 .printLink{
   margin-left: 15px;
 }
+#oversizedHeader{
+  margin: 0 0 0 20px;
+  @include breakpoint(smallScreen){
+    text-align: center;
+  }
+  @include breakpoint(largeMobileScreen){
+    text-align: center;
+  }
+  @include breakpoint(laptopScreen){
+    text-align: left;
+  }
+}

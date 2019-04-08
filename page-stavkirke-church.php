@@ -48,8 +48,8 @@ get_header();
 
 						<p>This dedicated Lutheran church is a wooden chapel built in 1995 to
 							resemble an ancient Norwegian Borgund chapel of 1100 A.D. and pays
-							tribute to Island’s Scandinavian roots. There is also a prayer path
-							for meditation. The church is open daily for visitation, meditation,
+							tribute to the island’s Scandinavian roots. There is also a prayer path
+							for meditation. The church is open daily for visitation, meditation
 							and special events such as weddings (by permission). Managed by
 							Trinity Lutheran Church. (Admission with a donation.)</p>
 

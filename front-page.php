@@ -80,7 +80,7 @@ get_header();
 
 						<div class="blockText">
 
-							<h3 class="primaryText caps">Getting to washington Island</h3>
+							<h3 class="primaryText caps largeHeading">Getting to washington Island</h3>
 
 							<p>
 								The Washington Island Ferry is located at the tip of the Door Peninsula, in the Northeast

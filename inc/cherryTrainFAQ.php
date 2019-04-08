@@ -50,7 +50,7 @@
 
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Signage directs you to free parking on either side of the highway. Restrooms, information and tickets are available at the pier.</p>
+        <p>Signage directs you to free parking on either side of the highway at Northport Pier. Restrooms, information and tickets are available at the pier.</p>
       </div>
     </div>
   </article>
@@ -80,7 +80,7 @@
 
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
-        <p>Washington Island is a complete vacation community, a year-round community in
+        <p><a href="https://washingtonisland.com/" class="faqLink" target="_blank" rel="noreferrer">Washington Island</a> is a complete vacation community, a year-round community in
           fact, with a variety of businesses to meet your needs and desires. This is one
           reason to have your own transportation should you wish to shop, dine or visit
           places off the typical Cherry Train Tour route. If you stay for the night,

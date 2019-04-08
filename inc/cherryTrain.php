@@ -10,7 +10,7 @@
 
           <h5 class="noMargin caps whiteText centerText">Cherry Train Combination Tickets</h5>
 
-          <p class="smallNotice whiteText"><em>Purchase at Northport Pier Ticket Booth prior to
+          <p class="smallNotice whiteText centerText"><em>Purchase at Northport Pier Ticket Booth prior to
             boarding the Washington Island Ferry.</em></p>
 
         </div>

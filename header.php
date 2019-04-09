@@ -30,16 +30,14 @@
 	<?php wp_head(); ?>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!--
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110471650-1"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13074741-51"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
-	  gtag('config', 'UA-110471650-1');
+	  gtag('config', 'UA-13074741-51');
 	</script>
--->
 
 	<!-- Google Tag Manager -->
 	<!--
@@ -76,7 +74,7 @@
 
 				<div class="navWidth menuLinkWrap">
 
-						<a href="https://wordpress-154794-786181.cloudwaysapps.com/" role="link">
+						<a href="https://wisferry.com/" role="link">
 
 							<img src="/wp-content/uploads/2019/03/WIFL-Logo-F.png" class="siteLogo" alt="Washington Island Logo"><span class="screen-reader-text">Go back to the homepage</span>
 

@@ -89,22 +89,6 @@ h6{
 .caps{
   text-transform: uppercase;
 }
-.underlinedHeading{
-	position: relative;
-	&:after{
-		position: absolute;
-		content: "";
-		bottom: -10px;
-		left: 0;
-		width: 100%;
-		height: 10px;
-		background-image: url("/wp-content/uploads/2019/02/handDrawnUnderlineLarge.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		transition: .3s ease all;
-	}
-}
 .largeHeading{
   font-weight: 700 !important;
   letter-spacing: 1px;

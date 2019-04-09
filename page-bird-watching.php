@@ -53,7 +53,7 @@ get_header();
 								recommended spots to bird watch, a listing of various types of birds and an arial
 								map of Washington Island and Rock Island.</p>
 
-								<a href="https://wordpress-154794-786181.cloudwaysapps.com/wp-content/uploads/2019/03/birdguide.pdf" target="_blank" class="primaryButton caps smallTextButton">DOWNLOAD BIRD GUIDE</a>
+								<a href="https://wisferry.com/wp-content/uploads/2019/03/birdguide.pdf" target="_blank" class="primaryButton caps smallTextButton">DOWNLOAD BIRD GUIDE</a>
 
 							</div>
 
@@ -81,7 +81,7 @@ get_header();
 
 							</ul>
 
-							<a href="/washington-island/" target="_blank" class="primaryButton caps smallTextButton">WASHINGTON ISLAND FERRY SCHEDULE</a>
+							<a href="/washington-island/" class="primaryButton caps smallTextButton">WASHINGTON ISLAND FERRY SCHEDULE</a>
 
 							<div class="paddedSection">
 
@@ -93,7 +93,7 @@ get_header();
 									from Jackson Harbor. Visit the website for <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" target="_blank" class="primaryLink" rel="noreferrer">Rock Island State Park</a>
 									for additional trail maps and campsite reservation information.</p>
 
-									<a href="/rock-island/" target="_blank" class="primaryButton caps smallTextButton">rock ISLAND FERRY SCHEDULE</a>
+									<a href="/rock-island/" class="primaryButton caps smallTextButton">rock ISLAND FERRY SCHEDULE</a>
 
 								</div>
 

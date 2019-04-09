@@ -100,17 +100,17 @@
 
     <div class="blockWrapper">
 
-      <a href="https://www.doorcounty.com/dine/fish-boils/" target="_blank" rel="noreferrer">
+      <a href="https://www.doorcountylandtrust.org/preserves-of-the-door-county-land-trust-map/" target="_blank" rel="noreferrer">
 
         <div class="blockContent">
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/04/fishBoilsSmall.jpg" class="blockImage">
+          <img src="/wp-content/uploads/2019/04/doorCountyLandTrustCropped.jpg" class="blockImage">
 
         </div>
 
-        <h4 class="primaryText centerText marginTop caps">Fish Boils</h4>
+        <h4 class="primaryText centerText marginTop caps">Door County Nature Preserves</h4>
 
       </a>
 

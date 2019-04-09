@@ -81,6 +81,9 @@
 				font-size: 16px;
 			}
 			@include breakpoint(largeScreen){
+				font-size: 20px;
+			}
+			@include breakpoint(extraLargeScreen){
 				font-size: 22px;
 			}
 		}
@@ -206,18 +209,6 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.secondaryMenuWrap{
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-.secondaryLinkWrapper{
-	background-color: $secondaryGrey;
-	display: flex;
-  align-items: center;
-  padding: 0 10px;
-  margin: 0 10px;
-}
 .entry-header{
 	display:none;
 }
@@ -326,94 +317,6 @@ nav{
 			}
 		}
 }
-.linkList2{
-	.active{
-		a{
-			margin-bottom: -1px;
-			border-bottom: 3px solid $primaryGrey !important;
-			transition: .2s ease all;
-		}
-	}
-}
-.closeMenu{
-	position: absolute;
-	cursor: pointer;
-	top: 30px;
-	right: 50px;
-}
-.closeMenuButton{
-	position: absolute;
-	cursor: pointer;
-	bottom: 0;
-	left: 0;
-	height: 60px;
-	background-color: $primaryYellow;
-}
-#closeMenuTitle{
-	margin: 0 auto;
-	color: $primaryGrey;
-}
-.linkList2{
-	height: 70px;
-	align-items:center;
-	list-style-type: none;
-	letter-spacing: 1px;
-		@include breakpoint(smallScreen){
-			display:none;
-		}
-		@include breakpoint(largeMobileScreen){
-			display:none;
-		}
-		@include breakpoint(laptopScreen){
-			display: flex;
-			font-size: 20px;
-		}
-		a{
-			color:$black;
-			font-weight: 700;
-			text-decoration: none;
-			transition: .3s ease all;
-			&:hover{
-				color: $primaryGrey !important;
-				transition: .3s ease all;
-			}
-		}
-}
-#emailLink{
-	@include breakpoint(smallScreen){
-		display:none;
-	}
-	@include breakpoint(largeMobileScreen){
-		display:flex;
-	}
-}
-.linkList3{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	font-size: 18px;
-	list-style-type: none;
-	letter-spacing: 1px;
-	@include breakpoint(smallScreen){
-		display:none;
-	}
-	@include breakpoint(largeMobileScreen){
-		display:none;
-	}
-	@include breakpoint(laptopScreen){
-		display: flex;
-	}
-	a{
-		color:$black;
-		font-weight: 700;
-		text-decoration: none;
-		transition: .3s ease all;
-		&:hover{
-			color: $primaryGrey !important;
-			transition: .3s ease all;
-		}
-	}
-}
 .menuButtonWrap{
 	display:flex;
 	right: 30px;
@@ -424,23 +327,6 @@ nav{
 		@include breakpoint(smallScreen){
 			padding: 15px 0 15px 15px;
 		}
-}
-.stickyNav{
-	position: -webkit-sticky;
-	position: sticky;
-	top: 130px;
-	box-shadow: 0 0 28px 0 rgba(0,0,0,.25);
-	z-index: 9998;
-	@include breakpoint(smallScreen){
-		top: 0;
-		position: relative;
-	}
-	@include breakpoint(largeMobileScreen){
-		top: 130px;
-	}
-}
-.subNav{
-	height: 70px;
 }
 // Hamburger menu animation
 .hamburger {

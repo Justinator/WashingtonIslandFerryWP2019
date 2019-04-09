@@ -16,7 +16,7 @@
 
           <div class="destTitle">
 
-            <h6 class="caps centerText whiteText noMargin largeHeading shadow">SCHOOL HOUSE BEACH</h6>
+            <h6 class="caps centerText whiteText noMargin largeHeading shadow">SCHOOLHOUSE BEACH</h6>
 
           </div>
 

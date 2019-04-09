@@ -147,7 +147,7 @@ get_header();
 
 							<p>
 
-								<a href="https://www.google.com/maps/dir//northport+pier+door+county/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4d4d18e4d182ea0d:0xe3e1ba339daffd24?sa=X&ved=2ahUKEwiHqYOk3KfhAhUSCawKHT18BwsQ9RcwEXoECAwQDw" class="primaryLink" target="_blank" rel="noreferrer">215 WI-42<br>
+								<a href="https://goo.gl/maps/KgALREYf7gF2" class="primaryLink" target="_blank" rel="noreferrer">215 WI-42<br>
 								Ellison Bay, WI 54210</a>
 
 							</p>

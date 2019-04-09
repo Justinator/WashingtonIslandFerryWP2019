@@ -57,7 +57,7 @@
 .starredList{
   margin-bottom: 25px;
   li{
-    list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
+    list-style-image: url("/wp-content/uploads/2019/03/washingtonIslandStar-1.png");
   }
   @include breakpoint(smallScreen){
     padding: 0;
@@ -260,17 +260,34 @@
 }
 #washWaterColor{
   @include breakpoint(smallScreen){
-    height: 350px;
+    height: 400px;
   }
   @include breakpoint(largeMobileScreen){
     height: auto;
+    max-height: 300px;
   }
 }
 #rockIslandCTA{
   background-image: url("/wp-content/uploads/2019/03/1.2-RockIslandBgd50.jpg");
-  height: 600px;
-  padding-bottom: 100px;
-  margin-bottom: -120px;
+  @include breakpoint(smallScreen){
+    padding-bottom: 200px;
+    margin-bottom: -254px;
+    height: 450px;
+  }
+  @include breakpoint(largeMobileScreen){
+    padding-bottom: 100px;
+    margin-bottom: -230px;
+    height: 450px;
+  }
+  @include breakpoint(tabletScreen){
+    height: 600px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-bottom: -140px;
+  }
+  @include breakpoint(largeScreen){
+    margin-bottom: -144px;
+  }
 }
 #rockIslandWrap{
   display: flex;

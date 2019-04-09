@@ -8,6 +8,7 @@
 }
 .cameraWrapper{
   iframe{
+    width: 100%;
     @include breakpoint(smallScreen){
       height: 400px !important;
     }
@@ -22,6 +23,16 @@
     }
     @include breakpoint(largeScreen){
       height: 600px !important;
+    }
+  }
+}
+#cameraWrapper2{
+  iframe{
+    @include breakpoint(smallScreen){
+      height: 350px !important;
+    }
+    @include breakpoint(largeMobileScreen){
+      height: 450px !important;
     }
   }
 }

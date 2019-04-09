@@ -26,7 +26,7 @@ get_header();
 
 					<div class="headerWrap">
 
-						<h1 class="whiteText heroHeading">School House Beach</h1>
+						<h1 class="whiteText heroHeading">Schoolhouse Beach</h1>
 
 						<p class="whiteText">45°23'53.2"N, 86°55'38.4"W</p>
 

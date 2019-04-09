@@ -180,7 +180,7 @@ get_header();
 
 				<div class="centerText">
 
-					<h5 class="primaryText caps largeHeading">More questions about Cherry Train Tours?</h5>
+					<h5 class="primaryText caps largeHeading">More questions about the Cherry Train?</h5>
 
 					<a href="/faq/#cherryTrainFAQ" class="primaryButton caps">VIEW ALL FAQS</a>
 

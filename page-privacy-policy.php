@@ -18,7 +18,7 @@ get_header();
 
 		      <div class="projectTitleWrapper">
 
-		        <h1 class="primaryText">Privacy Policy</h1>
+		        <h1 class="primaryText largeHeading">Privacy Policy</h1>
 
 		      </div>
 

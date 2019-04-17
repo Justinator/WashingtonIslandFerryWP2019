@@ -42,11 +42,8 @@ get_header();
 
 				<div class="pageWidth">
 
-					<p>Get a 24/7 view of our Washington Island Ferry docks! Check weather
-						conditions, watch ferry traffic and see our beautiful dock view.
-						Updated every 15 seconds, our webcams feature time-lapse video of
-						the last 15 minutes at multiple views of both Northport Pier and
-						the Washington Island Ferry Dock. </p>
+					<p>Get a 24/7 view of our Washington Island Ferry docks. Check weather conditions,
+						watch ferry traffic and see our beautiful dock view. </p>
 
 				</div>
 

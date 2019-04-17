@@ -18,7 +18,7 @@
 
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab10" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
-      <h5>How do I get from Door County to Rock Island? </h5>
+      <h5>How do I get to Rock Island? </h5>
     </span>
 
     <div id="panel10" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">

@@ -200,13 +200,13 @@
           geology and the history of Rock Island’s early inhabitants. </p>
         <p>
           Two unique structures on Rock Island provide a wonderful historical perspective—the
-          Pottawatomie Lighthouse and the C. H. Thordarson Boathouse. The boathouse is at the
-          park entrance and is only daily for self-guided visits. In season, docents who live
-          in the lighthouse will educate visitors about Rock Island’s light keeping history.
-          Excellent books have been published that describe Rock Island’s history. These books
-          describe the periods of early native inhabitants, French voyageurs (including LaSalle),
-          the fishing village pioneers, and the Rock Island estate of C. H. Thordarson—all of
-          which predated the Rock Island State Park.
+          Pottawatomie Lighthouse and the C. H. Thordarson Boathouse. The boathouse immediately
+          adjacent to the boat landing on Rock Island and is open daily for self-guided visits.
+          In season, docents who live in the lighthouse will educate visitors about Rock Island’s
+          light keeping history. Excellent books have been published that describe Rock Island’s
+          history. These books describe the periods of early native inhabitants, French voyageurs
+          (including LaSalle), the fishing village pioneers, and the Rock Island estate of C. H.
+          Thordarson—all of which predated the Rock Island State Park.
         </p>
       </div>
     </div>

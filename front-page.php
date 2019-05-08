@@ -136,7 +136,12 @@ get_header();
 
 					<div class="faqWrapper">
 
-						<img src="/wp-content/uploads/2019/04/FAQDogSmall.jpg" class="image">
+						<img
+						sizes="(max-width: 800px) 30vw, 800px"
+	          srcset="
+	            /wp-content/uploads/2019/05/FAQDogSmall-1_optimized_w_400.jpg 400w,
+	            /wp-content/uploads/2019/05/FAQDogSmall-1_optimized_w_600.jpg 600w"
+						src="/wp-content/uploads/2019/04/FAQDogSmall.jpg" class="image">
 
 						<h4 class="primaryText centerText">Can I take my pet on the ferry?</h4>
 
@@ -150,7 +155,12 @@ get_header();
 
 					<div class="faqWrapper">
 
-						<img src="/wp-content/uploads/2019/04/FAQCarsSmall.jpg" class="image">
+						<img
+						sizes="(max-width: 800px) 30vw, 800px"
+	          srcset="
+	            /wp-content/uploads/2019/05/FAQCarsSmall_optimized_w_400.jpg 400w,
+	            /wp-content/uploads/2019/05/FAQCarsSmall_optimized_w_600.jpg 600w"
+						src="/wp-content/uploads/2019/04/FAQCarsSmall.jpg" class="image">
 
 						<h4 class="primaryText centerText">Do I need my car on Washington Island?</h4>
 
@@ -163,7 +173,12 @@ get_header();
 
 					<div class="faqWrapper">
 
-						<img src="/wp-content/uploads/2019/04/FAQToDoSmall.jpg" class="image">
+						<img
+						sizes="(max-width: 800px) 30vw, 800px"
+	          srcset="
+	            /wp-content/uploads/2019/05/FAQToDoSmall_optimized_w_400.jpg 400w,
+	            /wp-content/uploads/2019/05/FAQToDoSmall_optimized_w_600.jpg 600w"
+						src="/wp-content/uploads/2019/04/FAQToDoSmall.jpg" class="image">
 
 						<h4 class="primaryText centerText">What can I do on Washington Island?</h4>
 

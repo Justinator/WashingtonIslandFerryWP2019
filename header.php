@@ -21,6 +21,8 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
+	<link href="/wp-content/uploads/2019/05/favicon-2.png" rel="shortcut icon">
+
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/washingtonislandresponsive/fonts/MyFontsWebfontsKit.css">
 
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/washingtonislandresponsive/css/css.fadeshow.min.css">

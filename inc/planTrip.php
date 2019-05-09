@@ -16,7 +16,13 @@
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/03/birdingMedium.jpg" class="blockImage">
+          <img
+          sizes="(max-width: 800px) 30vw, 800px"
+          srcset="
+            /wp-content/uploads/2019/05/bird-watching-washington-island-optimized-w_400.jpg 400w,
+            /wp-content/uploads/2019/05/bird-watching-washington-island-optimized-w_583.jpg 583w,
+            /wp-content/uploads/2019/05/bird-watching-washington-island-optimized-w_800.jpg 800w"
+          src="/wp-content/uploads/2019/03/birdingMedium.jpg" class="blockImage">
 
         </div>
 
@@ -34,7 +40,13 @@
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/04/rockIslandSmall2.jpg" class="blockImage">
+          <img
+          sizes="(max-width: 800px) 30vw, 800px"
+          srcset="
+            /wp-content/uploads/2019/05/rock-Island-boat-house-optimized-w_400.jpg 400w,
+            /wp-content/uploads/2019/05/rock-Island-boat-house-optimized-w_641.jpg 641w,
+            /wp-content/uploads/2019/05/rock-Island-boat-house-optimized-w_800.jpg 800w"
+          src="/wp-content/uploads/2019/04/rockIslandSmall2.jpg" class="blockImage">
 
         </div>
 
@@ -52,7 +64,14 @@
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/04/washingtonIslandSmall.jpg" class="blockImage">
+          <img
+          sizes="(max-width: 800px) 30vw, 800px"
+          srcset="
+            /wp-content/uploads/2019/05/washingtonIslandSmall_optimizedw_400.jpg 400w,
+            /wp-content/uploads/2019/05/washingtonIslandSmall_optimizedw_528.jpg 528w,
+            /wp-content/uploads/2019/05/washingtonIslandSmall_optimizedw_634.jpg 634w,
+            /wp-content/uploads/2019/05/washingtonIslandSmall_optimizedw_800.jpg 800w"
+          src="/wp-content/uploads/2019/04/washingtonIslandSmall.jpg" class="blockImage">
 
         </div>
 
@@ -70,7 +89,13 @@
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/04/doorCountySmall.jpg" class="blockImage">
+          <img
+          sizes="(max-width: 800px) 30vw, 800px"
+          srcset="
+            /wp-content/uploads/2019/05/door-county-winding-road-optimized-w_400.jpg 400w,
+            /wp-content/uploads/2019/05/door-county-winding-road-optimized-w_688.jpg 688w,
+            /wp-content/uploads/2019/05/door-county-winding-road-optimized-w_800.jpg 800w"
+          src="/wp-content/uploads/2019/04/doorCountySmall.jpg" class="blockImage">
 
         </div>
 
@@ -88,7 +113,12 @@
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/04/deaths_door_bbq_logo.jpg" class="blockImage">
+          <img
+          sizes="(max-width: 800px) 30vw, 800px"
+          srcset="
+            /wp-content/uploads/2019/05/deaths-door-bbq-logo-optimized-w_400.jpg 400w,
+            /wp-content/uploads/2019/05/deaths-door-bbq-logo-optimized-w_800.jpg 800w"
+          src="/wp-content/uploads/2019/04/deaths_door_bbq_logo.jpg" class="blockImage">
 
         </div>
 
@@ -106,7 +136,12 @@
 
           <div class="blockOverlay"></div>
 
-          <img src="/wp-content/uploads/2019/04/doorCountyLandTrustCropped.jpg" class="blockImage">
+          <img
+          sizes="(max-width: 800px) 30vw, 800px"
+          srcset="
+            /wp-content/uploads/2019/05/doorCountyLandTrustCropped-optimized-w_400.jpg 400w,
+            /wp-content/uploads/2019/05/doorCountyLandTrustCropped-optimized-w_800.jpg 800w"
+          src="/wp-content/uploads/2019/04/doorCountyLandTrustCropped.jpg" class="blockImage">
 
         </div>
 

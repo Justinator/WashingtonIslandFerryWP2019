@@ -1,6 +1,14 @@
 <div class="limitWidth">
 
-  <img src="/wp-content/uploads/2019/03/washington2-50.jpg" class="image ferryImage">
+  <img
+  sizes="(max-width: 1500px) 100vw, 1500px"
+  srcset="
+    /wp-content/uploads/2019/05/washington-ferry-optimized-w_400.jpg 400w,
+    /wp-content/uploads/2019/05/washington-ferry-optimized-w_672.jpg 672w,
+    /wp-content/uploads/2019/05/washington-ferry-optimized-w_897.jpg 897w,
+    /wp-content/uploads/2019/05/washington-ferry-optimized-w_1116.jpg 1116w,
+    /wp-content/uploads/2019/05/washington-ferry-optimized-w_1500.jpg 1400w"
+  src="/wp-content/uploads/2019/03/washington2-50.jpg" class="image ferryImage">
 
   <div class="smallPaddedWrapper">
 

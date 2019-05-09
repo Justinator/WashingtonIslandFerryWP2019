@@ -1,6 +1,14 @@
 <div class="limitWidth">
 
-  <img src="/wp-content/uploads/2019/03/robertNoble50.jpg" class="image ferryImage">
+  <img
+  sizes="(max-width: 1500px) 100vw, 1500px"
+  srcset="
+    /wp-content/uploads/2019/05/robert-noble-ferry-optimized-w_400.jpg 400w,
+    /wp-content/uploads/2019/05/robert-noble-ferry-optimized-w_649.jpg 649w,
+    /wp-content/uploads/2019/05/robert-noble-ferry-optimized-w_855.jpg 855w,
+    /wp-content/uploads/2019/05/robert-noble-ferry-optimized-w_1033.jpg 1033w,
+    /wp-content/uploads/2019/05/robert-noble-ferry-optimized-w_1500.jpg 1400w"
+  src="/wp-content/uploads/2019/03/robertNoble50.jpg" class="image ferryImage">
 
   <div class="smallPaddedWrapper">
 

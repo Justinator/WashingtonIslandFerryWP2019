@@ -1,6 +1,13 @@
 <div class="limitWidth">
 
-  <img src="/wp-content/uploads/2019/03/AJRAug06-50jpg.jpg" class="image ferryImage">
+  <img
+  sizes="(max-width: 1500px) 100vw, 1500px"
+  srcset="
+    /wp-content/uploads/2019/05/Arni-J-Richter-Ferry-optimized-w_400.jpg 400w,
+    /wp-content/uploads/2019/05/Arni-J-Richter-Ferry-optimized-w_685.jpg 685w,
+    /wp-content/uploads/2019/05/Arni-J-Richter-Ferry-optimized-w_910.jpg 910w,
+    /wp-content/uploads/2019/05/Arni-J-Richter-Ferry-optimized-w_1408.jpg 1400w"
+  src="/wp-content/uploads/2019/03/AJRAug06-50jpg.jpg" class="image ferryImage">
 
   <div class="smallPaddedWrapper">
 

@@ -1,6 +1,14 @@
 <div class="limitWidth">
 
-  <img src="/wp-content/uploads/2019/03/eyrarbakki50.jpg" class="image ferryImage">
+  <img
+  sizes="(max-width: 1500px) 100vw, 1500px"
+  srcset="
+    /wp-content/uploads/2019/05/eyrarbakki-ferry-optimized-w_400.jpg 400w,
+    /wp-content/uploads/2019/05/eyrarbakki-ferry-optimized-w_637.jpg 637w,
+    /wp-content/uploads/2019/05/eyrarbakki-ferry-optimized-w_828.jpg 828w,
+    /wp-content/uploads/2019/05/eyrarbakki-ferry-optimized-w_990.jpg 990w,
+    /wp-content/uploads/2019/05/eyrarbakki-ferry-optimized-w_1500.jpg 1400w"
+  src="/wp-content/uploads/2019/03/eyrarbakki50.jpg" class="image ferryImage">
 
   <div class="smallPaddedWrapper">
 

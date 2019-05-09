@@ -69,7 +69,15 @@ get_header();
 
 					<div class="col50">
 
-						<img src="/wp-content/uploads/2019/03/About-1943.jpeg" class="image">
+						<img
+						sizes="(max-width: 1500px) 50vw, 1500px"
+	          srcset="
+	            /wp-content/uploads/2019/05/About-1943_optimized_w_400.jpg 400w,
+	            /wp-content/uploads/2019/05/About-1943_optimized_w_754.jpg 754w,
+	            /wp-content/uploads/2019/05/About-1943_optimized_w_1006.jpg 1006w,
+	            /wp-content/uploads/2019/05/About-1943_optimized_w_1264.jpg 1264w,
+	            /wp-content/uploads/2019/05/About-1943_optimized_w_1400.jpg 1400w"
+						src="/wp-content/uploads/2019/03/About-1943.jpeg" class="image">
 
 					</div>
 

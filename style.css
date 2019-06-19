@@ -2674,7 +2674,8 @@ html, body {
 
 .mec-calendar .mec-has-event:after {
   background-color: rgba(0, 0, 0, 0) !important;
-  background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg"); }
+  background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar-2.png");
+  background-size: cover; }
 
 .mec-calendar .mec-calendar-row dt.mec-has-event:hover {
   background-color: #008ea8 !important; }

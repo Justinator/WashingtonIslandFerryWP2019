@@ -151,7 +151,8 @@
 	.mec-has-event{
 		&:after{
 			background-color: $transparent !important;
-			background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar.svg");
+			background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar-2.png");
+			background-size: cover;
 		}
 	}
 }

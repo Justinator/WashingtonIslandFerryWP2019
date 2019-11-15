@@ -67,7 +67,7 @@
 
 				<div class="navWidth menuLinkWrap">
 
-						<a href="https://wisferry.com/" role="link">
+						<a href="<?=site_url()?>" role="link">
 
 							<img src="/wp-content/uploads/2019/03/WIFL-Logo-F.png" class="siteLogo" alt="Washington Island Logo"><span class="screen-reader-text">Go back to the homepage</span>
 

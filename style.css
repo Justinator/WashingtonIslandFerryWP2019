@@ -1071,14 +1071,14 @@ optgroup::-moz-focus-inner {
       .current-menu-item a:before {
         top: 2px;
         left: auto;
-        width: 10px;
+        width: 30px;
         right: 105%; } }
     @media (min-width: 600px) {
       .current-menu-item a:before {
         top: 2px;
         left: auto;
         right: 105%;
-        width: 10px; } }
+        width: 30px; } }
     @media (min-width: 992px) {
       .current-menu-item a:before {
         height: 0; } }
@@ -1095,12 +1095,12 @@ optgroup::-moz-focus-inner {
       .current-menu-item a:after {
         top: 2px;
         left: 105%;
-        width: 10px; } }
+        width: 30px; } }
     @media (min-width: 600px) {
       .current-menu-item a:after {
         top: 2px;
         left: 105%;
-        width: 10px; } }
+        width: 30px; } }
     @media (min-width: 992px) {
       .current-menu-item a:after {
         top: -25px;
@@ -1226,7 +1226,9 @@ nav {
 .hamburger {
   display: inline-block;
   cursor: pointer;
+  transition-property: opacity, -webkit-filter;
   transition-property: opacity, filter;
+  transition-property: opacity, filter, -webkit-filter;
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
@@ -1684,6 +1686,17 @@ body.using-mouse :focus {
   stroke-width: 0;
   stroke: #FFFFFF;
   fill: #FFFFFF; }
+
+.accordionIcon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+  background-color: #002F6C;
+  border-radius: 50%;
+  padding: 3px; }
 
 /* 10.0 Homepage stylings -------------------------------------------*/
 .homeHero {
@@ -2276,6 +2289,7 @@ html, body {
   font-size: 20px;
   padding: 5px 20px;
   line-height: 1.4em;
+  -webkit-margin-after: 0 !important;
   margin-block-end: 0 !important; }
 
 #creditCards {
@@ -2830,6 +2844,19 @@ html, body {
 .mec-single-event-date {
   display: none; }
 
+#mec_search_form_117 {
+  display: none; }
+
+.mec-event-grid-minimal .mec-event-date {
+  background-color: #002F6C !important;
+  color: #FFFFFF !important; }
+  .mec-event-grid-minimal .mec-event-date span {
+    color: #FFFFFF !important; }
+.mec-event-grid-minimal .event-detail-wrap a {
+  color: #002F6C !important; }
+  .mec-event-grid-minimal .event-detail-wrap a:hover {
+    color: #008ea8 !important; }
+
 /* 20.0 FAQ page Styles -------------------------------------------*/
 .accordion {
   background-color: #cbe2e6;
@@ -2846,13 +2873,19 @@ html, body {
     position: relative;
     font-weight: 400; }
     .accordion__title:before {
-      font-family: FontAwesome;
-      content: "\f055";
-      font-size: 20px;
+      content: "+";
+      height: 25px;
+      width: 25px;
       position: absolute;
-      left: 15px;
-      top: 12px;
-      color: #c8102e; }
+      left: 5px;
+      top: 20px;
+      color: #FFFFFF;
+      font-weight: 700;
+      background-color: #002F6C;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
     .accordion__title h5 {
       display: inline-block;
       color: #002F6C;
@@ -2868,7 +2901,7 @@ html, body {
         color: #FFFFFF;
         transition: .2s ease all; }
     .is-expanded .accordion__title:before {
-      content: "\f056"; }
+      content: "-"; }
   .accordion__content-inner {
     padding: 10px 40px;
     background-color: #008ea8;
@@ -2879,6 +2912,9 @@ html, body {
     transition: height 0.3s ease-out;
     height: 0;
     overflow: hidden; }
+
+.iconToggle {
+  position: relative; }
 
 #faqMap {
   margin: 15px 0; }
@@ -2894,6 +2930,15 @@ html, body {
 
 #faqWrapper {
   padding: 20px; }
+
+#washingtonIslAcc article:nth-child(1) {
+  background-color: #008ea8; }
+  #washingtonIslAcc article:nth-child(1) h5 {
+    color: #FFFFFF; }
+  #washingtonIslAcc article:nth-child(1) span:hover {
+    cursor: text !important; }
+  #washingtonIslAcc article:nth-child(1) span:before {
+    display: none; }
 
 /* 21.0 Attractions page Styles -------------------------------------------*/
 .videoWrapper {

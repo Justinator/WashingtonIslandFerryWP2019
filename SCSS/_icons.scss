@@ -29,3 +29,14 @@
   stroke: $white;
   fill: $white;
 }
+.accordionIcon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: $white;
+  fill: $white;
+	background-color: $primaryColor;
+	border-radius: 50%;
+	padding: 3px;
+}

@@ -84,7 +84,6 @@ if ( ! function_exists( 'washingtonislandresponsive_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'washingtonislandresponsive_setup' );
-
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -99,7 +98,6 @@ function washingtonislandresponsive_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'washingtonislandresponsive_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'washingtonislandresponsive_content_width', 0 );
-
 /**
  * Register widget area.
  *
@@ -117,47 +115,43 @@ function washingtonislandresponsive_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'washingtonislandresponsive_widgets_init' );
-
+/*********************************************************
+Add custom admin login screen styles
+*********************************************************/
+function my_login_stylesheet() {
+    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/style-login.css' );
+}
+add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
 /**
  * Enqueue scripts and styles.
  */
  function washingtonislandresponsive_scripts() {
  	wp_enqueue_style( 'washingtonislandresponsive-style', get_stylesheet_uri() );
-
  	wp_enqueue_script( 'washingtonislandresponsive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
  	wp_enqueue_script( 'washingtonislandresponsive-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
  	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/js/customJS.js');
-
 	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/js/focus-visible.min.js');
-
  	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
  		wp_enqueue_script( 'comment-reply' );
  	}
  }
  add_action( 'wp_enqueue_scripts', 'washingtonislandresponsive_scripts' );
-
 /**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
-
 /**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
-
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
 require get_template_directory() . '/inc/template-functions.php';
-
 /**
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
-
 /**
  * Load Jetpack compatibility file.
  */

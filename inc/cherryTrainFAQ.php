@@ -1,25 +1,20 @@
 <!-- Accordion 3 -->
 <h2 id="cherryTrainFAQ" class="primaryText caps">Cherry Train FAQs</h2>
-
 <section class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel5" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What is the Cherry Train tour length?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab5" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Over 15 miles, up to 2 hours for each tour, with at least 3 stops at points of interest along the route.</p>
       </div>
     </div>
-
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What sort of weather can we expect?  How should we dress?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Lake Michigan air can be cool, even on what may otherwise seem to be a warm day! Dress comfortably in casual wear, but consider bringing along a jacket or light sweater, even in summer.
@@ -27,12 +22,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel2" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Where do I purchase a ticket?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab2" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>You may purchase your combination + cherry train ticket at the Northport
@@ -42,24 +35,20 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What about parking for our car? Restrooms? Tickets?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Signage directs you to free parking on either side of the highway at Northport Pier. Restrooms, information and tickets are available at the pier.</p>
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What if we want to take the Tour, but also bring our car? </h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>No problem. Approach the ferry ticket booth in your car, and ask for a round-trip
@@ -72,12 +61,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What about shops, restaurants, places to stay? </h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p><a href="https://washingtonisland.com/" class="faqLink" target="_blank" rel="noreferrer">Washington Island</a> is a complete vacation community, a year-round community in
@@ -88,12 +75,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What about pets on the Cherry Train?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>With the exception of trained service animals, we do not allow pets on the
@@ -102,12 +87,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What ferry departure time should I use to meet the Cherry Train on the Island?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Since the ferry crossing takes approximately 30 minutes, board a ferry that
@@ -117,12 +100,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Will the Cherry Train bring me back to the dock in time to catch the ferry back to the mainland?</h5>
     </span>
-
     <div class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Our drivers are skilled at making these connections, and receive a high level of
@@ -136,5 +117,4 @@
       </div>
     </div>
   </article>
-
 </section>

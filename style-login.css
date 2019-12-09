@@ -1,0 +1,33 @@
+body.login {
+  background-color: #f6f6f6;
+}
+#login h1 a, .login h1 a {
+  background-image: url("/wp-content/themes/washingtonislandresponsive/images/WIFL-Logo-F.png");
+  height:230px;
+  width:320px;
+  background-size: 320px 230px;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+body.login div#login form#loginform {
+  background: #002F6C;
+  color: #fff;
+}
+body.login div#login form#loginform p label {
+  color: #ffffff;
+}
+body.login div#login form#loginform p.submit input#wp-submit {
+  background-color: #008ea8;
+  color: #fff;
+  transition: .2s ease all;
+  text-shadow: none;
+  border: none;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+  background-color: #002F6C;
+  color: #ffffff;
+  transition: .2s ease all;
+}
+.login #login_error, .login .message, .login .success {
+  border-left: 4px solid #002F6C;
+}

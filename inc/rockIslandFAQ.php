@@ -1,26 +1,21 @@
 <!-- Accordion 2 -->
 <h2 id="rockIslandFAQ" class="primaryText caps">Rock Island FAQs</h2>
-
 <section class="accordion" role="tablist" aria-live="polite" data-behavior="accordion">
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab9" tabindex="0" class="accordion__title" aria-controls="panel5" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What is the Rock Island Ferry schedule?</h5>
     </span>
-
     <div id="panel9" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab5" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>You can find the Rock Island Ferry schedule <a href="/rock-island/" class="faqLink">here<span class="screen-reader-text"> Go to the rock island ferry page</span></a>,
            and in our annual brochure offered at most Door County establishments.  </p>
       </div>
     </div>
-
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab10" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>How do I get from Door County to Rock Island? </h5>
     </span>
-
     <div id="panel10" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Take the <a href="/washington-island/" class="faqLink">Washington Island Ferry<span class="screen-reader-text"> Go to the washington island ferry page</span></a>
@@ -32,55 +27,46 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span tabindex="0" class="accordion__title" aria-controls="panel2" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>How do I get Rock Island State Park information?</h5>
     </span>
-
     <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab2" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Find more information <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink" target="_blank" rel="noreferrer">here<span class="screen-reader-text">Opens the DNR website in a new tab</span></a>. </p>
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab11" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Where can I park? Do I need a Wisconsin State Park sticker? </h5>
     </span>
-
     <div id="panel11" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Park in the State Park lot, adjacent to the State dock in Jackson Harbor. No stickers are required,
           and there is no entry fee to visit Rock Island. But, you’ll need your ticket for the Rock Island
           Ferry. You may purchase combination tickets for the Washington Island Ferry and the Rock Island
           Ferry at the Northport Pier Ticket Booth.</p>
-
         <p>If you intend to camp on Rock Island, reserve your <a href="https://dnr.wi.gov/topic/parks/name/rockisland/" class="faqLink" target="_blank" rel="noreferrer">campsite<span class="screen-reader-text"> Opens link to the DNR website in a new tab</span></a>
           through the state’s website. On busy summer weekends, that is the only way you can be assured of a
           campsite on Rock Island. For day visits, you may park and cross on the Rock Island Ferry. </p>
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab12" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Are bicycles allowed on Rock Island? </h5>
     </span>
-
     <div id="panel12" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>No, Rock Island does not permit bicycling. </p>
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab13" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Can I use a cart or wagon for hauling my camping gear? </h5>
     </span>
-
     <div id="panel13" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Yes, wagons and carts may be used to transport gear from the Rock Island Ferry dock to your
@@ -88,12 +74,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab14" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What sort of camping experience will I find on Rock Island? </h5>
     </span>
-
     <div id="panel14" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Rock Island has rustic sites for tent camping. Campsites have fire rings and grills. Pit
@@ -106,12 +90,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab15" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What about pets?  </h5>
     </span>
-
     <div id="panel15" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Leashed pets are allowed on the main decks of the Washington Island Ferry and the Rock Island Ferry.
@@ -120,12 +102,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab16" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What sort of activities will I find in Jackson Harbor? </h5>
     </span>
-
     <div id="panel16" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Jackson Harbor on Washington Island is an old fishing community. Near the Town Dock
@@ -138,12 +118,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab17" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>How good is cell phone coverage from Rock Island?  </h5>
     </span>
-
     <div id="panel17" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Fair to good on the west side of Rock Island. New cell towers were installed on Washington Island and coverage greatly improved for Verizon, Cellcom and U.S. Cellular customers.
@@ -152,12 +130,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab18" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What about medical emergencies? </h5>
     </span>
-
     <div id="panel18" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Call 911! First aid can be administered with help of Rock Island State Park staff, or at the
@@ -169,12 +145,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab19" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Can I take a canoe, kayak or boat to Rock Island?  </h5>
     </span>
-
     <div id="panel19" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Yes, you may beach paddleboats near your campsite. Larger craft may moor near the boathouse,
@@ -187,12 +161,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab20" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>What sort of entertainment activities are on Rock Island?</h5>
     </span>
-
     <div id="panel20" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>You will find Rock Island to be rugged and scenic, yet very friendly for hiking. There
@@ -211,12 +183,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab21" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>Are there Rock Island Ferry group rates for large numbers of campers, church groups or scouting groups?</h5>
     </span>
-
     <div id="panel21" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Yes, group rates are for organized groups of 15 or more. Groups must board together and one
@@ -225,12 +195,10 @@
       </div>
     </div>
   </article>
-
   <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
     <span id="tab21" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab" aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
       <h5>How can I learn more about Rock Island and its history? </h5>
     </span>
-
     <div id="panel21" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab6" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>Besides local history books, a good way to learn and become involved with Rock Island is to
@@ -243,5 +211,4 @@
       </div>
     </div>
   </article>
-
 </section>

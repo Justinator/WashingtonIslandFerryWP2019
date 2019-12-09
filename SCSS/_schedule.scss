@@ -323,3 +323,23 @@
 .mec-single-event-date{
 	display: none;
 }
+#mec_search_form_117 {
+	display: none;
+}
+.mec-event-grid-minimal {
+	.mec-event-date {
+		background-color: $primaryColor !important;
+		color: $white !important;
+		span {
+			color: $white !important;
+		}
+	}
+	.event-detail-wrap {
+		a {
+			color: $primaryColor !important;
+			&:hover {
+				color: $secondaryColor !important;
+			}
+		}
+	}
+}

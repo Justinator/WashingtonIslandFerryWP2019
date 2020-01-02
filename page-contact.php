@@ -27,7 +27,7 @@ get_header();
 						<div class="contactInfoWrapper">
 							<p class="primaryText">Contact us with any questions or comments about our ferry service, Washington Island,
 								Rock Island or the Cherry Train.</p>
-								<?php echo do_shortcode('[caldera_form id="CF5c9ac7d6773cf"]'); ?>
+								<?php echo do_shortcode('[contact-form-7 id="564" title="Washington Island Contact Page Contact Form"]'); ?>
 							<div class="marginTop">
 								<h3 class="primaryText caps">Washington Island Ferry Line</h3>
 								<p>

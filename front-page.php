@@ -72,7 +72,7 @@ get_header();
 					<h2 class="centerText caps primaryText">Upcoming Washington Island Ferry Trips</h2>
 					<?php echo do_shortcode('[MEC id="117"]'); ?>
 					<div class="centerButton">
-						<a href="/washington-island" class="primaryButton">View Full Schedule</a>
+						<a href="/washington-island" class="primaryButton">VIEW FULL SCHEDULE</a>
 					</div>
 				</div>
 			</section>

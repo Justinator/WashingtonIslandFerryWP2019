@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="col50">
-      <?php echo do_shortcode('[caldera_form id="CF5c9530d1c101c"]'); ?>
+      <?php echo do_shortcode('[contact-form-7 id="563" title="Contact form home page"]'); ?>
     </div>
   </div>
 </section>

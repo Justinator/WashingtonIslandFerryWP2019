@@ -1,6 +1,6 @@
 /* 10.0 Homepage stylings -------------------------------------------*/
 .homeHero{
-	background-image: url("/wp-content/uploads/2019/03/HomepageHeroMedium.jpg");
+	background-image: url("/wp-content/uploads/2020/01/WIFL-HomeHero-Cropped.jpg");
 }
 .heroHeadingWrap{
 	position: relative;
@@ -161,6 +161,7 @@
 	}
 	@include breakpoint(laptopScreen){
 		margin-left: 50px;
+		max-width: 850px;
 	}
 }
 #islandWrapper{

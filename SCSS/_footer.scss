@@ -76,8 +76,22 @@
 		}
 }
 #closingLinks{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	text-align: center;
 	margin: 0;
 	position: relative;
+	@include breakpoint (tabletScreen) {
+		flex-direction: row;
+	}
+	nav {
+		width: auto;
+	}
 	a{
 		padding: 10px;
 	}

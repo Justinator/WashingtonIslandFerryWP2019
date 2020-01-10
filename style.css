@@ -1381,8 +1381,21 @@ nav {
       font-size: 14px; } }
 
 #closingLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
   margin: 0;
   position: relative; }
+  @media (min-width: 768px) {
+    #closingLinks {
+      flex-direction: row; } }
+  #closingLinks nav {
+    width: auto; }
   #closingLinks a {
     padding: 10px; }
   @media (max-width: 599px) {
@@ -1595,14 +1608,21 @@ body {
   :focus {
     outline: 2px solid #002F6C; } }
 
+::-moz-selection {
+  background: #008ea8;
+  color: #FFFFFF; }
+
 ::selection {
-  background: rgba(0, 47, 108, 0.5); }
+  background: #008ea8;
+  color: #FFFFFF; }
 
 ::-moz-selection {
-  background: rgba(0, 47, 108, 0.5); }
+  background: #008ea8;
+  color: #FFFFFF; }
 
 ::-ms-selection {
-  background: rgba(0, 47, 108, 0.5); }
+  background: #008ea8;
+  color: #FFFFFF; }
 
 .removeBottomMargin {
   margin-bottom: -7px; }
@@ -1633,6 +1653,7 @@ body {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
   clip-path: inset(50%);
   height: 1px;
   margin: -1px;
@@ -1700,7 +1721,7 @@ body.using-mouse :focus {
 
 /* 10.0 Homepage stylings -------------------------------------------*/
 .homeHero {
-  background-image: url("/wp-content/uploads/2019/03/HomepageHeroMedium.jpg"); }
+  background-image: url("/wp-content/uploads/2020/01/WIFL-HomeHero-Cropped.jpg"); }
 
 .heroHeadingWrap {
   position: relative;
@@ -1849,7 +1870,8 @@ body.using-mouse :focus {
     margin-left: 0; } }
 @media (min-width: 992px) {
   #islandIntro {
-    margin-left: 50px; } }
+    margin-left: 50px;
+    max-width: 850px; } }
 
 @media (max-width: 599px) {
   #islandWrapper {

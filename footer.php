@@ -29,8 +29,9 @@
 					<nav role="navigation" aria-label="Sub Footer Links">
 						<a href="/privacy-policy/" role="link">Privacy Policy</a> |
 						<a href="/sitemap/" role="link">Sitemap</a> |
-						<a href="/contact/" role="link">Contact Us</a>
+						<a href="/contact/" role="link">Contact Us</a> |
 					</nav>
+					<a href="https://insightcreative.com" target="_blank">Website by Insight Creative, Inc.</a>
 				</div>
 				<div class="socialWrapper">
 					<?php get_template_part("/inc/socialLinks"); ?>

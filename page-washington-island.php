@@ -61,7 +61,7 @@ get_header();
 			</section>
 			<section id="ferryRates" class="paddedSection ferryRates">
 				<div class="pageWidth">
-					<h5 class="primaryText centerText largeHeading">2019 Rates</h5>
+					<h5 class="primaryText centerText largeHeading">2020 Rates</h5>
 				</div>
 				<?php get_template_part("/inc/ferryRates"); ?>
 			</section>

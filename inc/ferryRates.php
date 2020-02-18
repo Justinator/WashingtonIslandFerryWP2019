@@ -9,7 +9,7 @@
           <p class="times noMargin">Adult</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$13.50</p>
+          <p class="times noMargin price">$14.00</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -17,7 +17,7 @@
           <p class="times noMargin">Child (6 thru 11)</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$7.00</p>
+          <p class="times noMargin price">$7.50</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -33,7 +33,7 @@
           <p class="times noMargin">Auto (occupants not included)</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$26.00</p>
+          <p class="times noMargin price">$27.00</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -41,7 +41,7 @@
           <p class="times noMargin">Motorcycle</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$15.00</p>
+          <p class="times noMargin price">$16.00</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -49,7 +49,7 @@
           <p class="times noMargin">Bicycle</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$4.00</p>
+          <p class="times noMargin price">$5.00</p>
         </div>
       </div>
       <div class="ratesWrap">

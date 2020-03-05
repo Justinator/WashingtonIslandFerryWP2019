@@ -31,11 +31,11 @@ get_header();
 							<div class="blockText">
 								<div class="printWrapper">
 									<?php get_template_part('/inc/svg-icons/print'); ?>
-									<a href="/wp-content/uploads/2019/04/WIF-PrintableSchedule.pdf" class="primaryLink printLink" target="_blank">View and print schedule</a>
+									<a href="/wp-content/uploads/2020/03/2020-Printable-Washington-Island-Ferry-Schedule.pdf" class="primaryLink printLink" target="_blank">View and print schedule</a>
 								</div>
 								<div class="printWrapper">
 									<?php get_template_part('/inc/svg-icons/print'); ?>
-									<a href="/wp-content/uploads/2019/05/WIF_NEW_Brochure-2019-Printable.pdf" class="primaryLink printLink" target="_blank">View and print 2019 brochure</a>
+									<a href="/wp-content/uploads/2020/03/2020-Printable-Washington-Island-Ferry-Brochure.pdf" class="primaryLink printLink" target="_blank">View and print 2020 brochure</a>
 								</div>
 							</div>
 						</div>

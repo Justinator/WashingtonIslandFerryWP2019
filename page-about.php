@@ -69,10 +69,10 @@ get_header();
 						Ferry Line in 2003.
 					</p>
 				</div>
-				<?php get_template_part("/inc/arniJRichter"); ?>
-				<?php get_template_part("/inc/eyrarbakki"); ?>
-				<?php get_template_part("/inc/robertNoble"); ?>
-				<?php get_template_part("/inc/washington"); ?>
+				<?php get_template_part("/inc/fleet/arniJRichter"); ?>
+				<?php get_template_part("/inc/fleet/eyrarbakki"); ?>
+				<?php get_template_part("/inc/fleet/robertNoble"); ?>
+				<?php get_template_part("/inc/fleet/washington"); ?>
 			</section>
 		</section>
 	</main>

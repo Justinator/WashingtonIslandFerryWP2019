@@ -34,7 +34,7 @@ get_header();
 					</div>
 				</div>
 			</section>
-			<?php get_template_part("/inc/stavkirkeSlideshow"); ?>
+			<?php get_template_part("/inc/sliders/stavkirkeSlideshow"); ?>
 		</section>
 	</main>
 </div>

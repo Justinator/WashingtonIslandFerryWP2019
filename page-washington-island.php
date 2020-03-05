@@ -61,9 +61,10 @@ get_header();
 			</section>
 			<section id="ferryRates" class="paddedSection ferryRates">
 				<div class="pageWidth">
-					<h5 class="primaryText centerText largeHeading">2020 Rates</h5>
+					<h5 class="primaryText centerText largeHeading noMargin">2020 Rates</h5>
+					<p class="centerText"><em>Rates effective March 20, 2020</em></p>
 				</div>
-				<?php get_template_part("/inc/ferryRates"); ?>
+				<?php get_template_part("/inc/rates/ferryRates"); ?>
 			</section>
 			<section id="directions" class="paddedSection">
 				<div class="navWidth flex-container">

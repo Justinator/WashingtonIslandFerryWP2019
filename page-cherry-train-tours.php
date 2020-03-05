@@ -60,9 +60,10 @@ get_header();
 			</section>
 			<section id="roundTripsCherry" class="paddedSection paperback">
 				<div class="pageWidth centerText">
-					<h3 class="primaryText caps largeHeading">2019 Cherry Train Rates</h3>
+					<h3 class="primaryText caps largeHeading noMargin">2020 Cherry Train Rates</h3>
+					<p class="centerText"><em>Rates effective March 20, 2020</em></p>
 				</div>
-				<?php get_template_part("/inc/cherryTrain"); ?>
+				<?php get_template_part("/inc/rates/cherryTrainRates"); ?>
 				<div class="centerText">
 					<img src="/wp-content/uploads/2019/03/CreditCardIcons-rgb.png" id="rockCredit" class="image">
 					<p><em>Group tours by reservation, call <a href="tel:(800)223-2094" class="primaryLink">800-223-2094</a></em>.</p>

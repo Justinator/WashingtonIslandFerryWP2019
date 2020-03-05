@@ -13,7 +13,7 @@
           <p class="times noMargin">Adult</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$29.50</p>
+          <p class="times noMargin price">$32.00</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -21,7 +21,7 @@
           <p class="times noMargin">Child (6 thru 11)</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$14.50</p>
+          <p class="times noMargin price">$16.00</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -44,7 +44,7 @@
           <p class="times noMargin">Adult</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$16.00</p>
+          <p class="times noMargin price">$18.00</p>
         </div>
       </div>
       <div class="ratesWrap">
@@ -52,7 +52,7 @@
           <p class="times noMargin">Child (6 thru 11)</p>
         </div>
         <div class="col30">
-          <p class="times noMargin price">$7.50</p>
+          <p class="times noMargin price">$8.50</p>
         </div>
       </div>
       <div class="ratesWrap">

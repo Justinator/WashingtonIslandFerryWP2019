@@ -21,7 +21,7 @@
     <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true" aria-labelledby="tab2" data-binding="expand-accordion-container">
       <div class="accordion__content-inner">
         <p>
-          $13.50 per adult, $7.00 per child ages 6 through 11 and children ages 5 and under are free. You can find more
+          $14.00 per adult, $7.50 per child ages 6 through 11 and children ages 5 and under are free. You can find more
           pricing <a href="/washington-island/" class="faqLink">here<span class="screen-reader-text"> View pricing for the washington Island Ferry</span></a>.
         </p>
       </div>

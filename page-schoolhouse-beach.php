@@ -32,7 +32,7 @@ get_header();
 					</div>
 				</div>
 			</section>
-			<?php get_template_part("/inc/schoolhouseSlideshow"); ?>
+			<?php get_template_part("/inc/sliders/schoolhouseSlideshow"); ?>
 		</section>
 	</main>
 </div>

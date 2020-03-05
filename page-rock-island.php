@@ -63,9 +63,10 @@ get_header();
 			</section>
 			<section id="roundTripsRock" class="paddedSection paperback">
 				<div class="pageWidth centerText">
-					<h3 class="primaryText caps largeHeading">2019 Round Trip Rates</h3>
+					<h3 class="primaryText caps largeHeading noMargin">2020 Round Trip Rates</h3>
+					<p class="centerText"><em>Rates effective March 20, 2020</em></p>
 				</div>
-				<?php get_template_part("/inc/roundTripRock"); ?>
+				<?php get_template_part("/inc/rates/rockIslandRates"); ?>
 				<div class="centerText">
 					<img src="/wp-content/uploads/2019/03/CreditCardIcons-rgb.png" id="rockCredit" class="image">
 					<p>

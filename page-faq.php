@@ -23,10 +23,10 @@ get_header();
 		<section id="pageContent">
 			<section id="accordions" class="paddedSection limitWidth">
 				<div id="faqWrapper">
-					<?php get_template_part("/inc/washingtonIslandFAQ"); ?>
-			    <?php get_template_part("/inc/rockIslandFAQ"); ?>
-					<?php get_template_part("/inc/cherryTrainFAQ"); ?>
-					<?php get_template_part("/inc/birdingFAQ"); ?>
+					<?php get_template_part("/inc/faqs/washingtonIslandFAQ"); ?>
+			    <?php get_template_part("/inc/faqs/rockIslandFAQ"); ?>
+					<?php get_template_part("/inc/faqs/cherryTrainFAQ"); ?>
+					<?php get_template_part("/inc/faqs/birdingFAQ"); ?>
 				</div>
 			</section>
 		</section>

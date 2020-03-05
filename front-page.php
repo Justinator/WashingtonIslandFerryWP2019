@@ -67,7 +67,7 @@ get_header();
 					</div>
 				</div>
 			</section>
-			<section id="shortcodeTest">
+			<section id="upcomingSchedule">
 				<div class="pageWidth paddedSection">
 					<h2 class="centerText caps primaryText">Upcoming Washington Island Ferry Trips</h2>
 					<?php echo do_shortcode('[MEC id="117"]'); ?>

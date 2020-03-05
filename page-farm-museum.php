@@ -33,7 +33,7 @@ get_header();
 					</div>
 				</div>
 			</section>
-			<?php get_template_part("/inc/farmSlideshow"); ?>
+			<?php get_template_part("/inc/sliders/farmSlideshow"); ?>
 		</section>
 	</main>
 </div>

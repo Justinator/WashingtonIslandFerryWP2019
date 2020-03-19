@@ -74,7 +74,7 @@
               <p class="times noMargin">15' up to 20'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$15.00</p>
+              <p class="times noMargin price">$16.00</p>
             </div>
           </div>
           <div class="ratesWrap">
@@ -82,7 +82,7 @@
               <p class="times noMargin">21' up to 25'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$28.00</p>
+              <p class="times noMargin price">$29.00</p>
             </div>
           </div>
           <div class="ratesWrap">
@@ -90,7 +90,7 @@
               <p class="times noMargin">26' up to 30'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$34.00</p>
+              <p class="times noMargin price">$36.00</p>
             </div>
           </div>
           <div class="ratesWrap">
@@ -98,7 +98,7 @@
               <p class="times noMargin">31' up to 35'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$42.00</p>
+              <p class="times noMargin price">$44.00</p>
             </div>
           </div>
           <div class="ratesWrap">
@@ -106,7 +106,7 @@
               <p class="times noMargin">36' up to 45'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$52.00</p>
+              <p class="times noMargin price">$55.00</p>
             </div>
           </div>
           <div class="ratesWrap">
@@ -114,7 +114,7 @@
               <p class="times noMargin">46' up to 55'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$60.00</p>
+              <p class="times noMargin price">$64.00</p>
             </div>
           </div>
           <div class="ratesWrap">
@@ -122,7 +122,7 @@
               <p class="times noMargin">56' up to 60'</p>
             </div>
             <div class="col30">
-              <p class="times noMargin price">$74.00</p>
+              <p class="times noMargin price">$78.00</p>
             </div>
           </div>
         </div>

@@ -3,11 +3,17 @@ A custom WordPress website for Washington Island Ferry
 
 # :metal: Getting started
 
+At the time of development the WordPress Gutenberg editor was fairly new and there were a lot of unknowns. Because of this I opted to build the site without using any of the default page editors.
+
 # :open_file_folder: Basic File Structure
 
 ## :page_with_curl: Pages
 
 Each individual page is titled page - page title ex. about = page-about.php
+
+## inc
+
+The inc folder includes smaller blocks that are either reused on multiple pages or were just added here to break the page up and make it easier to organize content.
 
 ## :dancer: Styles
 
@@ -51,20 +57,6 @@ Holds any styles that are general or consistent with all pages throughout the si
 
 Styling for any icons the site might use
 
-### Individual Pages
+### Individual Page Styles
 
 Each individual pages custom styles are held in the scss file with the corresponding page name ex. home = home.scss
-
-## :milky_way: JavaScript
-
-The js folder holds all your JavaScript files
-
-## :computer: Functions
-
-Functions.php contains any custom funtions for the site
-
-# :eyes: Usage
-
-## :black_nib: Writing to your SCSS file
-
-sass --watch \SCSS/style.scss:style.css

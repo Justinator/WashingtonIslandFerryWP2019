@@ -25,19 +25,9 @@ get_header();
 				<div class="navWidth flex-container-schedule">
 					<div class="ferryScheduleWrapper">
 						<h2 class="primaryText caps">Washington Island Ferry Schedule</h2>
-						<?php echo do_shortcode('[MEC id="97"]'); ?>
+						<img src="https://wisferry.com/wp-content/uploads/2020/06/6-9-2020-WIF-Schedule-Update.jpg" class="image">
 						<div class="scheduleInfo flex-container">
 							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
-							<div class="blockText">
-								<div class="printWrapper">
-									<?php get_template_part('/inc/svg-icons/print'); ?>
-									<a href="/wp-content/uploads/2020/03/2020-Printable-Washington-Island-Ferry-Schedule.pdf" class="primaryLink printLink" target="_blank">View and print schedule</a>
-								</div>
-								<div class="printWrapper">
-									<?php get_template_part('/inc/svg-icons/print'); ?>
-									<a href="/wp-content/uploads/2020/03/2020-Printable-Washington-Island-Ferry-Brochure.pdf" class="primaryLink printLink" target="_blank">View and print 2020 brochure</a>
-								</div>
-							</div>
 						</div>
 					</div>
 					<div id="washDesc" class="ferryDesc">
@@ -61,7 +51,7 @@ get_header();
 			</section>
 			<section id="ferryRates" class="paddedSection ferryRates">
 				<div class="pageWidth">
-					<h5 class="primaryText centerText largeHeading noMargin">2020 Rates</h5>
+					<h5 class="primaryText centerText largeHeading noMargin caps">2020 Rates</h5>
 					<p class="centerText"><em>Rates effective March 20, 2020</em></p>
 				</div>
 				<?php get_template_part("/inc/rates/ferryRates"); ?>

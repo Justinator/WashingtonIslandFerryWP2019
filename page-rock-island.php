@@ -24,22 +24,8 @@ get_header();
 			<section id ="rockSchedule2" class="paddedSection">
 				<div class="navWidth flex-container-schedule">
 					<div class="ferryScheduleWrapper">
-						<h2 class="primaryText caps">Rock Island Ferry Schedule</h2>
-						<p><em>The Rock Island Ferry operates May 24 through October 14.</em></p>
-						<?php echo do_shortcode('[MEC id="134"]'); ?>
-						<div class="scheduleInfo flex-container">
-							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
-							<div class="blockText">
-								<div class="printWrapper">
-									<?php get_template_part('/inc/svg-icons/print'); ?>
-									<a href="/wp-content/uploads/2020/03/2020-Printable-Rock-Island-Schedule.pdf" class="primaryLink printLink" target="_blank">View and print schedule</a>
-								</div>
-								<div class="printWrapper">
-									<?php get_template_part('/inc/svg-icons/print'); ?>
-									<a href="/wp-content/uploads/2020/03/2020-Printable-Washington-Island-Ferry-Brochure.pdf" class="primaryLink printLink" target="_blank">View and print 2020 brochure</a>
-								</div>
-							</div>
-						</div>
+						<h2 class="primaryText caps">Schedule update</h2>
+						<p>Trips to and from Rock Island are on hold until further notice due to high lake levels and pending guidelines for both State Park and vessel operations during COVID-19. Please check back after June 15th for further information.</p>
 					</div>
 					<div class="ferryDesc">
 						<div class="blockText">

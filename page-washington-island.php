@@ -36,7 +36,7 @@ get_header();
 								Each ferry has ample deck space with open-air seating. A heated cabin on board provides shelter in bad weather and
 								the winter. Photo opportunities abound on your trip through Death’s Door, so be sure to bring your camera!
 							</p>
-							<h3 class="primaryText caps largeHeading">REMINDERS:</h3>
+							<h3 class="primaryText caps largeHeading">Reminders:</h3>
 							<ul class="starredList">
 								<li>Please be in line 15 minutes prior to departure</li>
 								<li>Tickets are sold on a first-come, first-served basis</li>
@@ -93,7 +93,7 @@ get_header();
 			<div class="pageWidth paddedSection">
 				<div class="centerText">
 					<h5 class="primaryText caps largeHeading">More questions about Washington Island?</h5>
-					<a href="/faq/" class="primaryButton caps">VIEW ALL FAQS</a>
+					<a href="/faq/" class="primaryButton caps">View all FAQs</a>
 				</div>
 			</div>
 			<section id="rockIslandCTA" class="backgroundImage">
@@ -102,7 +102,7 @@ get_header();
 						<div class="waterColorWrapper2">
 							<img src="/wp-content/uploads/2019/03/WatercolorRectangle2tealMedium.png" id="washWaterColor" class="image waterColor">
 							<div class="headerWrap">
-								<h4 class="caps whiteText noMargin">INTERESTED IN VISITING ROCK ISLAND STATE PARK?</h4>
+								<h4 class="caps whiteText noMargin">Interested in visiting rock island state park?</h4>
 								<p class="whiteText noMargin">
 									You will need to take a second, passenger-only ferry, the Karfi Ferry, from Washington Island to Rock Island.
 								</p>

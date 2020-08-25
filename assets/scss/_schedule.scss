@@ -14,14 +14,8 @@
 	max-width: 280px;
 	margin: 0 25px;
 	height: auto;
-	@include breakpoint(smallScreen){
-			width: 280px;
-	}
-	@include breakpoint(largeMobileScreen){
-			width: 280px;
-	}
+	width: 280px;
 	@include breakpoint(laptopScreen){
-			max-width: 280px;
 			width: 200px;
 	}
 	@include breakpoint(largeScreen){
@@ -98,12 +92,7 @@
 .mec-month-side{
 	overflow: scroll;
 	overflow-x: hidden !important;
-	@include breakpoint(smallScreen){
-		height: 400px;
-	}
-	@include breakpoint(largeMobileScreen){
-		height: 400px;
-	}
+	height: 400px;
 	@include breakpoint(tabletScreen){
 		height: 500px;
 	}
@@ -234,9 +223,7 @@
 	margin-top: 30px !important;
 }
 .mec-single-event{
-	@include breakpoint(smallScreen){
-		margin-top: 100px;
-	}
+	margin-top: 100px;
 	@include breakpoint(largeMobileScreen){
 		margin-top: 125px;
 	}
@@ -323,9 +310,6 @@
 .mec-single-event-date{
 	display: none;
 }
-#mec_search_form_117 {
-	display: none;
-}
 .mec-event-grid-minimal {
 	.mec-event-date {
 		background-color: $primaryColor !important;
@@ -341,5 +325,18 @@
 				color: $secondaryColor !important;
 			}
 		}
+	}
+}
+.home {
+	.mec-search-form {
+		display: none;
+	}
+	.mec-event-grid-minimal .row {
+		display: flex;
+		flex-direction: column;
+		padding: 0 20px 20px 0;
+	}
+	.mec-wrap .col-md-4 {
+		width: 100%;
 	}
 }

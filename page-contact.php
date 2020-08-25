@@ -49,7 +49,7 @@ get_header();
 					</div>
 					<div class="col40">
 						<div class="contactInfoWrapper">
-							<h4 class="primaryText caps">NORTHPORT PIER/WASHINGTON ISLAND FERRY</h4>
+							<h4 class="primaryText caps">Northport Pier/Washington Island Ferry</h4>
 							<p>
 								<a href="https://goo.gl/maps/KgALREYf7gF2" class="primaryLink" target="_blank" rel="noreferrer">215 WI-42<br>
 								Ellison Bay, WI 54210</a>
@@ -57,7 +57,7 @@ get_header();
 							<a href="https://goo.gl/maps/KgALREYf7gF2" class="primaryLink" target="_blank" rel="noreferrer">
 								<img src="/wp-content/uploads/2019/12/northportPierCapture.jpg" class="image">
 							</a>
-							<h4 class="primaryText caps">JACKSON HARBOR/ROCK ISLAND FERRY</h4>
+							<h4 class="primaryText caps">Jackson Harbor/Rock Island Ferry</h4>
 							<p>
 								<a href="https://goo.gl/maps/rivqZvyTSbJ2" class="primaryLink" target="_blank" rel="noreferrer">1924 Indian Point Road<br>
 								Washington, WI 54246</a>

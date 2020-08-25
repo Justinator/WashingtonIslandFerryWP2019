@@ -38,12 +38,8 @@
 				</div>
 			</div>
 		</div>
-	<!-- Google Tag Manager (noscript)
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPJZV49"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	End Google Tag Manager (noscript) -->
-	<script src="/wp-content/themes/washingtonislandresponsive/js/focus-visible.min.js"></script>
-	<script src="/wp-content/themes/washingtonislandresponsive/js/accordion.js"></script>
+	<script src="/wp-content/themes/washingtonislandresponsive/assets/js/focus-visible.min.js"></script>
+	<script src="/wp-content/themes/washingtonislandresponsive/assets/js/accordion.js"></script>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>

@@ -72,12 +72,7 @@
 }
 #faqMap{
   margin: 15px 0;
-  @include breakpoint(smallScreen){
-    width: 100%;
-  }
-  @include breakpoint(largeMobileScreen){
-    width: 100%;
-  }
+  width: 100%;
   @include breakpoint(tabletScreen){
     width: 60%;
   }

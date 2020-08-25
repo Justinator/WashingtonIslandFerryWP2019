@@ -4,43 +4,28 @@
 }
 .tableRow{
   display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 0;
   list-style-type: none;
-  @include breakpoint(smallScreen){
-    flex-direction: column;
-  }
-  @include breakpoint(largeMobileScreen){
-    flex-direction: column;
-  }
   @include breakpoint(tabletScreen){
     flex-direction: row;
   }
 }
 .tableTitle{
+  width: 95%;
   background-color: #008ea8;
   color: #FFFFFF;
   border: 0.5px solid #cbe2e6;
   padding: 10px;
-  @include breakpoint(smallSCreen){
-    width: 95%;
-  }
-  @include breakpoint(largeMobileScreen){
-    width: 95%;
-  }
   @include breakpoint(tabletScreen){
     width: 50%;
   }
 }
 .tableData{
+  width: 95%;
   border: 0.5px solid #cbe2e6;
   padding: 10px;
-  @include breakpoint(smallSCreen){
-    width: 95%;
-  }
-  @include breakpoint(largeMobileScreen){
-    width: 95%;
-  }
   @include breakpoint(tabletScreen){
     width: 50%;
   }

@@ -20,19 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/washingtonislandresponsive/css/css.fadeshow.min.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
-	<!-- Preconnect to Google Analytics -->
-	<link rel="dns-prefetch" href="https://www.google-analytics.com">
-	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-	<link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-	<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13074741-51"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-13074741-51');
-	</script>
 </head>
 <body <?php body_class(); ?>>
 <a class="screenReaderSkipToContent" href="#primary" tabindex="1">Skip to main content</a>

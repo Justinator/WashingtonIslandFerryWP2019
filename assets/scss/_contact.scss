@@ -10,9 +10,7 @@
   margin-bottom: 25px;
 }
 #formWrapInner{
-  @include breakpoint(smallScreen){
-    padding: 0;
-  }
+  padding: 0;
   @include breakpoint(largeMobileScreen){
     padding: 25px;
   }
@@ -134,12 +132,7 @@ html, body {
   padding: 0;
 }
 .contactInfoWrapper{
-  @include breakpoint(smallScreen){
-    padding: 0;
-  }
-  @include breakpoint(largeMobileScreen){
-    padding: 0;
-  }
+  padding: 0;
   @include breakpoint(laptopScreen){
     padding: 20px;
   }

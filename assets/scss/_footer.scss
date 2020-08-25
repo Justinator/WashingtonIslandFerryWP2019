@@ -24,8 +24,6 @@
 		p{
 			margin-top: 1em;
 			margin-bottom: 1em;
-		}
-		@include breakpoint(smallScreen){
 			font-size: 10px;
 		}
 		@include breakpoint(largeMobileScreen){
@@ -48,17 +46,9 @@
 }
 .copyrightContentWrap{
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	flex-direction: row;
-    @include breakpoint(smallScreen){
-      justify-content: center;
-      flex-direction: column;
-    }
-		@include breakpoint(largeMobileScreen){
-			justify-content: center;
-      flex-direction: column;
-		}
+	justify-content: center;
+	flex-direction: column;
 		@include breakpoint(laptopScreen){
 			flex-direction: row;
 			justify-content: space-between;
@@ -71,9 +61,7 @@
 #copyrightContent{
 	display: flex;
 	align-items: center;
-		@include breakpoint(smallScreen){
-			font-size: 14px;
-		}
+	font-size: 14px;
 }
 #closingLinks{
 	display: -webkit-box;

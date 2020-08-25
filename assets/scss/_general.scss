@@ -34,9 +34,7 @@ body{
 	margin-bottom: -7px;
 }
 #privacyPolicy{
-	@include breakpoint(smallScreen){
-			margin-top: 75px;
-	}
+	margin-top: 75px;
 	@include breakpoint(largeMobileScreen){
 			margin-top: 125px;
 	}

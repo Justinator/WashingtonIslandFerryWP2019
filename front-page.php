@@ -21,6 +21,15 @@ get_header();
 			</div>
 		</section>
 		<section id="pageContent">
+			<div class="pageWidth" style="margin-top: 25px;text-align: center; max-width: 70ch;">
+				<h2 class="centerText caps primaryText">Important Ferry & Travel Update</h2>
+				<p>The WIF is now operating on an increased schedule. Please visit our updated COVID-19 page for recommended safety precautions.</p>
+				<div class="buttonContainer">
+					<div class="centerButton">
+						<a href="/covid-19/" class="primaryButton caps" target="_blank" rel="noreferrer">Learn More</a>
+					</div>
+				</div>
+			</div>
 			<?php get_template_part("/inc/schedules"); ?>
 			<section id="aboutFerry" class="paddedSection">
 				<div class="pageWidth flex-container centerAlignedContainer">
@@ -67,16 +76,24 @@ get_header();
 					</div>
 				</div>
 			</section>
-			<!--
 			<section id="upcomingSchedule">
 				<div class="pageWidth paddedSection">
 					<h2 class="centerText caps primaryText">Upcoming Washington Island Ferry Trips</h2>
+					<div class="flex-container">
+						<div class="col50">
+							<h3 class="caps primaryText noMargin">To Island</h3>
+							<?php echo do_shortcode( '[MEC id="117"]' ); ?>
+						</div>
+						<div class="col50">
+							<h3 class="caps primaryText noMargin">To Mainland</h3>
+							<?php echo do_shortcode( '[MEC id="646"]' ); ?>
+						</div>
+					</div>
 					<div class="centerButton">
-						<a href="/washington-island" class="primaryButton">VIEW FULL SCHEDULE</a>
+						<a href="/washington-island" class="primaryButton caps">View Full Schedule</a>
 					</div>
 				</div>
 			</section>
-			-->
 			<section id="faq" class="paddedSection">
 				<div class="navWidth flex-container">
 					<div class="faqWrapper">
@@ -86,7 +103,7 @@ get_header();
 	            /wp-content/uploads/2019/05/FAQDogSmall-1_optimized_w_400.jpg 400w,
 	            /wp-content/uploads/2019/05/FAQDogSmall-1_optimized_w_600.jpg 600w"
 						src="/wp-content/uploads/2019/04/FAQDogSmall.jpg" class="image">
-						<h4 class="primaryText centerText">Can I take my pet on the ferry?</h4>
+						<h4 class="primaryText">Can I take my pet on the ferry?</h4>
 						<p>
 							Yes! Leashed pets are allowed on the Washington Island Ferry and the Rock Island Ferry
 							free of charge. Don’t forget to share photos of you and your pets taking
@@ -100,7 +117,7 @@ get_header();
 	            /wp-content/uploads/2019/05/FAQCarsSmall_optimized_w_400.jpg 400w,
 	            /wp-content/uploads/2019/05/FAQCarsSmall_optimized_w_600.jpg 600w"
 						src="/wp-content/uploads/2019/04/FAQCarsSmall.jpg" class="image">
-						<h4 class="primaryText centerText">Do I need my car on Washington Island?</h4>
+						<h4 class="primaryText">Do I need my car on Washington Island?</h4>
 						<p>Transportation is recommended on Washington Island. You can bring your vehicle,
 							motorcycle or bicycle on the Washington Island Ferry. Once you arrive, bicycle, UTV and moped
 							rentals are available adjacent to the Washington Island Ferry dock. You can find more information
@@ -113,7 +130,7 @@ get_header();
 	            /wp-content/uploads/2019/05/FAQToDoSmall_optimized_w_400.jpg 400w,
 	            /wp-content/uploads/2019/05/FAQToDoSmall_optimized_w_600.jpg 600w"
 						src="/wp-content/uploads/2019/04/FAQToDoSmall.jpg" class="image">
-						<h4 class="primaryText centerText">What can I do on Washington Island?</h4>
+						<h4 class="primaryText">What can I do on Washington Island?</h4>
 						<p>
 							From hiking trails, campsites, beaches and wildlife to the rich history, local
 							shops and eateries, there’s something here for everyone! You can find a full list

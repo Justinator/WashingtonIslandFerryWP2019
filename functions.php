@@ -166,10 +166,12 @@ add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
  */
  function washingtonislandresponsive_scripts() {
  	wp_enqueue_style( 'washingtonislandresponsive-style', get_stylesheet_uri() );
- 	wp_enqueue_script( 'washingtonislandresponsive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
- 	wp_enqueue_script( 'washingtonislandresponsive-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
- 	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/js/customJS.js');
-	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/js/focus-visible.min.js');
+	wp_enqueue_style( 'main-styles', get_stylesheet_directory_uri() . '/assets/css/style.min.css');
+	wp_enqueue_style( 'open-sans', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap', false); 
+	wp_enqueue_script( 'washingtonislandresponsive-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
+ 	wp_enqueue_script( 'washingtonislandresponsive-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true );
+ 	wp_enqueue_script('customJS', get_template_directory_uri() . '/assets/js/customJS.js');
+	wp_enqueue_script('focus-visible', get_template_directory_uri() . '/assets/js/focus-visible.min.js');
  	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
  		wp_enqueue_script( 'comment-reply' );
  	}

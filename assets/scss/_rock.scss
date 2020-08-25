@@ -3,12 +3,7 @@
   background-image: url("/wp-content/uploads/2019/04/3.1-Rock-Island-Hero2Medium.jpg");
 }
 #rockCredit{
-  @include breakpoint(smallScreen){
-    width: 60%;
-  }
-  @include breakpoint(largeMobileScreen){
-    width: 60%;
-  }
+  width: 60%;
   @include breakpoint(laptopScreen){
     width: 30%;
   }
@@ -21,13 +16,7 @@
   line-height: 1.5em;
 }
 .faqButtonWrap{
-  padding-left: 25px;
-  @include breakpoint(smallScreen){
-    padding: 25px 0 50px 0;
-  }
-  @include breakpoint(largeMobileScreen){
-    padding: 25px 0 50px 0;
-  }
+  padding: 25px 0 50px 0;
   @include breakpoint(tabletScreen){
     padding: 25px 0 50px 50px;
   }

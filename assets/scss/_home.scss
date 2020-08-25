@@ -6,14 +6,8 @@
 	position: relative;
   z-index: 9;
 	display: flex;
-	@include breakpoint(smallScreen){
-		top: -25px;
-		justify-content: center;
-	}
-	@include breakpoint(largeMobileScreen){
-		top: -25px;
-		justify-content: center;
-	}
+	top: -25px;
+	justify-content: center;
 	@include breakpoint(laptopScreen){
 		top: -50px;
 		justify-content: flex-end;
@@ -24,12 +18,7 @@
 	display: flex;
   align-items: center;
   justify-content: center;
-	@include breakpoint(smallScreen){
-    width: 100%;
-	}
-	@include breakpoint(largeMobileScreen){
-    width: 100%;
-	}
+	width: 100%;
 	@include breakpoint(tabletScreen){
     width: 90%;
 	}
@@ -45,12 +34,7 @@
 	h1{
 		width: 90%;
 		margin: 0 auto;
-		@include breakpoint(smallScreen){
-			font-size: 1.6em;
-		}
-		@include breakpoint(largeMobileScreen){
-			font-size: 1.6em;
-		}
+		font-size: 1.6em;
 		@include breakpoint(laptopScreen){
 			font-size: 2.5em;
 		}
@@ -64,9 +48,7 @@
 	h1{
 		width: 90%;
 		margin: 0 auto;
-		@include breakpoint(smallScreen){
-			font-size: 1em;
-		}
+		font-size: 1em;
 		@include breakpoint(largeMobileScreen){
 			font-size: 1.5em;
 		}
@@ -81,9 +63,7 @@
 .waterColor{
 	position: absolute;
 	z-index: 1;
-	@include breakpoint(smallScreen){
-		height: 140px;
-	}
+	height: 140px;
 	@include breakpoint(largeMobileScreen){
 		height: 225px;
 	}
@@ -96,12 +76,13 @@
 .heroHeading{
 	margin-bottom: 0;
 }
+#schedules {
+	padding-top: 20px;
+}
 .blockWrapper{
 	position: relative;
-	@include breakpoint(smallScreen){
-		width: 100%;
-		margin: 0 0 25px 0;
-	}
+	width: 100%;
+	margin: 0 0 25px 0;
 	@include breakpoint(largeMobileScreen){
 		width: 80%;
 		margin: 0 0 25px 0;
@@ -153,35 +134,20 @@
 	}
 }
 #islandIntro{
-	@include breakpoint(smallScreen){
-		margin-left: 0;
-	}
-	@include breakpoint(largeMobileScreen){
-		margin-left: 0;
-	}
+	margin-left: 0;
 	@include breakpoint(laptopScreen){
 		margin-left: 50px;
 		max-width: 850px;
 	}
 }
 #islandWrapper{
-	@include breakpoint(smallScreen){
-		text-align:center;
-	}
-	@include breakpoint(largeMobileScreen){
-		text-align:center;
-	}
+	text-align:center;
 	@include breakpoint(laptopScreen){
 		text-align:left;
 	}
 }
 #watercolorIsland{
-	@include breakpoint(smallScreen){
-		width: 40%;
-	}
-	@include breakpoint(largeMobileScreen){
-		width: 40%;
-	}
+	width: 40%;
 	@include breakpoint(laptopScreen){
 		width: 100%;
 	}
@@ -197,45 +163,27 @@
 	flex-wrap: wrap;
 }
 .buttonWrapper{
-	@include breakpoint(smallScreen){
-		width: 100%;
-		margin: 15px 0;
-	}
-	@include breakpoint(largeMobileScreen){
-		width: 100%;
-		margin: 15px 0;
-	}
+	width: 100%;
+	margin: 15px 0;
 	@include breakpoint(largeScreen){
 		width: 50%;
-		margin: 15px 0;
 	}
 }
 .faqWrapper{
-	@include breakpoint(smallScreen){
-		width: 90%;
-		padding: 0;
-		margin: 0 auto;
-	}
+	width: 90%;
+	padding: 0;
+	margin: 0 auto;
 	@include breakpoint(largeMobileScreen){
 		width: 70%;
-		padding: 0;
-		margin: 0 auto;
 	}
 	@include breakpoint(laptopScreen){
 		width: 30%;
 		padding: 20px;
-		margin: 0 auto;
 	}
 }
-.featuredDest{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: .3s ease all;
+.featuredDest {
 	position: relative;
-	@include breakpoint(smallScreen){
-		height: 400px;
-	}
+	height: 400px;
 	@include breakpoint(largeMobileScreen){
 		height: 500px;
 	}
@@ -243,18 +191,45 @@
 		height: 600px;
 	}
 }
-#schoolHouse{
+.featuredDestBack{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: .3s ease all;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#schoolhouseBack1{
 	background-image: url("/wp-content/uploads/2019/03/SchoolHouseBeachPrewatercolorLarge.jpg");
-	&:hover{
-		transition: .3s ease all;
-		background-image: url("/wp-content/uploads/2019/04/SchoolHouseBeachWatercolorLargeMedium-1.jpg");
+	transition: .5s ease all;
+}
+#schoolhouseBack2 {
+	transition: .5s ease all;
+	background-image: url("/wp-content/uploads/2019/04/SchoolHouseBeachWatercolorLargeMedium-1.jpg");
+}
+#schoolhouse {
+	&:hover {
+		#schoolhouseBack1 {
+			opacity: 0;
+			transition: .5s ease all;
+		}
 	}
 }
-#stavkirke{
+#stavkirkeback1 {
 	background-image: url("/wp-content/uploads/2019/04/1.3_StavkirkeCroppedMedium-1.jpg");
-	&:hover{
-		transition: .3s ease all;
-		background-image: url("/wp-content/uploads/2019/04/1.3-StavkirkeWatercolor-cropped.jpg");
+	transition: .5s ease all;
+}
+#stavkirkeback2 {
+	transition: .5s ease all;
+	background-image: url("/wp-content/uploads/2019/04/1.3-StavkirkeWatercolor-cropped.jpg");
+}
+#stavkirke {
+	&:hover {
+		#stavkirkeback1 {
+			opacity: 0;
+			transition: .5s ease all;
+		}
 	}
 }
 .destInfo{

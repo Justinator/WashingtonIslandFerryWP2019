@@ -25,7 +25,7 @@ get_header();
 				<div class="navWidth flex-container-schedule">
 					<div class="ferryScheduleWrapper">
 						<h2 class="primaryText caps">Schedule update</h2>
-						<p>Trips to and from Rock Island are on hold until further notice due to high lake levels and pending guidelines for both State Park and vessel operations during COVID-19. Please check back after June 15th for further information.</p>
+						<p>The Wisconsin DNR has announced Rock Island State Park will remain closed for the 2020 season. There will not be any ferry trips to and from the island this year. We look forward to welcoming you back in 2021! In the meantime, please consider supporting the Friends of Rock Island and the multitude of positive improvements and missions they undertake every year to improve the park. </p>
 					</div>
 					<div class="ferryDesc">
 						<div class="blockText">
@@ -49,8 +49,7 @@ get_header();
 			</section>
 			<section id="roundTripsRock" class="paddedSection paperback">
 				<div class="pageWidth centerText">
-					<h3 class="primaryText caps largeHeading noMargin">2020 Round Trip Rates</h3>
-					<p class="centerText"><em>Rates effective March 20, 2020</em></p>
+					<h3 class="primaryText caps largeHeading">2020 Round Trip Rates</h3>
 				</div>
 				<?php get_template_part("/inc/rates/rockIslandRates"); ?>
 				<div class="centerText">

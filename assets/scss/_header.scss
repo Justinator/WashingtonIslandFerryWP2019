@@ -57,12 +57,7 @@
 	display: block;
 }
 #primary-menu{
-	@include breakpoint(smallScreen){
-		display: none;
-	}
-	@include breakpoint(largeMobileScreen){
-		display: none;
-	}
+	display: none;
 	@include breakpoint(laptopScreen){
 		display: flex;
 	}
@@ -82,9 +77,11 @@
 			}
 			@include breakpoint(largeScreen){
 				font-size: 20px;
+				padding: 5px 8px;
 			}
 			@include breakpoint(extraLargeScreen){
 				font-size: 22px;
+				padding: 5px 15px;
 			}
 		}
 	}
@@ -107,12 +104,7 @@
 		}
 		&:hover{
 			&:before{
-				@include breakpoint(smallScreen){
-					opacity: 0;
-				}
-				@include breakpoint(largeMobileScreen){
-					opacity: 0;
-				}
+				opacity: 0;
 				@include breakpoint(laptopScreen){
 					opacity: 1;
 					transition: .2s ease all;
@@ -121,12 +113,7 @@
 		}
 		&:focus{
 			&:before{
-				@include breakpoint(smallScreen){
-					opacity: 0;
-				}
-				@include breakpoint(largeMobileScreen){
-					opacity: 0;
-				}
+				opacity: 0;
 				@include breakpoint(laptopScreen){
 					opacity: 1;
 					transition: .2s ease all;
@@ -135,12 +122,7 @@
 		}
 		&:active{
 			&:before{
-				@include breakpoint(smallScreen){
-					opacity: 0;
-				}
-				@include breakpoint(largeMobileScreen){
-					opacity: 0;
-				}
+				opacity: 0;
 				@include breakpoint(laptopScreen){
 					opacity: 1;
 					transition: .2s ease all;
@@ -158,21 +140,14 @@
 			background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar-2.png");
 			background-repeat: no-repeat;
 	    background-position: center;
-	    height: 25px;
+			background-size: cover;
+	    height: 10px;
 	    opacity: 1;
 			transition: .2s ease all;
-			@include breakpoint(smallScreen){
-				top: 2px;
-		    left: auto;
-		    width: 30px;
-				right: 105%;
-			}
-			@include breakpoint(largeMobileScreen){
-				top: 2px;
-		    left: auto;
-				right: 105%;
-		    width: 30px;
-			}
+			top: 20px;
+			left: auto;
+			width: 10px;
+			right: 95%;
 			@include breakpoint(laptopScreen){
 				height: 0;
 			}
@@ -183,23 +158,19 @@
 			background-image: url("/wp-content/uploads/2019/03/washingtonIslandStar-2.png");
 			background-repeat: no-repeat;
 	    background-position: center;
-	    height: 25px;
+			background-size: cover;
+	    height: 10px;
 	    opacity: 1;
 			transition: .2s ease all;
-			@include breakpoint(smallScreen){
-				top: 2px;
-		    left: 105%;
-		    width: 30px;
-			}
-			@include breakpoint(largeMobileScreen){
-				top: 2px;
-		    left: 105%;
-		    width: 30px;
-			}
+			top: 20px;
+			left: 95%;
+			width: 10px;
 			@include breakpoint(laptopScreen){
 				top: -25px;
 		    left: 0;
+				height: 25px;
 		    width: 100%;
+				background-size: contain;
 			}
 		}
 	}
@@ -258,12 +229,7 @@ nav{
 		}
 }
 .mobile-menu{
-	@include breakpoint(smallScreen){
-		display: block;
-	}
-	@include breakpoint(largeMobileScreen){
-		display: block;
-	}
+	display: block;
 	@include breakpoint(laptopScreen){
 		display: none;
 	}
@@ -288,9 +254,8 @@ nav{
 	li{
 		list-style-type: none;
 		font-size: 26px;
-		padding: 10px 20px;
 		display: flex;
-		margin-left: 20px;
+		margin-left: 10px;
 		text-transform: uppercase;
 		a{
 			color: $primaryColor;
@@ -298,6 +263,8 @@ nav{
 			text-decoration: none;
 			font-family: $CalpsSlim;
 			letter-spacing: 1.5px;
+			display: block;
+			padding: 10px 20px;
 		}
 	}
 	@include breakpoint(smallScreen){

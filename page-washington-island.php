@@ -25,7 +25,8 @@ get_header();
 				<div class="navWidth flex-container-schedule">
 					<div class="ferryScheduleWrapper">
 						<h2 class="primaryText caps">Washington Island Ferry Schedule</h2>
-						<img src="https://wisferry.com/wp-content/uploads/2020/06/6-9-2020-WIF-Schedule-Update.jpg" class="image">
+						<?php echo do_shortcode('[MEC id="97"]'); ?>
+						<img src="/wp-content/uploads/2020/08/8-24-WIFScheduleUpdate-Med.jpg" class="image">
 						<div class="scheduleInfo flex-container">
 							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
 						</div>
@@ -51,8 +52,7 @@ get_header();
 			</section>
 			<section id="ferryRates" class="paddedSection ferryRates">
 				<div class="pageWidth">
-					<h5 class="primaryText centerText largeHeading noMargin caps">2020 Rates</h5>
-					<p class="centerText"><em>Rates effective March 20, 2020</em></p>
+					<h5 class="primaryText centerText largeHeading caps">2020 Rates</h5>
 				</div>
 				<?php get_template_part("/inc/rates/ferryRates"); ?>
 			</section>

@@ -14,65 +14,43 @@ h1,h2,h3,h4,h5,h6{
 	font-family: $CalpsSlim;
 	line-height: 1.2em;
 	font-weight: 500 !important;
-}
-h1,h2,h3,h4,h5,h6{
 	margin-top: 0;
 	margin-bottom: 20px;
+	letter-spacing: 1px
 }
 p{
 	margin-top: 0;
 	margin-bottom: 1em !important;
 }
 h1{
-  letter-spacing: 1px;
-	@include breakpoint(smallScreen){
-		font-size: 1.2em;
-	}
+	font-size: 1.2em;
 	@include breakpoint(largeMobileScreen){
 		font-size: 2em;
 	}
 }
 h2{
   font-weight: 700 !important;
-  letter-spacing: 1px;
-	@include breakpoint(smallScreen){
-		font-size: 1.4em;
-	}
-	@include breakpoint(largeMobileScreen){
-		font-size: 1.4em;
-	}
+	font-size: 1.4em;
 	@include breakpoint(tabletScreen){
     font-size: 2.3em;
 	}
 }
 h3{
   font-weight: 700 !important;
-  letter-spacing: 1px;
-	@include breakpoint(smallScreen){
-		font-size: 1.3em;
-	}
-	@include breakpoint(largeMobileScreen){
-		font-size: 1.3em;
-	}
+	font-size: 1.3em;
 	@include breakpoint(tabletScreen){
 		font-size: 1.8em;
 	}
 }
 h4{
   font-weight: 700 !important;
-  letter-spacing: 1px;
-	@include breakpoint(smallScreen){
-		font-size: 1.2em;
-	}
-	@include breakpoint(largeMobileScreen){
-		font-size: 1.2em;
-	}
+	font-size: 1.2em;
 	@include breakpoint(tabletScreen){
 		font-size: 1.6em;
 	}
 }
 h5{
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 h6{
 	font-size: 1.4em;
@@ -92,12 +70,7 @@ h6{
 .largeHeading{
   font-weight: 700 !important;
   letter-spacing: 1px;
-	@include breakpoint(smallScreen){
-		font-size: 1.4em;
-	}
-	@include breakpoint(largeMobileScreen){
-		font-size: 1.4em;
-	}
+	font-size: 1.4em;
 	@include breakpoint(tabletScreen){
     font-size: 2.3em;
 	}

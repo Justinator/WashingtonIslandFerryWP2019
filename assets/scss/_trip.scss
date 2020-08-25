@@ -10,3 +10,11 @@
   background-image: url("/wp-content/uploads/2019/04/farmMuseumHero.jpg");
   background-position: top center;
 }
+#mapImage2 {
+  @include breakpoint (laptopScreen) {
+    margin-top: 37px;
+  }
+  @media (min-width: 1400px) {
+    margin-top: 0;
+  }
+}

@@ -1,4 +1,4 @@
-<section id ="schedules" class="paddedSection removeBottomPadding">
+<section id ="schedules">
   <div class="navWidth">
     <h2 class="centerText caps primaryText">Schedules and Rates</h2>
   </div>

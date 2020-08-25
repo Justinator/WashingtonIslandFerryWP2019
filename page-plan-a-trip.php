@@ -47,7 +47,7 @@ get_header();
 			<?php get_template_part("/inc/planTrip"); ?>
 			<section id="gettingAround" class="paddedSection paperback">
 				<div class="pageWidth">
-					<h5 class="primaryText centerText largeHeading">Getting Around</h5>
+					<h5 class="primaryText centerText largeHeading caps">Getting Around</h5>
 				</div>
 				<div class="pageWidth">
 					<div class="limitWidth">
@@ -70,7 +70,7 @@ get_header();
 				<div class="pageWidth flex-container">
 					<div class="col50">
 						<div class="smallPaddedWrapper">
-							<h4 class="primaryText caps">NORTHPORT PIER/WASHINGTON ISLAND FERRY</h4>
+							<h4 class="primaryText caps noMargin">Northport Pier/Washington Island Ferry</h4>
 							<p>
 								<a href="https://goo.gl/maps/KgALREYf7gF2" class="primaryLink" target="_blank" rel="noreferrer">215 WI-42<br>
 								Ellison Bay, WI 54210</a>
@@ -82,13 +82,13 @@ get_header();
 					</div>
 					<div class="col50">
 						<div class="smallPaddedWrapper">
-							<h4 class="primaryText caps">JACKSON HARBOR/ROCK ISLAND FERRY</h4>
+							<h4 class="primaryText caps noMargin">Jackson Harbor/Rock Island Ferry</h4>
 							<p>
 								<a href="https://goo.gl/maps/rivqZvyTSbJ2" class="primaryLink" target="_blank" rel="noreferrer">1924 Indian Point Road<br>
 								Washington, WI 54246</a>
 							</p>
 							<a href="https://goo.gl/maps/rivqZvyTSbJ2" class="primaryLink" target="_blank" rel="noreferrer">
-								<img src="/wp-content/uploads/2019/12/jacksonHarborCapture.jpg" class="image">
+								<img src="/wp-content/uploads/2019/12/jacksonHarborCapture.jpg" class="image" id="mapImage2">
 							</a>
 						</div>
 					</div>

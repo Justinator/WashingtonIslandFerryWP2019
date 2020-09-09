@@ -26,7 +26,7 @@ get_header();
 					<div class="ferryScheduleWrapper">
 						<h2 class="primaryText caps">Washington Island Ferry Schedule</h2>
 						<?php echo do_shortcode('[MEC id="97"]'); ?>
-						<img src="/wp-content/uploads/2020/08/8-24-WIFScheduleUpdate-Med.jpg" class="image">
+						<img src="/wp-content/uploads/2020/09/9-8-WIFScheduleUpdate.jpg" class="image">
 						<div class="scheduleInfo flex-container">
 							<p class="noMargin"><em>Schedule is subject to change due to weather and traffic.</em></p>
 						</div>
